@@ -1,0 +1,22 @@
+.text-logo {
+	height: 1em;
+}
+
+.columns {
+	display: flex;
+
+	section {
+		flex-grow: 1;
+	}
+}
+
+main a {
+	color: $ucla-blue;
+	margin: -0.33em;
+	padding: 0.33em;
+
+	&:hover, &:focus {
+		background-color: $ucla-yellow;
+		text-decoration: none;
+	}
+}
