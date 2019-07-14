@@ -1,0 +1,60 @@
+%half-width {
+	margin: 0 25%;
+}
+
+.subnav {
+	display: flex;
+
+	@at-root .intro {
+		flex-grow: 1;
+
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+
+		h1 {
+			font-size: 4em;
+			font-weight: lighter;
+			@extend %half-width;
+		}
+	}
+
+	aside {
+		width: 20rem;
+		text-align: center;
+
+		section:not(:last-child)::after {
+			content: '';
+			display: block;
+			@extend %half-width;
+			border-bottom: thin solid white;
+		}
+
+		@at-root .stat-fancy {
+			font-size: 1em;
+
+			b {
+				display: block;
+				font-size: 3em;
+				font-weight: normal;
+			}
+		}
+
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+
+		a {
+			&:hover, &:focus {
+				color: $ucla-gold;
+			}
+		}
+	}
+
+	nav a {
+		display: block;
+		padding: 1em;
+	}
+}
