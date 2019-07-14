@@ -13,11 +13,24 @@ header {
 
 	h1 {
 		margin: 0;
+
+		a {
+			color: inherit;
+			text-decoration: inherit;
+		}
 	}
 
 	nav {
 		flex-grow: 1;
 		text-align: right;
+
+		a {
+			padding: 0.5em 1.0em;
+			margin: 0 0.5em;
+			color: $ucla-blue-darkest;
+			text-decoration: none;
+			background-color: $ucla-gold;
+		}
 	}
 
 	ul {
@@ -26,14 +39,6 @@ header {
 
 	li {
 		display: inline-block;
-	}
-
-	a {
-		padding: 0.5em 1.0em;
-		margin: 0 0.5em;
-		color: $ucla-blue-darkest;
-		text-decoration: none;
-		background-color: $ucla-gold;
 	}
 }
 
