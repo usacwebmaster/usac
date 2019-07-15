@@ -4,4 +4,8 @@ footer {
 
 	padding: $page-margin-width;
 	margin-top: $page-margin-width;
+
+	@at-root .footer-logos img {
+		height: 10rem;
+	}
 }

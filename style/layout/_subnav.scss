@@ -2,6 +2,10 @@
 	margin: 0 25%;
 }
 
+%underline {
+	border-bottom: thin solid rgba(255, 255, 255, 0.5);
+}
+
 .subnav {
 	display: flex;
 
@@ -21,14 +25,14 @@
 	}
 
 	aside {
-		width: 20rem;
+		width: $sidebar-width;
 		text-align: center;
 
 		section:not(:last-child)::after {
 			content: '';
 			display: block;
 			@extend %half-width;
-			border-bottom: thin solid white;
+			@extend %underline;
 		}
 
 		@at-root .stat-fancy {
@@ -47,14 +51,14 @@
 		}
 
 		a {
-			&:hover, &:focus {
+			#{$active-link} {
 				color: $ucla-gold;
 			}
 		}
-	}
 
-	nav a {
-		display: block;
-		padding: 1em;
+		nav a {
+			display: block;
+			padding: 1em;
+		}
 	}
 }

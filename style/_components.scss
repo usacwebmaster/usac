@@ -17,7 +17,7 @@ main a {
 	margin: -0.33em;
 	padding: 0.33em;
 
-	&:hover, &:focus {
+	#{$active-link} {
 		background-color: $ucla-yellow;
 		text-decoration: none;
 	}
