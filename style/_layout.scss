@@ -1,8 +1,12 @@
 $page-margin-width: 2rem;
 $sidebar-width: 20rem;
+$footer-peek: 10rem;
 
 @import 'layout/fold';
 @import 'layout/header';
 @import 'layout/subnav';
 @import 'layout/main';
 @import 'layout/footer';
+
+// Experimental
+@import 'layout/fixed_header';

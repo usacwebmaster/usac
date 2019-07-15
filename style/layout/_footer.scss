@@ -5,7 +5,47 @@ footer {
 	padding: $page-margin-width;
 	margin-top: $page-margin-width;
 
+	.columns {
+		@extend %main-aligned;
+
+		:first-child {
+			flex-grow: 0;
+		}
+	}
+
+	ul {
+		@extend %menu-list;
+	}
+
 	@at-root .footer-logos img {
-		height: 10rem;
+		display: block;
+		margin: 0 auto;
+
+		&:first-child {
+			height: 7rem;
+			margin-top: -1em;
+		}
+
+		&:last-child {
+			height: 10rem;
+		}
+	}
+
+	@at-root .footer-links {
+		text-align: right;
+
+		hr {
+			width: 10rem;
+			margin-right: 0;
+		}
+	}
+
+	position: relative;
+
+	@at-root .peek-outline {
+		position: absolute;
+		top: -10rem;
+		right: $page-margin-width;
+		width: $sidebar-width * (3/2);
 	}
 }

@@ -1,5 +1,9 @@
-main {
+%main-aligned {
 	max-width: 8.5in;
 	padding-right: $sidebar-width;
 	margin: 0 auto;
+}
+
+main {
+	@extend %main-aligned;
 }

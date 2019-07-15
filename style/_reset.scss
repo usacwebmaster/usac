@@ -13,8 +13,12 @@ a {
 	text-decoration: none;
 }
 
-// TODO: is this needed?
 img {
 	width: auto;
 	height: auto;
+}
+
+hr {
+	border: none;
+	border-bottom: thin solid rgba(255, 255, 255, 0.5);
 }

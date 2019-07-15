@@ -1,0 +1,12 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: $page-margin-width;
+	background-image: linear-gradient(rgba(black, 0.5), transparent);
+}
+
+.fold {
+	padding-top: $page-margin-width + 3rem;
+}

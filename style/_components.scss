@@ -1,3 +1,18 @@
+%half-width {
+	margin: 0 25%;
+}
+
+%menu-list {
+	list-style: none;
+	padding: 0;
+
+	a {
+		#{$active-link} {
+			color: $ucla-gold;
+		}
+	}
+}
+
 .text-logo {
 	height: 1em;
 }
@@ -5,7 +20,7 @@
 .columns {
 	display: flex;
 
-	section {
+	> * {
 		flex-grow: 1;
 	}
 }
