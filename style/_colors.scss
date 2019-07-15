@@ -9,3 +9,7 @@ $ucla-gold-darker: #FFC72C;
 $ucla-gold-darkest: #FFB81C;
 
 $ucla-yellow: #FFEA00;
+
+::selection {
+	background-color: $ucla-blue-lighter;
+}

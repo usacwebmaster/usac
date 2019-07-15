@@ -1,20 +1,8 @@
 $page-margin-width: 2rem;
 $sidebar-width: 20rem;
 
-.fold {
-	background: top/cover fixed, #666;
-	background-blend-mode: multiply;
-	color: white;
-	padding: $page-margin-width;
-}
-
+@import 'layout/fold';
 @import 'layout/header';
 @import 'layout/subnav';
-
-main {
-	max-width: 8.5in;
-	padding-right: $sidebar-width;
-	margin: 0 auto;
-}
-
+@import 'layout/main';
 @import 'layout/footer';
