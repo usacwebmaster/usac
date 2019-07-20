@@ -11,6 +11,10 @@ footer {
 		:first-child {
 			flex-grow: 0;
 		}
+
+		@media #{$bp-main} {
+			padding-right: 0;
+		}
 	}
 
 	ul {

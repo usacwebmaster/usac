@@ -1,9 +1,18 @@
-%main-aligned {
-	max-width: 8.5in;
-	padding-right: $sidebar-width;
+%main-sized {
+	max-width: $main-content-width;
 	margin: 0 auto;
+}
+
+%main-aligned {
+	@extend %main-sized;
+	padding-right: $sidebar-width;
 }
 
 main {
 	@extend %main-aligned;
+	padding-left: $page-margin-width;
+
+	@media #{$bp-main} {
+		padding-right: $page-margin-width;
+	}
 }

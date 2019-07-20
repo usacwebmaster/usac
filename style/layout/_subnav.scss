@@ -1,5 +1,6 @@
 .subnav {
 	display: flex;
+	text-align: center;
 
 	@at-root .intro {
 		flex-grow: 1;
@@ -7,23 +8,21 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		text-align: center;
 
 		h1 {
 			font-size: 4em;
 			font-weight: lighter;
-			@extend %half-width;
+			@extend %main-sized;
 		}
 	}
 
 	aside {
 		width: $sidebar-width;
-		text-align: center;
 
 		section:not(:last-child)::after {
 			content: '';
 			display: block;
-			@extend %half-width;
+			margin: 0 25%;
 			@extend hr;
 		}
 
