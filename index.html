@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<title>USAC</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="/style/main.css">
 </head>
 
@@ -14,8 +15,18 @@
 					<li><a href="#">About</a>
 					<li><a href="#">Funding</a>
 					<li><a href="#">Documents</a>
+					<li><a href="#">Ask Us</a>
 					<li><a href="#">Donate</a>
 				</ul>
+
+				<select onchange="location.href = this.value">
+					<option value="#">Home
+					<option value="#">About
+					<option value="#">Funding
+					<option value="#">Documents
+					<option value="#">Ask Us
+					<option value="#">Donate
+				</select>
 			</nav>
 		</header>
 
@@ -24,7 +35,7 @@
 				<h1>Undergraduate Students Association</h1>
 			</section>
 
-			<!-- <aside>
+			<aside>
 				<section>
 					<h2 class="stat-fancy"><b>14</b> student officers</h2>
 					<p>elected by the student body every spring
@@ -41,7 +52,7 @@
 					<h2 class="stat-fancy"><b>25</b> undergraduates</h2>
 					<p>appointed by the USA president to Academic Senate Committees
 				</section>
-			</aside> -->
+			</aside>
 
 			<!-- <aside>
 				<section>

@@ -4,6 +4,12 @@ header {
 
 	h1 {
 		margin: 0;
+
+		a {
+			#{$active-link} {
+				color: $ucla-gold;
+			}
+		}
 	}
 
 	nav {
@@ -15,14 +21,30 @@ header {
 			margin: 0 0.5em;
 			color: $ucla-blue-darkest;
 			background-color: $ucla-gold;
+
+			#{$active-link} {
+				background-color: $ucla-gold-darkest;
+			}
 		}
 	}
 
 	ul {
 		margin: 0;
+
+		@media #{$bp-fold} {
+			display: none;
+		}
+	}
+
+	select {
+		@media #{$bp-not-fold} {
+			display: none;
+		}
 	}
 
 	li {
 		display: inline-block;
 	}
 }
+
+@import 'fixed_header';

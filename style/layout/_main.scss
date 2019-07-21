@@ -15,4 +15,17 @@ main {
 	@media #{$bp-main} {
 		padding-right: $page-margin-width;
 	}
+
+	a {
+		color: $ucla-blue;
+		text-decoration: underline;
+
+		margin: -0.33em;
+		padding: 0.33em;
+
+		#{$active-link} {
+			background-color: $ucla-yellow;
+			text-decoration: none;
+		}
+	}
 }

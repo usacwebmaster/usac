@@ -8,12 +8,16 @@ footer {
 	.columns {
 		@extend %main-aligned;
 
-		:first-child {
+		> :first-child {
 			flex-grow: 0;
 		}
 
 		@media #{$bp-main} {
 			padding-right: 0;
+		}
+
+		@media #{$bp-footer} {
+			flex-direction: column-reverse;
 		}
 	}
 
@@ -28,6 +32,10 @@ footer {
 		&:first-child {
 			height: 7rem;
 			margin-top: -1em;
+
+			@media #{$bp-footer} {
+				margin-top: $page-margin-width;
+			}
 		}
 
 		&:last-child {
@@ -38,9 +46,16 @@ footer {
 	@at-root .footer-links {
 		text-align: right;
 
+		@media #{$bp-footer} {
+			text-align: center;
+		}
+
 		hr {
 			width: 10rem;
-			margin-right: 0;
+
+			@media #{$bp-not-footer} {
+				margin-right: 0;
+			}
 		}
 	}
 
@@ -48,8 +63,19 @@ footer {
 
 	@at-root .peek-outline {
 		position: absolute;
-		top: -10rem;
+		top: -$footer-peek;
 		right: $page-margin-width;
 		width: $sidebar-width * (3/2);
+		z-index: -1;
+
+		@media #{$bp-main} {
+			left: 0;
+			right: 0;
+			margin: 0 auto;
+
+			@at-root footer {
+				margin-top: $footer-peek + $page-margin-width;
+			}
+		}
 	}
 }
