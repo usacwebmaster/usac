@@ -1,3 +1,5 @@
+$footer-peek: 10rem;
+
 footer {
 	background-color: $ucla-blue-darkest;
 	color: white;
@@ -8,7 +10,7 @@ footer {
 	.columns {
 		@extend %main-aligned;
 
-		> :first-child {
+		@at-root .footer-logos {
 			flex-grow: 0;
 		}
 
@@ -63,9 +65,10 @@ footer {
 
 	@at-root .peek-outline {
 		position: absolute;
-		top: -$footer-peek;
 		right: $page-margin-width;
-		width: $sidebar-width * (3/2);
+		top: -$footer-peek;
+		height: $footer-peek * 1.4;
+		max-width: 100%;
 		z-index: -1;
 
 		@media #{$bp-main} {
