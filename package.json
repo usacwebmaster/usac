@@ -1,6 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "@11ty/eleventy": "^0.8.3"
+    "@11ty/eleventy": "^0.8.3",
+    "node-sass": "^4.12.0"
   }
 }
