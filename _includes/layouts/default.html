@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <head>
-	<title>USAC | {{ title }}</title>
+	<title>USAC &mdash; {{ title }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<link rel="stylesheet" href="/style/main.css">
 </head>
 
-<body>
-	<div class="fold" style="background-image: url(/img/header.jpg);">
+<body class="section-{{ page.url | mainsection }}">
+	<div class="fold">
 		<header>
 			<h1><a href="#"><img src="/img/logo_UCLA_blue_boxed.svg" alt="UCLA" width="360.00" height="168.84" class="text-logo"> USAC</a></h1>
 
@@ -32,63 +32,12 @@
 
 		<div class="subnav">
 			<section class="intro">
-				<h1>Undergraduate Students Association</h1>
+				<h1>{{ heading }}</h1>
 			</section>
 
-			<!-- <aside>
-				<section>
-					<h2 class="stat-fancy"><b>14</b> student officers</h2>
-					<p>elected by the student body every spring
-				</section>
-				<section>
-					<h2 class="stat-fancy"><b>40,000</b> students, faculty, and staff</h2>
-					<p>attend programs organized by the Campus Events Commission
-				</section>
-				<section>
-					<h2 class="stat-fancy"><b>70</b> undergraduates</h2>
-					<p>appointed by the USA president to administrative offices
-				</section>
-				<section>
-					<h2 class="stat-fancy"><b>25</b> undergraduates</h2>
-					<p>appointed by the USA president to Academic Senate Committees
-				</section>
-			</aside> -->
-
-			<!-- <aside>
-				<section>
-					<h2>Budget</h2>
-					<ul>
-						<li><a href="#"><time datetime="2019-07-08">July 08, 2019</time></a>
-					</ul>
-				</section>
-				<section>
-					<h2>Agenda</h2>
-					<ul>
-						<li><a href="#"><time datetime="2019-07-01">July 01, 2019</time></a>
-						<li><a href="#"><time datetime="2019-06-17">June 17, 2019</time></a>
-					</ul>
-				</section>
-				<section>
-					<h2>Minutes</h2>
-					<ul>
-						<li><a href="#"><time datetime="2019-05-28">May 28, 2019</time></a>
-						<li><a href="#"><time datetime="2019-05-21">May 21, 2019</time></a>
-					</ul>
-				</section>
-			</aside> -->
-
-			<!-- <aside>
-				<nav>
-					<ul>
-						<li><a href="#">Student Government Accounting</a>
-						<li><a href="#">USAC Programming Funds</a>
-						<li><a href="#">USAC Operational Funds</a>
-						<li><a href="#">Other Funding Sources</a>
-						<li><a href="#">Miscellaneous</a>
-						<li><a href="#">Funding Calendar</a>
-					</ul>
-				</nav>
-			</aside> -->
+			<aside>
+				{% include 'subnav/' + (page.url | mainsection) + '.html' %}
+			</aside>
 		</div>
 	</div>
 

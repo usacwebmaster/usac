@@ -1,5 +1,6 @@
 ---
 title: Documents
+heading: Documents
 ---
 
 # Documents

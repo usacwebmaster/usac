@@ -1,5 +1,6 @@
 ---
 title: Home
+heading: Undergraduate Students Association
 ---
 
 # What is USAC?

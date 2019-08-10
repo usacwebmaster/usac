@@ -3,4 +3,16 @@
 	background-blend-mode: multiply;
 	color: white;
 	padding: $page-margin-width;
+
+	.section-home & {
+		background-image: url(/img/header.jpg);
+	}
+
+	.section-funding & {
+		background-image: url(/img/Ufunding960x450.jpg);
+	}
+
+	.section-documents & {
+		background-image: url(/img/Udocuments960x450.jpg);
+	}
 }
