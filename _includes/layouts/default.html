@@ -8,24 +8,20 @@
 <body class="section-{{ page.url | mainsection }}">
 	<div class="fold">
 		<header>
-			<h1><a href="#"><img src="/img/logo_UCLA_blue_boxed.svg" alt="UCLA" width="360.00" height="168.84" class="text-logo"> USAC</a></h1>
+			<h1><a href="/"><img src="/img/logo_UCLA_blue_boxed.svg" alt="UCLA" width="360.00" height="168.84" class="text-logo"> USAC</a></h1>
 
 			<nav>
 				<ul>
-					<li><a href="#">About</a>
-					<li><a href="#">Funding</a>
-					<li><a href="#">Documents</a>
-					<li><a href="#">Ask Us</a>
-					<li><a href="#">Donate</a>
+					{% for link in collections.toplevel %}
+					<li><a href="{{ link.url }}" {{ ('class="current-page"' if link.url == page.url) | safe }}>{{ link.data.title }}</a>
+					{% endfor %}
 				</ul>
 
 				<select onchange="location.href = this.value">
-					<option value="#">Home
-					<option value="#">About
-					<option value="#">Funding
-					<option value="#">Documents
-					<option value="#">Ask Us
-					<option value="#">Donate
+					<option value="/" {{ 'selected' if link.url == page.url }}>Home</option>
+					{% for link in collections.toplevel %}
+					<option value="{{ link.url }}" {{ 'selected' if link.url == page.url }}>{{ link.data.title }}
+					{% endfor %}
 				</select>
 			</nav>
 		</header>

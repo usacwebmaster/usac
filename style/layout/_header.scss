@@ -25,6 +25,11 @@ header {
 			#{$active-link} {
 				background-color: $ucla-gold-darkest;
 			}
+
+			@at-root .current-page {
+				text-decoration: underline;
+				pointer-events: none;
+			}
 		}
 	}
 
