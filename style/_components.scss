@@ -20,3 +20,25 @@
 		flex-grow: 1;
 	}
 }
+
+.people {
+	@media #{$bp-not-main} {
+		column-count: 2;
+	}
+
+	section {
+		display: flex;
+	}
+
+	img {
+		width: 10em;
+		margin: 0 2em 2em 0;
+
+		border: thin solid gray;
+		padding: 2px;
+	}
+
+	main {
+		flex-grow: 1;
+	}
+}

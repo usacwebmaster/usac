@@ -1,0 +1,23 @@
+---
+title: Offices
+---
+
+<h1>2018-2019 Officers</h1>
+
+<div class="people">
+	{% for officer in officers %}
+	<section>
+		<img src="{{ officer.picpath }}" alt>
+
+		<main>
+			<h2>{{ officer.name }}</h2>
+			<h3>{{ officer.position }}</h3>
+
+			<address>
+			<p><a href="mailto:{{ officer.email }}">{{ officer.email }}</a>
+			<p>{{ officer.addr }}
+			</address>
+		</main>
+	</section>
+	{% endfor %}
+</div>
