@@ -26,7 +26,7 @@ header {
 				background-color: $ucla-gold-darkest;
 			}
 
-			@at-root .current-page {
+			&.current-page {
 				text-decoration: underline;
 				pointer-events: none;
 			}

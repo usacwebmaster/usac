@@ -1,10 +1,9 @@
 <nav>
 	<ul>
-		<li><a href="#">What is USAC?</a>
-		<li><a href="#">Offices</a>
-		<li><a href="#">Ex-Officio Members</a>
-		<li><a href="#">Meetings</a>
-		<li><a href="#">Judicial Board</a>
-		<li><a href="#">Election Board</a>
+		{% for link in collections.secondlevel %}
+		{% if link.url | mainsection == page.url | mainsection %}
+		<li><a href="{{ link.url }}" {{ ('class="current-page"' if link.url == page.url) | safe }}>{{ link.data.title }}</a>
+		{% endif %}
+		{% endfor %}
 	</ul>
 </nav>

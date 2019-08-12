@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<head>
-	<title>USAC &mdash; {{ title }}</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="/style/main.css">
-</head>
+<title>USAC &mdash; {{ title }}</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<link rel="stylesheet" href="/style/main.css">
 
 <body class="section-{{ page.url | mainsection }}">
 	<div class="fold">
@@ -13,14 +11,14 @@
 			<nav>
 				<ul>
 					{% for link in collections.toplevel %}
-					<li><a href="{{ link.url }}" {{ ('class="current-page"' if link.url == page.url) | safe }}>{{ link.data.title }}</a>
+					<li><a href="{{ link.url }}" {{ ('class="current-page"' if link.url == page.url) | safe }}>{{ link.data.heading }}</a>
 					{% endfor %}
 				</ul>
 
 				<select onchange="location.href = this.value">
 					<option value="/" {{ 'selected' if link.url == page.url }}>Home</option>
 					{% for link in collections.toplevel %}
-					<option value="{{ link.url }}" {{ 'selected' if link.url == page.url }}>{{ link.data.title }}
+					<option value="{{ link.url }}" {{ 'selected' if link.url == page.url }}>{{ link.data.heading }}
 					{% endfor %}
 				</select>
 			</nav>

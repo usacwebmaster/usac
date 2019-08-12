@@ -3,7 +3,7 @@
 	padding: 0;
 
 	a {
-		#{$active-link} {
+		&.current-page, #{$active-link} {
 			color: $ucla-gold;
 		}
 	}

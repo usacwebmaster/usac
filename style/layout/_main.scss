@@ -8,7 +8,7 @@
 	padding-right: $sidebar-width;
 }
 
-main {
+body > main {
 	@extend %main-aligned;
 	padding-left: $page-margin-width;
 
