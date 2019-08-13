@@ -28,6 +28,7 @@
 
 	section {
 		display: flex;
+		break-inside: avoid-column;
 	}
 
 	img {
