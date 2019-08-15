@@ -4,7 +4,7 @@
     "build:sass": "node-sass style/main.scss -o _site/style",
     "build:site": "eleventy",
     "watch:sass": "npm run build:sass -- -w",
-    "watch:site": "eleventy --serve",
+    "watch:site": "npm run build:site -- --serve",
     "prestart": "run-p build:*",
     "start": "run-p watch:*",
     "clean": "rm -rf _site"
