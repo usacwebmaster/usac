@@ -30,7 +30,8 @@
 			</section>
 
 			<aside>
-				{% include 'subnav/' + (page.url | mainsection) + '.html' %}
+				{% set subnav %}{% include 'subnav/' + (page.url | mainsection) + '.html' ignore missing %}{% endset %}
+				{% if subnav %}{{ subnav | safe }}{% else %}{% include 'subnav/default.html' %}{% endif %}
 			</aside>
 		</div>
 	</div>
