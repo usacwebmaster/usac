@@ -1,6 +1,5 @@
 ---
 title: Funding
-heading: Funding
 ---
 
 # Try the new Online REQ form
