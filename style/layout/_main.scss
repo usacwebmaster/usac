@@ -29,8 +29,9 @@ body > main {
 		}
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: $ucla-blue-darker;
-		border-bottom: thin solid $ucla-blue-darker;
+	> h1, > h2, > h3, > h4, > h5, > h6 {
+		color: $ucla-blue-darkest;
+		border-left: medium solid $ucla-blue-darkest;
+		padding: 1rem;
 	}
 }

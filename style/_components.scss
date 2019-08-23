@@ -9,18 +9,25 @@
 	}
 }
 
-%media-link {
-	font-size: smaller;
+a::after {
+	font-variant: small-caps;
+	margin-left: 1ex;
 }
 
 a[href$=".pdf"i]::after {
-	@extend %media-link;
-	content: ' (PDF)';
+	content: 'pdf';
 }
 
-a[href$=".docx"i]::after {
-	@extend %media-link;
-	content: ' (DOCX)';
+a[href$=".doc"i], a[href$=".docx"i] {
+	&::after {
+		content: 'doc';
+	}
+}
+
+a[href$=".xls"i], a[href$=".xlsx"i] {
+	&::after {
+		content: 'xls';
+	}
 }
 
 .header-anchor {
