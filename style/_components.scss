@@ -9,6 +9,33 @@
 	}
 }
 
+%media-link {
+	font-size: smaller;
+}
+
+a[href$=".pdf"i]::after {
+	@extend %media-link;
+	content: ' (PDF)';
+}
+
+a[href$=".docx"i]::after {
+	@extend %media-link;
+	content: ' (DOCX)';
+}
+
+.header-anchor {
+	visibility: hidden;
+	float: right;
+
+	&::after {
+		content: '#';
+	}
+
+	:hover > & {
+		visibility: visible;
+	}
+}
+
 .text-logo {
 	height: 1em;
 }

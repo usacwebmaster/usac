@@ -6,7 +6,10 @@ module.exports = ec => {
 	ec.addCollection('toplevel', getToplevel)
 	ec.addCollection('secondlevel', c => [...getToplevel(c), ...getSecondlevel(c)])
 
-	ec.setLibrary('md', require('markdown-it')('commonmark').use(require('markdown-it-anchor')))
+	ec.setLibrary('md', require('markdown-it')('commonmark').use(require('markdown-it-anchor'), {
+		permalink: true,
+		permalinkSymbol: ''
+	}))
 
 	return {
 		templateFormats: ['html', 'md', 'jpg', 'svg'],
