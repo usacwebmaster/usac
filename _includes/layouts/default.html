@@ -11,12 +11,13 @@
 			<nav>
 				<ul>
 					{% for link in collections.toplevel %}
+					{% if link.url != '/' %}
 					<li><a href="{{ link.url | url }}" {{ ('class="current-page"' if link.url == page.url) | safe }}>{{ link.data.heading }}</a>
+					{% endif %}
 					{% endfor %}
 				</ul>
 
 				<select onchange="location.href = this.value">
-					<option value="{{ '/' | url }}" {{ 'selected' if link.url == page.url }}>Home</option>
 					{% for link in collections.toplevel %}
 					<option value="{{ link.url | url }}" {{ 'selected' if link.url == page.url }}>{{ link.data.heading }}
 					{% endfor %}
@@ -26,7 +27,7 @@
 
 		<div class="subnav">
 			<section class="intro">
-				<h1>{{ heading }}</h1>
+				<h1>{{ long_heading if long_heading else heading }}</h1>
 			</section>
 
 			<aside>
