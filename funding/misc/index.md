@@ -29,17 +29,17 @@ mailbox (Kerckhoff Hall 300C) by 3:00pm on Fridays no later than five
 <usac.evp.bruindefendersdir@gmail.com>.
 
 -   [Bruin Defenders Grant Application
-    (2015-2016) ](docs/bruindefendersgrantapplication.docx)  (DOCX)
+    (2015-2016) ](docs/bruindefendersgrantapplication.docx)
 -   [Bruin Defenders Grant Guidelines
-    (2015-2016)](docs/bruindefendersgrantguidelines.pdf)  (PDF)
+    (2015-2016)](docs/bruindefendersgrantguidelines.pdf)
 
 ## Other Funding-Related Documents
 
 -   [Finance Committee Guidelines
-    \[Annual\] ](docs/Finance%20Committee%20Guidelines%202019-2020.pdf) (PDF)
+    \[Annual\] ](docs/Finance%20Committee%20Guidelines%202019-2020.pdf)
 -   [Financial Guidelines
-    \[Ongoing\] ](docs/USA%20Financial%20Guidelines%20-%20UPDATED%206.27.19.pdf) (PDF)
+    \[Ongoing\] ](docs/USA%20Financial%20Guidelines%20-%20UPDATED%206.27.19.pdf)
 -   [Compulsory Fee Refund
-    Application ](docs/app_compulsory_refund.doc) (DOC)
+    Application ](docs/app_compulsory_refund.doc)
 -   [Top Ten Best Kept Funding Secrets (Spring
-    Edition) ](docs/fundingsecrets.pdf) (PDF)
+    Edition) ](docs/fundingsecrets.pdf)

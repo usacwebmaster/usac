@@ -7,7 +7,7 @@ title: Budget Report
 ## Instructions to View your Student Group's Account Budget and Balances
 
 1. Go to the [SGA Budget Report](../funding/sga/2019-07-29_.PDF)
-(PDF)
+
 
 2. Click Search
 

@@ -50,9 +50,9 @@ Please apply through the Campus Life website, found
     Deadlines](docs/2017-2018%20CPC%20Reg%20fund%20deadline.png)
 -   [2017-2018 CPC
     Application](docs/2017-2018%20CPC%20Reg%20fund%20template.doc.pdf)
-    (PDF)
+
 -   [2017-2018 CPC
-    Application](docs/2017-2018%20CPC%20Reg%20fund%20template.doc) (DOC)
+    Application](docs/2017-2018%20CPC%20Reg%20fund%20template.doc)
 
 There is a new submission process for the CPC which requires an online
 submission of the approved proposal via OrgSync and the submission of
@@ -100,19 +100,19 @@ and online copy must be submitted by that time. Please meet with your
 SOLE advisor to go over your program and proposal before submission.
 
 -   [CAC Mini Fund](https://orgsync.com/13747/files/436301/show) (LINK)
--   [Regular Application and Guidelines ](docs/apps_cac.doc) (DOC)
+-   [Regular Application and Guidelines ](docs/apps_cac.doc)
 -   [Supplemental Fund Guidelines and
-    Proposal ](docs/apps_cacsup.docx) (DOC)
+    Proposal ](docs/apps_cacsup.docx)
 -   [Online Mini Fund
-    Application ](https://orgsync.com/13747/files/282579/download) 
--   [Program Activities Board Charter ](docs/guidelines_pab.doc) (DOC)
+    Application ](https://orgsync.com/13747/files/282579/download)
+-   [Program Activities Board Charter ](docs/guidelines_pab.doc)
 
 ## Student Initiated Outreach Committee (SIOC)
 
 -   [SIOC Mini-Fund and Yield Fund Application 2018-19
      ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Application%202018-2019.pdf)
-     (PDF)
+
 -   [SIOC Mini-Fund and Yield Fund Deadlines 2018-19
-     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Deadline%202018-2019.pdf) (PDF)
+     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Deadline%202018-2019.pdf)
 -   [SIOC Mini-Fund and Yield Fund Guidelines 2018-2019
-     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Guideline%202018-2019.pdf) (PDF)
+     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Guideline%202018-2019.pdf)
