@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 
 # SGA - Frequently Asked Questions
 
-## Student Government Operational Fund (SGOF)
+## Student Government Operational Fund (SGOF)
 
 <dl>
 <dt>I received funds from SGOF or funding from SGOF, now what?</dt>

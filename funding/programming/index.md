@@ -19,16 +19,16 @@ enhances the academic environment at UCLA. Contact
 
 Academic Success Referendum Fund (ASRF)
 
--   [Application ](https://goo.gl/forms/18K9OnyKSMaIMsXr2) (Google Form)
+-   [Application ](https://goo.gl/forms/18K9OnyKSMaIMsXr2) (Google Form)
 -   [Establishing Documents and
-    Guidelines ](docs/asrf_guidelines.pdf) (PDF)
--   [Evaluation Form ](docs/Evaluation.doc) (DOC)
+    Guidelines ](docs/asrf_guidelines.pdf) (PDF)
+-   [Evaluation Form ](docs/Evaluation.doc) (DOC)
 
 Travel Grant Mini Fund (TGMF)
 
--   [Application ](https://goo.gl/forms/RlwIq0Oj3Lxvon4n2) (LINK)
+-   [Application ](https://goo.gl/forms/RlwIq0Oj3Lxvon4n2) (LINK)
 -   [Travel Grant Mini Fund Guidelines
-     ](https://docs.google.com/document/d/1CKOtypss9l1ZKMVJUMa0fNJAhcDXQ1wyGjNOztj3ZqI/edit?usp=sharing) (PDF)
+     ](https://docs.google.com/document/d/1CKOtypss9l1ZKMVJUMa0fNJAhcDXQ1wyGjNOztj3ZqI/edit?usp=sharing) (PDF)
 
 ## Arts Restoring Community (ARC) Referendum Funding
 
@@ -76,9 +76,9 @@ mailbox (Kerckhoff Hall 300C) by 3:00pm on Fridays no later than five
 <usac.evp.bruindefendersdir@gmail.com>.
 
 -   [Bruin Advocacy Grant Application
-    (2018-2019) ](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
+    (2018-2019) ](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
 -   [Bruin Advocacy Grant Guidelines
-    (2018-2019)](https://tinyurl.com/BAGuidelines)  (Google Slides)
+    (2018-2019)](https://tinyurl.com/BAGuidelines)  (Google Slides)
 
 ## Community Service Mini Fund
 
@@ -91,13 +91,13 @@ mailbox (Kerckhoff Hall 300C) by 3:00pm on Fridays no later than five
 **Due by 5:00PM**
 
 -   [Online
-    Application ](https://www.usacfunds.ucla.edu/fundapp/csmini/) 
--   [Guidelines ](docs/funding_guidelines_csmini.doc) (DOC)
--   [Score Sheet ](docs/CS_Mini_Fund_Score_Sheet.doc) (DOC)
+    Application ](https://www.usacfunds.ucla.edu/fundapp/csmini/)
+-   [Guidelines ](docs/funding_guidelines_csmini.doc) (DOC)
+-   [Score Sheet ](docs/CS_Mini_Fund_Score_Sheet.doc) (DOC)
 -   [Evaluation
-    Form ](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
+    Form ](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
 -   [CS Mini Funding Cheat
-    Sheet](docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf) (PDF)
+    Sheet](docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf) (PDF)
 
 ## Contingency Capital Items Fund
 
@@ -106,7 +106,7 @@ in Kerckhoff, apply to the Capital Contingency Fund! The fund covers
 technology and furniture items.** All proposals are due twenty-one (21)
 days before the date of purchase.
 
--   [Application ](Capital%20Contingency%20Application%202019.pdf) (PDF)
+-   [Application ](Capital%20Contingency%20Application%202019.pdf) (PDF)
 
 ## Contingency Programming Fund
 
@@ -116,10 +116,10 @@ copy of the proposal using [USAC
 Funding](https://www.usacfunds.ucla.edu/fundapp/contingency/).
 **Due by 12 noon AND in hard copy to Kerckhoff Mailbox \#58.**
 
--   [Application ](https://www.usacfunds.ucla.edu/fundapp/contingency/) 
--   [Guidelines ](https://usac.ucla.edu/funding/docs/Finance%20Committee%20Guidelines%202019-2020.pdf) (PDF)
+-   [Application ](https://www.usacfunds.ucla.edu/fundapp/contingency/)
+-   [Guidelines ](https://usac.ucla.edu/funding/docs/Finance%20Committee%20Guidelines%202019-2020.pdf) (PDF)
 -   [Fall 2015 Transparency
-    Report ](/funding/docs/Fall%20Transparency%20Report.pdf) (PDF)
+    Report ](/funding/docs/Fall%20Transparency%20Report.pdf) (PDF)
 
 ## Student Wellness Programming Fund
 
@@ -141,7 +141,7 @@ from 5-6pm in Ackerman 3517.
 
 ## Supplemental Fund for Service (SFS)
 
-Applications are OPEN for the 2018 – 2019 academic year!
+Applications are OPEN for the 2018 - 2019 academic year!
 
 [SFS
 Guidelines](https://docs.google.com/document/d/1x49XXs0TZlcSHa9cVwGK8gJxhEhRyjutXDOIIVvZEII/edit?usp=sharing)
@@ -180,16 +180,16 @@ Spring Deadline: May 3rd, 2019
 Please direct all questions to <TGIF@asucla.ucla.edu>.
 
 -   [Mini Fund
-    Application ](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform)
-     (Google Form)
+    Application ](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform)
+     (Google Form)
 -   [Mini Fund
-    Deadlines ](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
-     (DOC)
+    Deadlines ](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
+     (DOC)
 -   [Main Fund
-    Application ](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform)
-     (Google Form)
--   [Guidelines ](http://tgif.ucla.edu/docs/tgif_guide.doc)  (DOC)
--   [Website ](http://tgif.ucla.edu/)  
+    Application ](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform)
+     (Google Form)
+-   [Guidelines ](http://tgif.ucla.edu/docs/tgif_guide.doc)  (DOC)
+-   [Website ](http://tgif.ucla.edu/)
 
 ## USA/ASUCLA Programming Fund
 
@@ -202,7 +202,7 @@ If you have any issues, please contact
 advisor.
 
 -   [USA/ASUCLA
-    Application ](https://www.usacfunds.ucla.edu/fundapp/bod/) 
+    Application ](https://www.usacfunds.ucla.edu/fundapp/bod/)
 
 All student groups must meet with their Student Organizations,
 Leadership & Engagement Advisor prior to the deadline. If this is not
@@ -221,15 +221,15 @@ an email to<USABudgetReview@gmail.com>
 
 
 
--   [Bylaw Information ](docs/funding_guidelines_programming.doc) (DOC)
+-   [Bylaw Information ](docs/funding_guidelines_programming.doc) (DOC)
 -   [Application
-    Guidelines ](docs/BOD%20Guideline%20Sheet%20Revised.pdf) (PDF)
--   [Scoresheet ](docs/bod_sc.pdf) (DOC)
+    Guidelines ](docs/BOD%20Guideline%20Sheet%20Revised.pdf) (PDF)
+-   [Scoresheet ](docs/bod_sc.pdf) (DOC)
 -   [Allocations: Fall
     2014](docs/USA_BOD%20Allocations%20-%20Fall%202014-2015.pdf) (PDF)
--   [Allocations: Fall 2013 ](docs/fall%202013%20bod.pdf) (PDF)
+-   [Allocations: Fall 2013 ](docs/fall%202013%20bod.pdf) (PDF)
 -   [Allocations:
-    2012-2013 ](docs/previous_allocations2012-2013.pdf) (PDF)
+    2012-2013 ](docs/previous_allocations2012-2013.pdf) (PDF)
 -   [BRC Transparency
     Report](docs/BRC%20Transparency%20Report%202016-2017.pdf) (PDF)
 -   [Funding

@@ -100,19 +100,19 @@ and online copy must be submitted by that time. Please meet with your
 SOLE advisor to go over your program and proposal before submission.
 
 -   [CAC Mini Fund](https://orgsync.com/13747/files/436301/show) (LINK)
--   [Regular Application and Guidelines ](docs/apps_cac.doc) (DOC)
+-   [Regular Application and Guidelines ](docs/apps_cac.doc) (DOC)
 -   [Supplemental Fund Guidelines and
-    Proposal ](docs/apps_cacsup.docx) (DOC)
+    Proposal ](docs/apps_cacsup.docx) (DOC)
 -   [Online Mini Fund
-    Application ](https://orgsync.com/13747/files/282579/download) 
--   [Program Activities Board Charter ](docs/guidelines_pab.doc) (DOC)
+    Application ](https://orgsync.com/13747/files/282579/download) 
+-   [Program Activities Board Charter ](docs/guidelines_pab.doc) (DOC)
 
 ## Student Initiated Outreach Committee (SIOC)
 
 -   [SIOC Mini-Fund and Yield Fund Application 2018-19
-     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Application%202018-2019.pdf)
-     (PDF)
+     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Application%202018-2019.pdf)
+     (PDF)
 -   [SIOC Mini-Fund and Yield Fund Deadlines 2018-19
-     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Deadline%202018-2019.pdf) (PDF)
+     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Deadline%202018-2019.pdf) (PDF)
 -   [SIOC Mini-Fund and Yield Fund Guidelines 2018-2019
-     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Guideline%202018-2019.pdf) (PDF)
+     ](docs/SIOC%20Mini-Fund%20and%20Yield%20Fund%20Guideline%202018-2019.pdf) (PDF)
