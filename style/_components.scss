@@ -30,6 +30,12 @@ a[href$=".xls"i], a[href$=".xlsx"i] {
 	}
 }
 
+a[href$=".ppt"i], a[href$=".pptx"i] {
+	&::after {
+		content: 'ppt';
+	}
+}
+
 .header-anchor {
 	visibility: hidden;
 	float: right;
