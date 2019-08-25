@@ -28,7 +28,6 @@ header {
 
 			&.current-page {
 				text-decoration: underline;
-				pointer-events: none;
 			}
 		}
 	}
@@ -41,14 +40,14 @@ header {
 		}
 	}
 
+	li {
+		display: inline-block;
+	}
+
 	select {
 		@media #{$bp-not-fold} {
 			display: none;
 		}
-	}
-
-	li {
-		display: inline-block;
 	}
 }
 

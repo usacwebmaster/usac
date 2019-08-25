@@ -23,53 +23,7 @@
 	}
 }
 
-a::after {
-	font-variant: small-caps;
-	margin-left: 1ex;
-}
-
-a[href$=".pdf"i]::after {
-	content: 'pdf';
-}
-
-a[href$=".doc"i], a[href$=".docx"i] {
-	&::after {
-		content: 'doc';
-	}
-}
-
-a[href$=".xls"i], a[href$=".xlsx"i] {
-	&::after {
-		content: 'xls';
-	}
-}
-
-a[href$=".ppt"i], a[href$=".pptx"i] {
-	&::after {
-		content: 'ppt';
-	}
-}
-
-.header-anchor {
-	visibility: hidden;
-	float: right;
-
-	&::after {
-		content: '#';
-	}
-
-	:hover > & {
-		visibility: visible;
-	}
-}
-
-.columns {
-	display: flex;
-
-	> * {
-		flex-grow: 1;
-	}
-}
+@import 'components/link_media_type';
 
 .people {
 	@media #{$bp-not-main} {

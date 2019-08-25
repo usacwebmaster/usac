@@ -7,11 +7,13 @@ footer {
 	padding: $page-margin-width;
 	margin-top: $page-margin-width;
 
-	.columns {
+	@at-root .columns {
 		@extend %main-aligned;
 
-		@at-root .footer-logos {
-			flex-grow: 0;
+		display: flex;
+
+		@at-root .footer-links {
+			flex-grow: 1;
 		}
 
 		@media #{$bp-main} {

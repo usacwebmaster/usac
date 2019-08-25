@@ -29,6 +29,19 @@ body > main {
 		}
 	}
 
+	@at-root .header-anchor {
+		visibility: hidden;
+		float: right;
+
+		&::after {
+			content: '#';
+		}
+
+		:hover > & {
+			visibility: visible;
+		}
+	}
+
 	> h1, > h2, > h3, > h4, > h5, > h6 {
 		color: $ucla-blue-darkest;
 		border-left: medium solid $ucla-blue-darkest;
