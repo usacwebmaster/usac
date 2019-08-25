@@ -7,7 +7,7 @@ title: Offices
 <div class="people">
 	{% for officer in officers %}
 	<section>
-		<img src="{{ officer.picpath }}" alt>
+		<img src="{{ officer.picpath }}" alt="{{ officer.name }}">
 
 		<main>
 			<h2>{{ officer.name }}</h2>
