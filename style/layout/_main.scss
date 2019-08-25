@@ -37,7 +37,7 @@ body > main {
 			content: '#';
 		}
 
-		:hover > & {
+		:target > &, :hover > & {
 			visibility: visible;
 		}
 	}
