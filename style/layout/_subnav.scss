@@ -35,23 +35,27 @@
 			@extend hr;
 		}
 
-		@at-root .stat-fancy {
-			font-size: 1em;
-
-			b {
-				display: block;
-				font-size: 3em;
-				font-weight: normal;
-			}
-		}
-
 		ul {
 			@extend %menu-list;
 		}
+	}
 
-		nav a {
+	nav {
+		a {
 			display: block;
 			padding: 1em;
+		}
+
+		:not(.current-page) + ul {
+			display: none;
+		}
+
+		ul ul {
+			background-color: rgba(255, 255, 255, 0.1);
+
+			a {
+				padding: 0.5em;
+			}
 		}
 	}
 }

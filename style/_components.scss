@@ -9,6 +9,20 @@
 	}
 }
 
+.text-logo {
+	height: 1em;
+}
+
+.stat-fancy {
+	font-size: 1em;
+
+	b {
+		display: block;
+		font-size: 3em;
+		font-weight: normal;
+	}
+}
+
 a::after {
 	font-variant: small-caps;
 	margin-left: 1ex;
@@ -47,10 +61,6 @@ a[href$=".ppt"i], a[href$=".pptx"i] {
 	:hover > & {
 		visibility: visible;
 	}
-}
-
-.text-logo {
-	height: 1em;
 }
 
 .columns {
