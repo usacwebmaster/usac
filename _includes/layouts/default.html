@@ -20,7 +20,7 @@
 
 		<div class="subnav">
 			<section class="intro">
-				<h1>{{ long_heading if long_heading else heading }}</h1>
+				<h1>{{ (collections.all | mainSection(page.url)).data.title }}</h1>
 			</section>
 
 			<aside>
