@@ -1,9 +1,5 @@
+{% from 'navlist.html' import navlist %}
+
 <nav>
-	<ul>
-		{% for link in collections.secondlevel %}
-		{% if link.url | mainsection == page.url | mainsection %}
-		<li><a href="{{ link.url | url }}" {{ ('class="current-page"' if link.url == page.url) | safe }}>{{ link.data.title }}</a>
-		{% endif %}
-		{% endfor %}
-	</ul>
+	{{ navlist('/' + (page.url | mainsection) + '/', page.url, collections.all, 2) }}
 </nav>

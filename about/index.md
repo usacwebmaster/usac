@@ -1,5 +1,5 @@
 ---
-title: What is USAC?
+title: About
 ---
 
 # What is USAC?
