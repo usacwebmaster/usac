@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link rel="stylesheet" href="{{ '/style/main.css' | url }}">
 
-<body class="section-{{ page.url | mainsection }}">
+<body class="section-{{ (collections.all | mainsection(page.url)).fileSlug }}">
 	<div class="fold">
 		<header>
 			<h1><a href="{{ '/' | url }}"><img src="{{ '/img/logo_UCLA_blue_boxed.svg' | url }}" alt="UCLA" width="360.00" height="168.84" class="text-logo"> USAC</a></h1>
@@ -24,7 +24,7 @@
 			</section>
 
 			<aside>
-				{% set subnav %}{% include 'subnav/' + (page.url | mainsection) + '.html' ignore missing %}{% endset %}
+				{% set subnav %}{% include 'subnav/' + (collections.all | mainsection(page.url)).fileSlug + '.html' ignore missing %}{% endset %}
 				{% if subnav %}{{ subnav | safe }}{% else %}{% include 'subnav/default.html' %}{% endif %}
 			</aside>
 		</div>

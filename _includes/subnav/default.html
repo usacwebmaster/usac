@@ -1,5 +1,5 @@
 {% from 'navlist.html' import navlist %}
 
 <nav>
-	{{ navlist('/' + (page.url | mainsection) + '/', page.url, collections.all, 2) }}
+	{{ navlist((collections.all | mainsection(page.url)).url, page.url, collections.all, 2) }}
 </nav>
