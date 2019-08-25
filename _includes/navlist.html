@@ -1,7 +1,7 @@
 {% macro navlist(path, curPath, all, depth) %}
 <ul>
 	{% for link in (all | children(path)) %}
-	<li><a href="{{ link.url | url }}" {{ ('class="current-page"' if (curPath | descendsFrom(link.url))) | safe }}>{{ link.data.title }}</a>
+	<li><a href="{{ link.url | url }}" {{ ('aria-current="page"' if (curPath | descendsFrom(link.url))) | safe }}>{{ link.data.title }}</a>
 	{% if depth > 1 %}
 	{{ navlist(link.url, curPath, all, depth - 1) }}
 	{% endif %}

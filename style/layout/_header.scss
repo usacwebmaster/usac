@@ -26,7 +26,7 @@ header {
 				background-color: $ucla-gold-darkest;
 			}
 
-			&.current-page {
+			&[aria-current] {
 				text-decoration: underline;
 			}
 		}

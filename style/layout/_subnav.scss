@@ -46,7 +46,7 @@
 			padding: 1em;
 		}
 
-		:not(.current-page) + ul {
+		:not([aria-current]) + ul {
 			display: none;
 		}
 
