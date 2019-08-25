@@ -18,3 +18,11 @@
 	{% endfor %}
 </select>
 {% endmacro %}
+
+{% macro doclist(cat, year) %}
+<ol>
+	{% for doc in cat[year] %}
+	<li><a href="{{ doc.url | url }}"><time datetime="{{ doc.date }}">{{ doc.date }}</time></a>
+	{% endfor %}
+</ol>
+{% endmacro %}

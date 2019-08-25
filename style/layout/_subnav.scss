@@ -35,7 +35,7 @@
 			@extend hr;
 		}
 
-		ul {
+		ul, ol {
 			@extend %menu-list;
 		}
 	}
