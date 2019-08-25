@@ -25,7 +25,13 @@
 
 			<aside>
 				{% set subnav %}{% include 'subnav/' + (collections.all | mainSection(page.url) | sectionName) + '.html' ignore missing %}{% endset %}
-				{% if subnav %}{{ subnav | safe }}{% else %}{% include 'subnav/default.html' %}{% endif %}
+				{% if subnav %}
+				{{ subnav | safe }}
+				{% else %}
+				<nav>
+					{{ navlist((collections.all | mainSection(page.url)).url, page.url, collections.all, 2) }}
+				</nav>
+				{% endif %}
 			</aside>
 		</div>
 	</div>
