@@ -23,7 +23,34 @@
 	}
 }
 
-@import 'components/link_media_type';
+%media-links {
+	a::after {
+		font-variant: small-caps;
+		margin-left: 1ex;
+	}
+
+	a[href$=".pdf"i]::after {
+		content: 'pdf';
+	}
+
+	a[href$=".doc"i], a[href$=".docx"i] {
+		&::after {
+			content: 'doc';
+		}
+	}
+
+	a[href$=".xls"i], a[href$=".xlsx"i] {
+		&::after {
+			content: 'xls';
+		}
+	}
+
+	a[href$=".ppt"i], a[href$=".pptx"i] {
+		&::after {
+			content: 'ppt';
+		}
+	}
+}
 
 .people {
 	@media #{$bp-not-main} {
