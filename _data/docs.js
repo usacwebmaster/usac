@@ -6,7 +6,7 @@ module.exports = async () => {
 	const index = {}
 
 	const files = await fs.readdir(root)
-	for (const file of files.sort()) {
+	for (const file of files.sort().reverse()) {
 		const [cat, year, date] = file.split('.')
 
 		if (!(cat in index)) {
