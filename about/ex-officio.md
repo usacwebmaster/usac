@@ -1,5 +1,6 @@
 ---
 title: Ex-Officio Members
+weight: -1
 ---
 
 # Ex-Officio Members

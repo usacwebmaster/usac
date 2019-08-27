@@ -1,5 +1,6 @@
 ---
 title: Frequently Asked Questions
+weight: 1
 ---
 
 # SGA - Frequently Asked Questions

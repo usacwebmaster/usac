@@ -1,5 +1,6 @@
 ---
 title: Student Government Accounting
+weight: -1
 ---
 
 # Student Government Accounting - Overview
