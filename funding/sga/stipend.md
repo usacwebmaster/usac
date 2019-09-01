@@ -26,5 +26,5 @@ to view the complete document of the USA Financial Guidelines.
 Req? Tutorial](whatsareq_contents.php) on
 [stipends](sgahandbook/stipends.php).
 
-**<span class="underline">Note: Stipend rates increase as of January
-2018</span>**
+**Note: Stipend rates increase as of January
+2018**

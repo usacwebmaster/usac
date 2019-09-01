@@ -12,8 +12,8 @@ Currently, the Undergraduate Students Association (USA) has over 700
 student group/departments in our database, alone. As an effort to aid
 the student groups/departments, we have placed as many documents, forms,
 instructions and PowerPoint Presentations on this website for your
-convenience. For example: [<span class="underline">How To Fill Out a
-Req</span>](sga/req.pps).
+convenience. For example: [How To Fill Out a
+Req](sga/req.pps).
 
 The Student Government Accounting office uses the [<span
 class="underline">General Requisition
@@ -22,12 +22,12 @@ each student group/department, and student government office.
 
 USA's funds can be utilized through 4 main methods:
 
--   [<span class="underline">Purchase
-    Orders</span>](sgahandbook/obtain_po.php)
+-   [Purchase
+    Orders](sgahandbook/obtain_po.php)
 -   [<span
     class="underline">Honorariums</span>](sgahandbook/honorariums.php)
--   [<span class="underline">Cash
-    Advances</span>](sgahandbook/cash_advances.php)
+-   [Cash
+    Advances](sgahandbook/cash_advances.php)
 -   [<span
     class="underline">Reimbursements</span>](sgahandbook/pers_reimburse.php)
 
@@ -38,12 +38,11 @@ SGA office.
 
 For USA, the different funding sources would include:
 
-[<span class="underline">Operational</span>](operational.php):
+[Operational](operational.php):
 
--   Student Government Operational Fund (SGOF)
 -   Student Organization Operational Fund (SOOF)
 
-[<span class="underline">Programming</span>](programming.php):
+[Programming](programming.php):
 
 -   Contingency
 -   Capital Contingency
@@ -54,6 +53,6 @@ For USA, the different funding sources would include:
 Once funds have been allocated to your student group, in order to access
 your account a general requisition must be submitted, or a REQ for
 short. Each req much be completely filled out with the appropriate
-signatures, necessary information, your [<span class="underline">21
-digit account number</span>](sga/accounthelp.pdf), and the required
+signatures, necessary information, your [21
+digit account number](sga/accounthelp.pdf), and the required
 attachments.
