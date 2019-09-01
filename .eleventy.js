@@ -18,7 +18,7 @@ module.exports = ec => {
 	ec.addPassthroughCopy('docs')
 
 	return {
-		templateFormats: ['html', 'md', 'jpg'],
+		templateFormats: ['html', 'md', 'jpg', 'svg', 'pdf'],
 
 		dataTemplateEngine: false,
 		markdownTemplateEngine: 'njk',
