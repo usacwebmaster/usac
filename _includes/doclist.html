@@ -1,7 +1,7 @@
 {% macro doclist(cat, year, limit) %}
 <ol>
 	{%- for doc in cat[year] | top(limit) -%}
-	<li><a href="{{ doc.url | url }}"><time datetime="{{ doc.date }}">{{ doc.date }}</time></a>
+	<li><a href="{{ doc.url | siteurl }}"><time datetime="{{ doc.date }}">{{ doc.date }}</time></a>
 	{%- endfor -%}
 </ol>
 {% endmacro %}
