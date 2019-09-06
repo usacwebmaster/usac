@@ -7,7 +7,7 @@ footer {
 	padding: $page-margin-width;
 	margin-top: $page-margin-width;
 
-	@at-root .columns {
+	.columns {
 		@extend %main-aligned;
 
 		display: flex;

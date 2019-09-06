@@ -20,5 +20,13 @@ img {
 
 hr {
 	border: none;
+	@extend %divider-bottom;
+}
+
+%divider-bottom {
 	border-bottom: thin solid rgba(255, 255, 255, 0.5);
+}
+
+%divider-right {
+	border-right: thin solid rgba(255, 255, 255, 0.5);
 }

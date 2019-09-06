@@ -22,6 +22,8 @@
 		<div class="subnav">
 			<section class="intro">
 				<h1>{{ (collections.all | mainSection(page.url)).data.title }}</h1>
+
+				{% include 'subheading/' + (collections.all | mainSection(page.url) | sectionName) + '.html' ignore missing %}
 			</section>
 
 			<aside>

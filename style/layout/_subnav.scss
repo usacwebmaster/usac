@@ -6,6 +6,10 @@
 		flex-direction: column;
 	}
 
+	ul, ol {
+		@extend %menu-list;
+	}
+
 	@at-root .intro {
 		flex-grow: 1;
 
@@ -22,6 +26,22 @@
 				font-size: 2em;
 			}
 		}
+
+		.columns {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+
+			margin-top: 2rem;
+
+			section {
+				padding: 0 2rem;
+
+				&:not(:last-child) {
+					@extend %divider-right;
+				}
+			}
+		}
 	}
 
 	aside {
@@ -32,11 +52,7 @@
 			content: '';
 			display: block;
 			margin: 0 25%;
-			@extend hr;
-		}
-
-		ul, ol {
-			@extend %menu-list;
+			@extend %divider-bottom;
 		}
 	}
 
