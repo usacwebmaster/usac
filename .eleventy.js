@@ -12,7 +12,9 @@ module.exports = ec => {
 		all.filter(page => page.url.startsWith(url) && !page.url.slice(url.length, -1).includes('/') && page.url !== url))
 	ec.addFilter('descendsFrom', (desc, anc) => desc.startsWith(anc))
 
-	ec.addFilter('navsort', pages => pages.sort(({ data: a }, { data: b }) => (a.weight || 0) - (b.weight || 0) || (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)))
+	ec.addFilter('navsort', pages => pages
+		.filter(({ data }) => data.weight !== 0)
+		.sort(({ data: a }, { data: b }) => (a.weight || 0) - (b.weight || 0) || (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)))
 	ec.addFilter('siteurl', link => ec.javascriptFunctions.url(rewrite[link] || link))
 
 	ec.addFilter('isodate', date => date.toISOString().split('T')[0])
