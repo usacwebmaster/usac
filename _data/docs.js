@@ -4,7 +4,7 @@ const root = 'docs'
 
 // TODO: this is wrong
 function getSchoolYear(date) {
-	const year = new Date(date).getUTCFullYear()
+	const year = date.getUTCFullYear()
 	return `${year}-${year + 1}`
 }
 
@@ -13,7 +13,8 @@ module.exports = async () => {
 
 	const files = await fs.readdir(root)
 	for (const file of files.sort().reverse()) {
-		const [cat, date, name, ext] = file.split('.')
+		const [cat, isoDate, name, ext] = file.split('.')
+		const date = new Date(isoDate)
 		const year = getSchoolYear(date)
 
 		if (typeof ext === 'undefined') {
