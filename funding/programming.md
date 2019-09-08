@@ -198,7 +198,7 @@ Please direct all questions to <TGIF@asucla.ucla.edu>.
 **Spring Deadline:** Week 7, Friday, February 22, 2019
 **Due by 5:00 PM** submitted through USAC fund portal.
 If you have any issues, please contact
-[usabudgetreview@gmail.com](usabudgetreview@gmail.com) and CC your SOLE
+<usabudgetreview@gmail.com> and CC your SOLE
 advisor.
 
 -   [USA/ASUCLA
