@@ -19,7 +19,7 @@ receive a stipend for the period commencing on the date of their
 approval.
 
 - Please refer to the [Financial Guidelines
-\[Ongoing\]](docs/USA%20Financial%20Guidelines%20-%20UPDATED%206.27.19.pdf)
+\[Ongoing\]](/docs/USA%20Financial%20Guidelines%20-%20UPDATED%206.27.19.pdf)
 to view the complete document of the USA Financial Guidelines.
 
 - For further help with your stipend, see our section in the [What's a

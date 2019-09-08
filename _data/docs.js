@@ -1,6 +1,7 @@
 const fs = require('fs').promises
 
-const root = 'docs'
+const input = 'indexed'
+const output = '/docs'
 
 // TODO: this is wrong
 function getSchoolYear(date) {
@@ -11,7 +12,7 @@ function getSchoolYear(date) {
 module.exports = async () => {
 	const index = {}
 
-	const files = await fs.readdir(root)
+	const files = await fs.readdir(input)
 	for (const file of files.sort().reverse()) {
 		const [cat, isoDate, name, ext] = file.split('.')
 		const date = new Date(isoDate)
@@ -29,7 +30,7 @@ module.exports = async () => {
 			index[cat][year] = []
 		}
 
-		index[cat][year].push({ date, url: `/${root}/${file}` })
+		index[cat][year].push({ date, url: `${output}/${file}` })
 	}
 
 	return index

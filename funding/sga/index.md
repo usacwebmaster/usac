@@ -13,7 +13,7 @@ student group/departments in our database, alone. As an effort to aid
 the student groups/departments, we have placed as many documents, forms,
 instructions and PowerPoint Presentations on this website for your
 convenience. For example: [How To Fill Out a
-Req](sga/req.pps).
+Req](/docs/req.pps).
 
 The Student Government Accounting office uses the [<span
 class="underline">General Requisition
@@ -54,5 +54,5 @@ Once funds have been allocated to your student group, in order to access
 your account a general requisition must be submitted, or a REQ for
 short. Each req much be completely filled out with the appropriate
 signatures, necessary information, your [21
-digit account number](sga/accounthelp.pdf), and the required
+digit account number](/docs/accounthelp.pdf), and the required
 attachments.

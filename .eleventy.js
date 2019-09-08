@@ -25,12 +25,14 @@ module.exports = ec => {
 		permalinkSymbol: ''
 	}))
 
-	ec.addPassthroughCopy('img')
-	ec.addPassthroughCopy('docs')
+	ec.addPassthroughCopy({
+		img: true,
+		docs: true,
+		indexed: 'docs'
+	})
 
 	return {
-		templateFormats: ['html', 'md', 'jpg', 'svg', 'pdf'],
-
+		templateFormats: ['html', 'md'],
 		dataTemplateEngine: false,
 		markdownTemplateEngine: 'njk',
 		htmlTemplateEngine: 'njk'

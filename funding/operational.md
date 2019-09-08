@@ -26,17 +26,17 @@ CC your SOLE advisor.
 -   [SOOF
     Video ](http://www.facebook.com/?ref=home#!/video/video.php?v=555051909424&comments) (Facebook)
 -   [Budget Assumptions &
-    Instructions ](docs/SOOF%20Budget%20and%20Assumptions%20(final).pdf)
--   [SOOF Budget Workshop ](docs/soof_workshop.ppt) (PPT)
--   [Evaluation Form ](docs/soof_evaluation.doc)
--   [T-Shirt Cheat Sheet ](docs/TShirtCheatSheet.pdf)
--   [Frequently Asked Questions ](docs/soof_faq.doc)
--   [Guidelines ](docs/SOOF%20Guideline%20Sheet%20Revised.pdf)
+    Instructions ](/docs/SOOF%20Budget%20and%20Assumptions%20(final).pdf)
+-   [SOOF Budget Workshop ](/docs/soof_workshop.ppt) (PPT)
+-   [Evaluation Form ](/docs/soof_evaluation.doc)
+-   [T-Shirt Cheat Sheet ](/docs/TShirtCheatSheet.pdf)
+-   [Frequently Asked Questions ](/docs/soof_faq.doc)
+-   [Guidelines ](/docs/SOOF%20Guideline%20Sheet%20Revised.pdf)
 -   [SGA Allocation Information for
-    SOOF ](docs/SOOF%20Instructions-oct2013.pdf)
--   [Scoresheet ](docs/soof_scoresheet.doc)
+    SOOF ](/docs/SOOF%20Instructions-oct2013.pdf)
+-   [Scoresheet ](/docs/soof_scoresheet.doc)
 -   [Allocations - Fall
-    2014](docs/SOOF%20Allocations%20-%20Fall%202014-2015.pdf)
--   [UCLA Store SOOF Item List ](docs/soof_item.xls)
+    2014](/docs/SOOF%20Allocations%20-%20Fall%202014-2015.pdf)
+-   [UCLA Store SOOF Item List ](/docs/soof_item.xls)
 -   [SOOF and SGOF Evaluations 2011 -
     2012 ](http://tinyurl.com/SOOFEVAL2011-2012)
