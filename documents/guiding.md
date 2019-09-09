@@ -1,6 +1,6 @@
 ---
 title: Guiding
-weight: -1
+weight: -2
 ---
 
 # Guiding Documents
@@ -8,7 +8,7 @@ weight: -1
 On this page you will find our Undergraduate Students Association Constitution, as well as the rules and guidelines for many of our various committees, including Elections Board, Judicial Board, and the Office Space Allocation Committee.
 
   - [USA Constitution ](elections/Constitution%20\(Updated%206.5.18\).pdf) (PDF)
-  - [USA Election Code ](/eboard/docs/2019%20Election%20Code.pdf) (PDF) - Last Amended February, 2019
+  - [USA Election Code ](../eboard/docs/2019%20Election%20Code.pdf) (PDF) - Last Amended February, 2019
   - [USA Judicial Board Official Rules ](../jboard/docs/jboardrulesv2.pdf) (PDF)
   - [Judicial Board Petition for Hearing ](../jboard/docs/jboardpetition.doc) (DOC)
   - [Policy on Fixed Assets ](docs/policy_fixedassets.pdf) (PDF)

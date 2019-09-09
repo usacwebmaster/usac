@@ -1,5 +1,6 @@
 ---
 title: Bylaws
+weight: -1
 ---
 
 {% macro bylaws(page) %}{{ ('/bylaws.2019-05-22.pdf#page=' + page) | siteurl }}{% endmacro %}

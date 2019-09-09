@@ -1,5 +1,6 @@
 ---
 title: Resolutions
+weight: 1
 ---
 
 # Resolutions
