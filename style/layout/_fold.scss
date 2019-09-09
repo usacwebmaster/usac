@@ -1,22 +1,24 @@
 .fold {
-	background: top/cover fixed, #555;
-	background-blend-mode: multiply;
+	background: top/cover fixed;//, #555;
+	// background-blend-mode: multiply; // not supported in IE, Edge
 	color: white;
 	padding: $page-margin-width;
 
-	.section-home & {
-		background-image: url(/img/header.jpg);
+	@mixin blended-bg($img) {
+		background-image: linear-gradient(rgba(0,0,0,2/3), rgba(0,0,0,2/3)), $img;
 	}
 
+	@include blended-bg(url(/img/header.jpg));
+
 	.section-about & {
-		background-image: url(/img/Uabout960x450.jpg);
+		@include blended-bg(url(/img/Uabout960x450.jpg));
 	}
 
 	.section-funding & {
-		background-image: url(/img/Ufunding960x450.jpg);
+		@include blended-bg(url(/img/Ufunding960x450.jpg));
 	}
 
 	.section-documents & {
-		background-image: url(/img/Udocuments960x450.jpg);
+		@include blended-bg(url(/img/Udocuments960x450.jpg));
 	}
 }

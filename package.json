@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build:sass": "node-sass style/main.scss -o _site/img",
+    "build:sass": "node-sass style/main.scss -o _site/img --output-style compressed",
     "build:site": "eleventy",
     "build": "run-p build:*",
     "prewatch:sass": "npm run build:sass",
