@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 <title>USAC &mdash; {{ title }}</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#2774AE"> {# UCLA blue #}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i&amp;display=swap">
 <link rel="stylesheet" href="{{ '/img/main.css' | siteurl }}">
@@ -21,11 +21,11 @@
 		</header>
 
 		<div class="subnav">
-			<section class="intro">
+			<div class="intro">
 				<h1>{{ (collections.all | mainSection(page.url)).data.title }}</h1>
 
 				{% include 'subheading/' + (collections.all | mainSection(page.url) | sectionName) + '.html' ignore missing %}
-			</section>
+			</div>
 
 			<aside>
 				{% set subnav %}{% include 'subnav/' + (collections.all | mainSection(page.url) | sectionName) + '.html' ignore missing %}{% endset %}
@@ -46,11 +46,11 @@
 
 	<footer>
 		<div class="columns">
-			<section class="footer-logos">
+			<div class="footer-logos">
 				<img src="{{ '/img/ASUCLA_Logo_StyleGuide_transparent.svg' | siteurl }}" alt="ASUCLA">
 				<img src="{{ '/img/USAC-logo-white.svg' | siteurl }}" alt="USAC">
-			</section>
-			<section class="footer-links">
+			</div>
+			<div class="footer-links">
 				<ul>
 					<li><a href="https://www.ucla.edu/">UCLA.edu</a>
 					<li><a href="https://asucla.ucla.edu/">ASUCLA</a>
@@ -65,7 +65,7 @@
 					Ackerman Union 262G<br>
 					Los Angeles, CA 90095
 				</address>
-			</section>
+			</div>
 		</div>
 
 		<img src="{{ '/img/kerckhoff-outline.svg' | siteurl }}" alt="Kerckhoff Hall" class="peek-outline">
