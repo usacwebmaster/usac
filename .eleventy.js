@@ -28,7 +28,8 @@ module.exports = ec => {
 	ec.addPassthroughCopy({
 		img: true,
 		docs: true,
-		indexed: 'docs'
+		indexed: 'docs',
+		'_includes/history.txt': 'humans.txt'
 	})
 
 	return {
