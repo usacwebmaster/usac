@@ -12,7 +12,7 @@
 <body class="section-{{ collections.all | mainSection(page.url) | sectionName }}">
 	<div class="fold">
 		<header>
-			<h1><a href="{{ '/' | siteurl }}"><img src="{{ '/img/logo_UCLA_blue_boxed.svg' | siteurl }}" alt="UCLA" width="360.00" height="168.84" class="text-logo"> USAC</a></h1>
+			<h1><a href="{{ '/' | siteurl }}"><img src="{{ '/img/logo_UCLA_blue_boxed.svg' | siteurl }}" alt="UCLA" class="text-logo"> USAC</a></h1>
 
 			<nav>
 				{{ navlist('/', page.url, collections.all, 1) }}
@@ -47,8 +47,8 @@
 	<footer>
 		<div class="columns">
 			<section class="footer-logos">
-				<img src="{{ '/img/ASUCLA_Logo_StyleGuide_transparent.svg' | siteurl }}" width="337.5" height="121.5" alt="ASUCLA">
-				<img src="{{ '/img/USAC-logo-white.svg' | siteurl }}" width="124.43424" height="191.63980" alt="USAC">
+				<img src="{{ '/img/ASUCLA_Logo_StyleGuide_transparent.svg' | siteurl }}" alt="ASUCLA">
+				<img src="{{ '/img/USAC-logo-white.svg' | siteurl }}" alt="USAC">
 			</section>
 			<section class="footer-links">
 				<ul>
@@ -69,6 +69,6 @@
 			</section>
 		</div>
 
-		<img src="{{ '/img/kerckhoff-outline.svg' | siteurl }}" width="217.91359" height="118.75368" alt="Kerckhoff Hall" class="peek-outline">
+		<img src="{{ '/img/kerckhoff-outline.svg' | siteurl }}" alt="Kerckhoff Hall" class="peek-outline">
 	</footer>
 </body>
