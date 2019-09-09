@@ -7,6 +7,9 @@ footer {
 	padding: $page-margin-width;
 	margin-top: $page-margin-width;
 
+	// Illusion of extending footer to bottom of page
+	box-shadow: 0 50vh 0 50vh $ucla-blue-darkest;
+
 	.columns {
 		@extend %main-aligned;
 
