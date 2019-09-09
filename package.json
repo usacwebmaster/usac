@@ -8,7 +8,8 @@
     "watch:sass": "npm run build:sass -- -w",
     "watch:site": "npm run build:site -- --serve",
     "start": "run-p watch:*",
-    "clean": "rm -rf _site"
+    "clean": "rm -rf _site",
+    "convert": "pandoc -f html -t commonmark --wrap none -o"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",

@@ -1,5 +1,6 @@
 ---
 title: Minutes
+weight: 0
 ---
 
 # Minutes Archives

@@ -16,6 +16,6 @@ Under "[Applications]({{ 'applications' | siteurl }})," you access numerous oppo
 
 "[Resolutions]({{ 'resolutions' | siteurl }})" contains all of the Resolutions passed by USAC from 2010-2011 on.
 
-"[Clarifications]({{ 'clarifications' | siteurl }})" contains Clarification of Facts deemed necesary by USAC from 2010-2011 on.
+"[Clarifications]({{ 'misc#clarification-of-facts' | siteurl }})" contains Clarification of Facts deemed necesary by USAC from 2010-2011 on.
 
-Under "[Historical]({{ 'historical' | siteurl }})," you can look back on various historical documents from the recent and not so recent past.
+Under "[Historical]({{ 'misc#historical-documents' | siteurl }})," you can look back on various historical documents from the recent and not so recent past.

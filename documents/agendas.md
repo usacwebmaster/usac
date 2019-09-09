@@ -1,5 +1,6 @@
 ---
 title: Agendas
+weight: 0
 ---
 
 # Agenda Archives
