@@ -5,6 +5,10 @@ weight: 1
 
 # Resolutions
 
+This section will be moved to the new website soon!
+
+{#
+
 A Resolution is a formal and official expression of opinion or stance on an issue agreed and voted upon by the Undergraduate Student Association Council, which represents the holistic view of the undergraduate student body at the University of California, Los Angeles.
 
 ## 2019 - 2020
@@ -49,14 +53,7 @@ A Resolution is a formal and official expression of opinion or stance on an issu
 
 ## 2015 - 2016
 
-This section below contains **up and coming** resolutions seeking to be passed by the Undergraduate Student Association Council.
-
   - [2015 - A Resolution in Support of Increased Affordability for Students at the University of California](resolutions/AffordabilityResolution.pdf)
-
-<!-- end list -->
-
-This section below contains all resolutions **passed** by the Undergraduate Students Association Council.
-
   - [2016 - A Resolution in Support of Transgender Communities and Allyship at the University of California, Los Angeles](resolutions/Resolution%20In%20Support%20of%20Transgender%20Communities%20and%20Allyship.pdf)
   - [2016 - Resolution Endorsing the California Automatic Student Voter Registration Program's Implementation in the University of California](resolutions/USACAResolutionSupportingAutomaticStudentVoterRegistration.pdf)
   - [2016 - A Resolution in Support of the Establishment of a Student Food Co-Op](resolutions/Resolution-%20food%20co-op.pdf)
@@ -129,3 +126,5 @@ This section below contains all resolutions **passed** by the Undergraduate Stud
 ## 2009 - 2010
 
   - [2010 - Institutionalized Aid Resolution (DREAM Act)](resolutions/DREAM_resolution.pdf)
+
+#}
