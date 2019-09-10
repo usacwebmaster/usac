@@ -15,5 +15,5 @@ If you have any questions, please email us at <info@usacelectionboard.com>. You 
   - [ORL Rules and Regulations](/docs/ON%20CAMPUS%20HOUSING%20REGULATIONS.pdf)
   - [UCLA Activities Guidelines](/docs/UCLA%20Activities%20Guidelines%20.pdf)
   - [UCLA Guidelines for Signboards](/docs/GUIDELINES%20FOR%20CAMPUS%20SIGNBOARDS.pdf)
-  - [UCLA Bylaws](/docs/bylaws.2019-05-22.pdf)
+  - [UCLA Bylaws](/docs/bylaws.pdf)
   - [Election Calendar](/docs/2019%20election%20calendar.pdf)
