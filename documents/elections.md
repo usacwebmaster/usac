@@ -9,7 +9,7 @@ This page contains information and documentation for the Undergraduate Students 
 If you have any questions, please email us at <info@usacelectionboard.com>. You can also visit our website: [usacelectionboard.com](http://usacelectionboard.com/)
 
   - [USAC Constitution](/docs/constitution.pdf)
-  - [USAC Election Code 2020](/docs/E-code%202019-20%20final.pdf)
+  - [USAC Election Code 2020](/docs/election_code.pdf)
   - [Social Media Guidelines 2019](/docs/2019%20Social%20Media%20Guidelines.pdf)
   - [Student Conduct Code](/docs/Student%20Conduct%20Code.pdf)
   - [ORL Rules and Regulations](/docs/ON%20CAMPUS%20HOUSING%20REGULATIONS.pdf)

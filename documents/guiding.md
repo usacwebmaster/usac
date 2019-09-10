@@ -8,8 +8,8 @@ weight: -2
 On this page you will find our Undergraduate Students Association Constitution, as well as the rules and guidelines for many of our various committees, including Elections Board, Judicial Board, and the Office Space Allocation Committee.
 
   - [USA Constitution ](/docs/constitution.pdf)
-  - [USA Election Code ](/docs/2019%20Election%20Code.pdf) - Last Amended February, 2019
-  - [USA Judicial Board Official Rules ](/docs/jboardrulesv2.pdf)
+  - [USA Election Code ](/docs/election_code.pdf)
+  - [USA Judicial Board Official Rules ](/docs/jboard_rules.pdf)
   - [Judicial Board Petition for Hearing ](/docs/jboardpetition.doc)
   - [Policy on Fixed Assets ](/docs/policy_fixedassets.pdf)
   - [Policy on Granting Moneys ](/docs/policy_granting_moneys.pdf)
