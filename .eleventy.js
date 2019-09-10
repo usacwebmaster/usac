@@ -1,5 +1,6 @@
 const rewrite = {
-	'/funding/': '/funding/sga/'
+	'/funding/': '/funding/sga/',
+	'/about/eboard/': '/documents/elections/'
 }
 
 module.exports = ec => {
