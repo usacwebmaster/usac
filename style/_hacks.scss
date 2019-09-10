@@ -1,0 +1,9 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.intro > h1 {
+		width: 100%;
+	}
+
+	body > main {
+		display: table;
+	}
+}

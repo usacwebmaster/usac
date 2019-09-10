@@ -37,23 +37,25 @@
 		margin-left: 1ex;
 	}
 
-	a[href$=".pdf"i]::after {
+	// TODO: use case-insensitive matching (not supported in IE, Edge)
+
+	a[href$=".pdf"]::after {
 		content: 'pdf';
 	}
 
-	a[href$=".doc"i], a[href$=".docx"i] {
+	a[href$=".doc"], a[href$=".docx"] {
 		&::after {
 			content: 'doc';
 		}
 	}
 
-	a[href$=".xls"i], a[href$=".xlsx"i] {
+	a[href$=".xls"], a[href$=".xlsx"] {
 		&::after {
 			content: 'xls';
 		}
 	}
 
-	a[href$=".ppt"i], a[href$=".pptx"i] {
+	a[href$=".ppt"], a[href$=".pptx"] {
 		&::after {
 			content: 'ppt';
 		}
