@@ -61,8 +61,10 @@
 }
 
 .people {
-	@media #{$bp-not-main} {
-		column-count: 2;
+	&.columns {
+		@media #{$bp-not-main} {
+			column-count: 2;
+		}
 	}
 
 	section {
