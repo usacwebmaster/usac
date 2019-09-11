@@ -38,4 +38,4 @@ Important documents related to the Judicial Board:
 
 # Cases
 
-This section will be moved to the new website soon!
+This section will be moved [from the old website](/jboard/prevcases.php) soon!

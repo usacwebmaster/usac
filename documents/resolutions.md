@@ -5,7 +5,7 @@ weight: 1
 
 # Resolutions
 
-This section will be moved to the new website soon!
+This section will be moved [from the old website](/documents/resolutions.php) soon!
 
 {#
 
