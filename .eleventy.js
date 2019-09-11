@@ -16,7 +16,7 @@ module.exports = ec => {
 	ec.addFilter('navsort', pages => pages
 		.filter(({ data }) => data.weight !== 0)
 		.sort(({ data: a }, { data: b }) => (a.weight || 0) - (b.weight || 0) || (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)))
-	ec.addFilter('siteurl', link => ec.javascriptFunctions.url(rewrite[link] || link))
+	ec.addFilter('navlink', link => rewrite[link] || link)
 
 	ec.addFilter('isodate', date => date.toISOString().split('T')[0])
 	ec.addFilter('humandate', date => date.toLocaleDateString(undefined, { timeZone: 'UTC' }))

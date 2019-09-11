@@ -1,7 +1,7 @@
 {% macro navlist(path, curPath, all, depth) %}
 <ul>
 	{% for link in (all | children(path) | navsort) %}
-	<li><a href="{{ link.url | siteurl }}" {{ ('aria-current="page"' if (curPath | descendsFrom(link.url))) | safe }}>{{ link.data.title }}</a>
+	<li><a href="{{ link.url | navlink }}" {{ ('aria-current="page"' if (curPath | descendsFrom(link.url))) | safe }}>{{ link.data.title }}</a>
 	{% if depth > 1 %}
 	{{ navlist(link.url, curPath, all, depth - 1) }}
 	{% endif %}
@@ -12,9 +12,9 @@
 {# TODO: not need root parameter #}
 {% macro navsel(path, curPath, all, root) %}
 <select onchange="location.href = this.value">
-	<option value="{{ path | siteurl }}" {{ 'selected' if curPath == url }}>{{ root }}
+	<option value="{{ path | navlink }}" {{ 'selected' if curPath == url }}>{{ root }}
 	{% for link in (all | children(path) | navsort) %}
-	<option value="{{ link.url | siteurl }}" {{ 'selected' if (curPath | descendsFrom(link.url)) }}>{{ link.data.title }}
+	<option value="{{ link.url | navlink }}" {{ 'selected' if (curPath | descendsFrom(link.url)) }}>{{ link.data.title }}
 	{% endfor %}
 </select>
 {% endmacro %}

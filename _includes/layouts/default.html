@@ -10,12 +10,12 @@
 <meta name="viewport" content="width=device-width">
 <meta name="theme-color" content="#2774AE"> {# UCLA blue #}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700,700i">
-<link rel="stylesheet" href="{{ '/img/main.css' | siteurl }}">
+<link rel="stylesheet" href="/img/main.css">
 
 <body class="section-{{ collections.all | mainSection(page.url) | sectionName }}">
 	<div class="fold">
 		<header>
-			<h1><a href="{{ '/' | siteurl }}"><img src="{{ '/img/logo_UCLA_blue_boxed.svg' | siteurl }}" alt="UCLA" class="text-logo"> USAC</a></h1>
+			<h1><a href="/"><img src="/img/logo_UCLA_blue_boxed.svg" alt="UCLA" class="text-logo"> USAC</a></h1>
 
 			<nav>
 				{{ navlist('/', page.url, collections.all, 1) }}
@@ -50,18 +50,18 @@
 	<footer>
 		<div class="columns">
 			<div class="footer-logos">
-				<img src="{{ '/img/ASUCLA_Logo_StyleGuide_transparent.svg' | siteurl }}" alt="ASUCLA">
-				<img src="{{ '/img/USAC-logo-white.svg' | siteurl }}" alt="USAC">
+				<img src="/img/ASUCLA_Logo_StyleGuide_transparent.svg" alt="ASUCLA">
+				<img src="/img/USAC-logo-white.svg" alt="USAC">
 			</div>
 			<div class="footer-links">
 				<ul>
 					<li><a href="https://asucla.ucla.edu/">ASUCLA</a>
 					<li><a href="https://www.ucla.edu/">UCLA.edu</a>
 					<li><a href="https://sole.ucla.edu/">SOLE</a>
-					<li><a href="{{ '/about/offices' | siteurl }}">Ask Us</a>
+					<li><a href="/about/offices">Ask Us</a>
 					<li><a href="https://giving.ucla.edu/Standard/NetDonate.aspx?SiteNum=904">Donate</a>
-					<li><a href="{{ '/funding/calendar' | siteurl }}">Important Dates</a>
-					<li><a href="{{ '/terms' | siteurl }}">Terms of Use</a>
+					<li><a href="/funding/calendar">Important Dates</a>
+					<li><a href="/terms">Terms of Use</a>
 					<li><a href="mailto:usacwebmaster@asucla.ucla.edu">Contact Webmaster</a>
 				</ul>
 				<address>
@@ -72,6 +72,6 @@
 			</div>
 		</div>
 
-		<img src="{{ '/img/kerckhoff-outline.svg' | siteurl }}" alt="Kerckhoff Hall" class="peek-outline">
+		<img src="/img/kerckhoff-outline.svg" alt="Kerckhoff Hall" class="peek-outline">
 	</footer>
 </body>

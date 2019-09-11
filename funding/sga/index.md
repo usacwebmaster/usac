@@ -38,11 +38,11 @@ SGA office.
 
 For USA, the different funding sources would include:
 
-[Operational]({{ '/funding/operational' | siteurl }}):
+[Operational](/funding/operational):
 
 -   Student Organization Operational Fund (SOOF)
 
-[Programming]({{ '/funding/programming' | siteurl }}):
+[Programming](/funding/programming):
 
 -   Contingency
 -   Capital Contingency
