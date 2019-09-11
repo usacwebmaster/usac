@@ -5,7 +5,7 @@ weight: -1
 
 # Ex-Officio Members
 
-<div class="people">
+<div class="people columns">
 
 {% for member in ex_officio %}
 <section>
