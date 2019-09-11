@@ -8,7 +8,9 @@ weight: -2
 <div class="people columns">
 	{% for officer in officers %}
 	<section>
+		{% if officer.picpath %}
 		<img src="/docs/{{ officer.picpath }}" alt="{{ officer.name }}">
+		{% endif %}
 
 		<main>
 			<h2>{{ officer.name }}</h2>
