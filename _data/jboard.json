@@ -1,9 +1,8 @@
 [
-	{"oid":"1","name":"Abigail Chapman","position":"Chief Justice","picpath":"","desc":""},
-	{"oid":"2","name":"Jamail Gibbs","position":"Associate Chief Justice","picpath":"","desc":""},
-	{"oid":"3","name":"Katelyn Cabrera","position":"Justice","picpath":"","desc":""},
-	{"oid":"4","name":"Ellen Park","position":"Justice","picpath":"","desc":""},
-	{"oid":"5","name":"Leann Pham","position":"Justice","picpath":"","desc":""},
-	{"oid":"6","name":"Jackie Schaeffer","position":"Justice","picpath":"","desc":""},
-	{"oid":"10","name":"Karina Coltun Schneider ","position":"Justice","picpath":"","desc":""}
+	{ "name": "Jamail Gibbs", "position": "Chief Justice" },
+	{ "name": "Ellen Park", "position": "Associate Chief Justice" },
+	{ "name": "Dawson Khoury", "position": "Justice" },
+	{ "name": "Aniq Chunara", "position": "Justice" },
+	{ "name": "Shubham Gupta", "position": "Justice" },
+	{ "name": "Ranhita Bora", "position": "Justice" }
 ]
