@@ -3,15 +3,9 @@
 		width: 100%;
 	}
 
-	.subnav {
-		.columns {
-			max-width: $main-content-width / 2;
-			width: 100%;
-		}
-
-		aside {
-			width: 100%;
-		}
+	.subnav .columns {
+		max-width: $main-content-width / 2;
+		width: 100%;
 	}
 
 	body > main {

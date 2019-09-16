@@ -58,7 +58,10 @@
 	}
 
 	aside {
-		max-width: $sidebar-width;
+		@media #{$bp-not-fold} {
+			width: $sidebar-width;
+		}
+
 		margin: 0 auto;
 
 		display: flex;
