@@ -1,0 +1,13 @@
+$page-margin-width: 2rem;
+$sidebar-width: 20rem;
+$main-content-width: 50rem;
+
+$bp-fold: (max-width: 50rem); // TODO: relative
+$bp-main: (max-width: $main-content-width + $page-margin-width + $sidebar-width);
+$bp-footer: (max-width: 40rem); // TODO: relative
+
+// TODO: fix issues when both normal and opposite apply
+// TODO: automated substitution
+$bp-not-fold: str-replace(quote($bp-fold), 'max', 'min');
+$bp-not-main: str-replace(quote($bp-main), 'max', 'min');
+$bp-not-footer: str-replace(quote($bp-footer), 'max', 'min');

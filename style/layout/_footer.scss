@@ -35,6 +35,7 @@ footer {
 	@at-root .footer-logos img {
 		display: block;
 		margin: 0 auto;
+		max-width: 100%;
 
 		&:first-child {
 			height: 7rem;
@@ -59,8 +60,8 @@ footer {
 
 		ul {
 			display: inline-block;
-			@extend %divider-bottom;
 			padding-bottom: 1em;
+			border-bottom: $divider;
 		}
 	}
 

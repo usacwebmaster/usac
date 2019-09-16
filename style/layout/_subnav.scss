@@ -30,34 +30,42 @@
 		}
 
 		.columns {
-			display: flex;
-			flex-direction: row;
-			justify-content: center;
+			margin: 0 auto;
 
-			margin-top: 2rem;
+			@media #{$bp-not-fold} {
+				column-count: 3;
+				column-rule: thin solid rgba(255, 255, 255, 0.5);
+				column-gap: 4rem;
 
-			section {
-				padding: 0 2rem;
+				margin-top: 2rem;
 
-				&:not(:last-child) {
-					@extend %divider-right;
+				h2 {
+					margin-top: 0;
+					padding-top: 1rem;
+				}
+
+				section {
+					break-inside: avoid-column;
+				}
+			}
+
+			@media #{$bp-fold} {
+				section:not(:last-child) {
+					border-bottom: $divider;
 				}
 			}
 		}
 	}
 
 	aside {
-		width: $sidebar-width;
+		max-width: $sidebar-width;
 		margin: 0 auto;
 
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
 
-		section:not(:last-child)::after {
-			content: '';
-			display: block;
-			margin: 0 25%;
+		section {
 			@extend %divider-bottom;
 		}
 	}

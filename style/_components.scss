@@ -23,12 +23,11 @@
 	}
 }
 
-%divider-bottom {
-	border-bottom: thin solid rgba(255, 255, 255, 0.5);
-}
-
-%divider-right {
-	border-right: thin solid rgba(255, 255, 255, 0.5);
+%divider-bottom:not(:last-child)::after {
+	content: '';
+	display: block;
+	margin: 0 25%;
+	border-bottom: $divider;
 }
 
 %media-links {
