@@ -13,6 +13,10 @@
 	height: 1em;
 }
 
+.fullwidth {
+	width: 100%;
+}
+
 .stat-fancy {
 	font-size: 1em;
 
@@ -30,34 +34,28 @@
 	border-bottom: $divider;
 }
 
-%media-links {
-	a::after {
+%media-link {
+	&::after {
 		font-variant: small-caps;
 		margin-left: 1ex;
 	}
 
 	// TODO: use case-insensitive matching (not supported in IE, Edge)
 
-	a[href$=".pdf"]::after {
+	&[href$=".pdf"]::after {
 		content: 'pdf';
 	}
 
-	a[href$=".doc"], a[href$=".docx"] {
-		&::after {
-			content: 'doc';
-		}
+	&[href$=".doc"]::after, &[href$=".docx"]::after {
+		content: 'doc';
 	}
 
-	a[href$=".xls"], a[href$=".xlsx"] {
-		&::after {
-			content: 'xls';
-		}
+	&[href$=".xls"]::after, &[href$=".xlsx"]::after {
+		content: 'xls';
 	}
 
-	a[href$=".ppt"], a[href$=".pptx"] {
-		&::after {
-			content: 'ppt';
-		}
+	&[href$=".ppt"]::after, &[href$=".pptx"]::after {
+		content: 'ppt';
 	}
 }
 

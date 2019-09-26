@@ -16,9 +16,9 @@ body > main {
 		padding-right: $page-margin-width;
 	}
 
-	@extend %media-links;
+	a:not(.header-anchor):not(.invisible) {
+		@extend %media-link;
 
-	a:not(.header-anchor) {
 		color: $ucla-blue;
 		text-decoration: underline;
 
