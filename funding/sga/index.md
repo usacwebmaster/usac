@@ -13,23 +13,23 @@ student group/departments in our database, alone. As an effort to aid
 the student groups/departments, we have placed as many documents, forms,
 instructions and PowerPoint Presentations on this website for your
 convenience. For example: [How To Fill Out a
-Req](/docs/req.pps).
+Req](/docs/req-howto.pdf).
 
 The Student Government Accounting office uses the [<span
 class="underline">General Requisition
-Form</span>](sgahandbook/whatsareq.php) to process the expenditures of
+Form</span>](/funding/sga/req) to process the expenditures of
 each student group/department, and student government office.
 
 USA's funds can be utilized through 4 main methods:
 
 -   [Purchase
-    Orders](sgahandbook/obtain_po.php)
+    Orders](/funding/sgahandbook/obtain_po.php)
 -   [<span
-    class="underline">Honorariums</span>](sgahandbook/honorariums.php)
+    class="underline">Honorariums</span>](/funding/sgahandbook/honorariums.php)
 -   [Cash
-    Advances](sgahandbook/cash_advances.php)
+    Advances](/funding/sgahandbook/cash_advances.php)
 -   [<span
-    class="underline">Reimbursements</span>](sgahandbook/pers_reimburse.php)
+    class="underline">Reimbursements</span>](/funding/sgahandbook/pers_reimburse.php)
 
 Student groups are granted funds through the process of proposals and
 hearings. After funds are granted, the funds are transferred into the
@@ -37,10 +37,6 @@ student group's account (sometimes referred to as a department) in the
 SGA office.
 
 For USA, the different funding sources would include:
-
-[Operational](/funding/operational):
-
--   Student Organization Operational Fund (SOOF)
 
 [Programming](/funding/programming):
 
