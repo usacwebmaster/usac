@@ -10,14 +10,13 @@ All UCLA undergraduate student organizations, registered with the Student Organi
 
 Academic Success Referendum Fund (ASRF)
 
--   [Application ](https://goo.gl/forms/18K9OnyKSMaIMsXr2) (Google Form)
--   [Establishing Documents and Guidelines ](/docs/asrf_guidelines.pdf)
--   [Evaluation Form ](/docs/Evaluation.doc)
+-   [Application](https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link)
+-   [Establishing Documents and Guidelines](/docs/asrf_guidelines.pdf)
 
 Travel Grant Mini Fund (TGMF)
 
--   [Application ](https://goo.gl/forms/RlwIq0Oj3Lxvon4n2) (LINK)
--   [Travel Grant Mini Fund Guidelines ](https://docs.google.com/document/d/1CKOtypss9l1ZKMVJUMa0fNJAhcDXQ1wyGjNOztj3ZqI/edit?usp=sharing)
+-   [Application](https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link)
+-   [Travel Grant Mini Fund Guidelines](/docs/tgmf_guidelines.pdf)
 
 ## Arts Restoring Community (ARC) Referendum Funding
 
