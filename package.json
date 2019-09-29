@@ -1,11 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build:sass": "node-sass style/main.scss -o _site/img --output-style compressed",
+    "build:sass": "sass --no-source-map -s compressed style:_site/img",
     "build:site": "eleventy",
     "build": "run-p build:*",
     "prewatch:sass": "npm run build:sass",
-    "watch:sass": "npm run build:sass -- -w",
+    "watch:sass": "npm run build:sass -- --watch",
     "watch:site": "npm run build:site -- --serve",
     "start": "run-p watch:*",
     "clean": "rm -rf _site",
@@ -14,7 +14,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "markdown-it-anchor": "^5.2.4",
-    "node-sass": "^4.12.0",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.22.12"
   }
 }
