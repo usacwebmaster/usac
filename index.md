@@ -9,3 +9,5 @@ title: Undergraduate Students Association
 # Announcements
 
 {{ (collections.all | mainSection('/posts/')).templateContent | safe }}
+
+[&rarr; Read all announcements](/posts)

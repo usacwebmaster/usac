@@ -2,7 +2,7 @@
 title: Announcements
 ---
 
-{% for post in (collections.all | children(page.url)) %}
+{% for post in (collections.all | children(page.url) | reverse) %}
 <article>
 
 ## {{ post.data.title }}
