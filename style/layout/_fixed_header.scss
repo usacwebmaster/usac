@@ -5,6 +5,13 @@ header {
 	right: 0;
 	padding: $page-margin-width;
 	background-image: linear-gradient(rgba(black, 0.5), transparent);
+
+	z-index: 1;
+	pointer-events: none;
+
+	a, select {
+		pointer-events: auto;
+	}
 }
 
 .fold {
