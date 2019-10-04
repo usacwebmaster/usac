@@ -4,17 +4,16 @@
     "build:sass": "sass --no-source-map -s compressed style:_site/img",
     "build:site": "eleventy",
     "build": "run-p build:*",
-    "prewatch:sass": "npm run build:sass",
     "watch:sass": "npm run build:sass -- --watch",
     "watch:site": "npm run build:site -- --serve",
     "start": "run-p watch:*",
-    "clean": "rm -rf _site",
-    "convert": "pandoc -f html -t commonmark --wrap none -o"
+    "clean": "rimraf _site"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.9.0",
     "markdown-it-anchor": "^5.2.4",
     "npm-run-all": "^4.1.5",
-    "sass": "^1.22.12"
+    "rimraf": "^3.0.0",
+    "sass": "^1.23.0"
   }
 }
