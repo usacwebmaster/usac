@@ -22,13 +22,13 @@ each student group/department, and student government office.
 
 USA's funds can be utilized through 4 main methods:
 
--   [Purchase
+- [Purchase
     Orders](/funding/sgahandbook/obtain_po.php)
--   [<span
+- [<span
     class="underline">Honorariums</span>](/funding/sgahandbook/honorariums.php)
--   [Cash
+- [Cash
     Advances](/funding/sgahandbook/cash_advances.php)
--   [<span
+- [<span
     class="underline">Reimbursements</span>](/funding/sgahandbook/pers_reimburse.php)
 
 Student groups are granted funds through the process of proposals and
@@ -40,11 +40,11 @@ For USA, the different funding sources would include:
 
 [Programming](/funding/programming):
 
--   Contingency
--   Capital Contingency
--   Academic Affairs Mini Grants
--   ASUCLA Board of Directors (BOD/USA) Programming Fund
--   CS Mini Fund
+- Contingency
+- Capital Contingency
+- Academic Affairs Mini Grants
+- ASUCLA Board of Directors (BOD/USA) Programming Fund
+- CS Mini Fund
 
 Once funds have been allocated to your student group, in order to access
 your account a general requisition must be submitted, or a REQ for

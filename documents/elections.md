@@ -6,16 +6,16 @@ title: Elections
 
 This page contains documentation and forms for the USA Council elections.
 
-  - [USAC Constitution](/docs/constitution.pdf)
-  - [USAC Bylaws](/docs/bylaws.pdf)
-  - [USAC Election Code](/docs/election_code.pdf)
-  - [Infractions and Penalties Guidelines](/docs/Elections%20Infractions%20and%20Penalties%20Guidelines.pdf)
-  - [Social Media Guidelines](/docs/Election%20Social%20Media%20Guidelines.pdf)
-  - [UCLA Guidelines for Signboards](/docs/GUIDELINES%20FOR%20CAMPUS%20SIGNBOARDS.pdf)
-  - [ORL Rules and Regulations](/docs/ON%20CAMPUS%20HOUSING%20REGULATIONS.pdf)
-  - [UCLA Student Conduct Code](/docs/Student%20Conduct%20Code.pdf)
-  - [UCLA Activities Guidelines](/docs/UCLA%20Activities%20Guidelines%20.pdf)
-  - [Fall Election Calendar](/docs/Fall%20Election%20Calendar.pdf)
+- [USAC Constitution](/docs/constitution.pdf)
+- [USAC Bylaws](/docs/bylaws.pdf)
+- [USAC Election Code](/docs/election_code.pdf)
+- [Infractions and Penalties Guidelines](/docs/Elections%20Infractions%20and%20Penalties%20Guidelines.pdf)
+- [Social Media Guidelines](/docs/Election%20Social%20Media%20Guidelines.pdf)
+- [UCLA Guidelines for Signboards](/docs/GUIDELINES%20FOR%20CAMPUS%20SIGNBOARDS.pdf)
+- [ORL Rules and Regulations](/docs/ON%20CAMPUS%20HOUSING%20REGULATIONS.pdf)
+- [UCLA Student Conduct Code](/docs/Student%20Conduct%20Code.pdf)
+- [UCLA Activities Guidelines](/docs/UCLA%20Activities%20Guidelines%20.pdf)
+- [Fall Election Calendar](/docs/Fall%20Election%20Calendar.pdf)
 
 # Campaign Packets
 

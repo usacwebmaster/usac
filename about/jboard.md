@@ -15,9 +15,9 @@ In order to file a petition, please complete a <q>Petition for Consideration</q>
 
 Important documents related to the Judicial Board:
 
-  - [List of Valid Objections](/docs/ObjectionList.pdf)
-  - [Petitions for Consideration](/docs/petition.doc)
-  - [Official Rules of the Judicial Board](/docs/jboard_rules.pdf)
+- [List of Valid Objections](/docs/ObjectionList.pdf)
+- [Petitions for Consideration](/docs/petition.doc)
+- [Official Rules of the Judicial Board](/docs/jboard_rules.pdf)
 
 # Members
 

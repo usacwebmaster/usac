@@ -10,13 +10,13 @@ All UCLA undergraduate student organizations, registered with the Student Organi
 
 Academic Success Referendum Fund (ASRF)
 
--   [Application](https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link)
--   [Establishing Documents and Guidelines](/docs/asrf_guidelines.pdf)
+- [Application](https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link)
+- [Establishing Documents and Guidelines](/docs/asrf_guidelines.pdf)
 
 Travel Grant Mini Fund (TGMF)
 
--   [Application](https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link)
--   [Travel Grant Mini Fund Guidelines](/docs/tgmf_guidelines.pdf)
+- [Application](https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link)
+- [Travel Grant Mini Fund Guidelines](/docs/tgmf_guidelines.pdf)
 
 ## Arts Restoring Community (ARC) Referendum Funding
 
@@ -26,9 +26,9 @@ The Arts Restoring Community (ARC) Referendum Funding can be used by any registe
 
 **Please complete the application and electronically submit it to <cacarcfund@asucla.ucla.edu> with proper documentation.**
 
--   [ARC REFERENDUM Frequently Asked Questions](/docs/ARC%202019-2020%20FAQ.pdf)
--   [ARC REFERENDUM FUNDING GUIDELINES](/docs/ARC%202019-2020%20Guidelines.pdf)
--   [ARC REFERENDUM FUNDING APPLICATION](/docs/ARC%202019-2020%20Application.pdf)
+- [ARC REFERENDUM Frequently Asked Questions](/docs/ARC%202019-2020%20FAQ.pdf)
+- [ARC REFERENDUM FUNDING GUIDELINES](/docs/ARC%202019-2020%20Guidelines.pdf)
+- [ARC REFERENDUM FUNDING APPLICATION](/docs/ARC%202019-2020%20Application.pdf)
 
 ## Bruin Advocacy Grant
 
@@ -36,8 +36,8 @@ The Bruin Advocacy concept is to provide students and organizations with the sco
 
 Bruin Advocacy Grant applications should be submitted to the EVP office mailbox (Kerckhoff Hall 300C) by 3:00pm on Fridays no later than five (5) weeks prior to the program. If you have any questions, email <usac.evp.bruindefendersdir@gmail.com>.
 
--   [Bruin Advocacy Grant Application (2018-2019)](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
--   [Bruin Advocacy Grant Guidelines (2018-2019)](https://tinyurl.com/BAGuidelines)  (Google Slides)
+- [Bruin Advocacy Grant Application (2018-2019)](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
+- [Bruin Advocacy Grant Guidelines (2018-2019)](https://tinyurl.com/BAGuidelines)  (Google Slides)
 
 ## Community Service Mini Fund
 
@@ -49,17 +49,17 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 
 **Due by 5:00PM**
 
--   [Online Application](https://www.usacfunds.ucla.edu/fundapp/csmini/)
--   [Guidelines](/docs/funding_guidelines_csmini.doc)
--   [Score Sheet](/docs/CS_Mini_Fund_Score_Sheet.doc)
--   [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
--   [CS Mini Funding Cheat Sheet](/docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf)
+- [Online Application](https://www.usacfunds.ucla.edu/fundapp/csmini/)
+- [Guidelines](/docs/funding_guidelines_csmini.doc)
+- [Score Sheet](/docs/CS_Mini_Fund_Score_Sheet.doc)
+- [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
+- [CS Mini Funding Cheat Sheet](/docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf)
 
 ## Contingency Capital Items Fund
 
 **If you are a USAC office/commission or a student group with an office in Kerckhoff, apply to the Capital Contingency Fund! The fund covers technology and furniture items.** All proposals are due twenty-one (21) days before the date of purchase.
 
--   [Application](/docs/Capital%20Contingency%20Application%202019.pdf)
+- [Application](/docs/Capital%20Contingency%20Application%202019.pdf)
 
 ## Contingency Programming Fund
 
@@ -67,8 +67,8 @@ The Contingency Programming Fund helps student organizations fund activities and
 
 To apply, please complete the online application below. **Applications are due three weeks prior to the start of the event. There is NO retroactive funding.**
 
--   [Application](https://forms.gle/oDGgrup8CJWL9ZJz8)
--   [Guidelines](/docs/Finance%20Committee%20Guidelines.pdf)
+- [Application](https://forms.gle/oDGgrup8CJWL9ZJz8)
+- [Guidelines](/docs/Finance%20Committee%20Guidelines.pdf)
 
 ## Student Wellness Programming Fund
 
@@ -115,11 +115,11 @@ Spring Deadline: May 3rd, 2019
 
 Please direct all questions to <TGIF@asucla.ucla.edu>.
 
--   [Mini Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform) (Google Form)
--   [Mini Fund Deadlines](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
--   [Main Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform) (Google Form)
--   [Guidelines](http://tgif.ucla.edu/docs/tgif_guide.doc)
--   [Website](http://tgif.ucla.edu/)
+- [Mini Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform) (Google Form)
+- [Mini Fund Deadlines](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
+- [Main Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform) (Google Form)
+- [Guidelines](http://tgif.ucla.edu/docs/tgif_guide.doc)
+- [Website](http://tgif.ucla.edu/)
 
 ## USA/BOD ASUCLA Programming Fund
 
