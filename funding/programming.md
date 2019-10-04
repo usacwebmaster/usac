@@ -63,10 +63,10 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 
 ## Contingency Programming Fund
 
-Proposals are due twenty-one (21) days prior to the date of your program. There is NO retroactive funding. Please submit an electronic copy of the proposal using [USAC Funding](https://www.usacfunds.ucla.edu/fundapp/contingency/). **Due by 12 noon AND in hard copy to Kerckhoff Mailbox \#58.**
+Proposals are due twenty-one (21) days prior to the date of your program. There is NO retroactive funding. Please submit an electronic copy of the proposal using the application below. **Due by 12 noon AND in hard copy to Kerckhoff Mailbox \#58.**
 
--   [Application](https://www.usacfunds.ucla.edu/fundapp/contingency/)
--   [Guidelines](https://usac.ucla.edu/funding/docs/Finance%20Committee%20Guidelines%202019-2020.pdf)
+-   [Application](https://forms.gle/oDGgrup8CJWL9ZJz8)
+-   [Guidelines](/docs/Finance%20Committee%20Guidelines.pdf)
 
 ## Student Wellness Programming Fund
 
