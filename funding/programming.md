@@ -36,7 +36,7 @@ The Bruin Advocacy concept is to provide students and organizations with the sco
 
 Bruin Advocacy Grant applications should be submitted to the EVP office mailbox (Kerckhoff Hall 300C) by 3:00pm on Fridays no later than five (5) weeks prior to the program. If you have any questions, email <usac.evp.bruindefendersdir@gmail.com>.
 
--   [Bruin Advocacy Grant Application (2018-2019) ](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
+-   [Bruin Advocacy Grant Application (2018-2019)](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
 -   [Bruin Advocacy Grant Guidelines (2018-2019)](https://tinyurl.com/BAGuidelines)  (Google Slides)
 
 ## Community Service Mini Fund
@@ -49,24 +49,24 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 
 **Due by 5:00PM**
 
--   [Online Application ](https://www.usacfunds.ucla.edu/fundapp/csmini/)
--   [Guidelines ](/docs/funding_guidelines_csmini.doc)
--   [Score Sheet ](/docs/CS_Mini_Fund_Score_Sheet.doc)
--   [Evaluation Form ](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
+-   [Online Application](https://www.usacfunds.ucla.edu/fundapp/csmini/)
+-   [Guidelines](/docs/funding_guidelines_csmini.doc)
+-   [Score Sheet](/docs/CS_Mini_Fund_Score_Sheet.doc)
+-   [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
 -   [CS Mini Funding Cheat Sheet](/docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf)
 
 ## Contingency Capital Items Fund
 
 **If you are a USAC office/commission or a student group with an office in Kerckhoff, apply to the Capital Contingency Fund! The fund covers technology and furniture items.** All proposals are due twenty-one (21) days before the date of purchase.
 
--   [Application ](/docs/Capital%20Contingency%20Application%202019.pdf)
+-   [Application](/docs/Capital%20Contingency%20Application%202019.pdf)
 
 ## Contingency Programming Fund
 
 Proposals are due twenty-one (21) days prior to the date of your program. There is NO retroactive funding. Please submit an electronic copy of the proposal using [USAC Funding](https://www.usacfunds.ucla.edu/fundapp/contingency/). **Due by 12 noon AND in hard copy to Kerckhoff Mailbox \#58.**
 
--   [Application ](https://www.usacfunds.ucla.edu/fundapp/contingency/)
--   [Guidelines ](https://usac.ucla.edu/funding/docs/Finance%20Committee%20Guidelines%202019-2020.pdf)
+-   [Application](https://www.usacfunds.ucla.edu/fundapp/contingency/)
+-   [Guidelines](https://usac.ucla.edu/funding/docs/Finance%20Committee%20Guidelines%202019-2020.pdf)
 
 ## Student Wellness Programming Fund
 
@@ -113,11 +113,11 @@ Spring Deadline: May 3rd, 2019
 
 Please direct all questions to <TGIF@asucla.ucla.edu>.
 
--   [Mini Fund Application ](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform) (Google Form)
--   [Mini Fund Deadlines ](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
--   [Main Fund Application ](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform) (Google Form)
--   [Guidelines ](http://tgif.ucla.edu/docs/tgif_guide.doc)
--   [Website ](http://tgif.ucla.edu/)
+-   [Mini Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform) (Google Form)
+-   [Mini Fund Deadlines](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
+-   [Main Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform) (Google Form)
+-   [Guidelines](http://tgif.ucla.edu/docs/tgif_guide.doc)
+-   [Website](http://tgif.ucla.edu/)
 
 ## USA/ASUCLA Programming Fund
 
@@ -131,11 +131,11 @@ Please direct all questions to <TGIF@asucla.ucla.edu>.
 
 If you have any issues, please contact <usabudgetreview@gmail.com> and CC your SOLE advisor.
 
--   [USA/ASUCLA Application ](https://www.usacfunds.ucla.edu/fundapp/bod/)
+-   [USA/ASUCLA Application](https://www.usacfunds.ucla.edu/fundapp/bod/)
 
 All student groups must meet with their Student Organizations, Leadership & Engagement Advisor prior to the deadline. If this is not done, your application will not be approved by your Student Organizations, Leadership & Engagement Advisor. Please combine ALL SUPPORTING DOCUMENTATION with your application; failure to do so may result in receiving no funding. Hearings will begin the week after the deadline and all student groups MUST sign up for a hearing time ONLINE, instructions on how to sign up will be emailed shortly after the deadline. Please note your application is not fully submitted until you receive a confirmation that your Student Organizations, Leadership & Engagement Advisor has approved your application. If you have any question, please contact your Student Organizations, Leadership & Engagement Advisor or email the USAC Budget Review Director by sending an email to<USABudgetReview@gmail.com>
 
--   [Bylaw Information ](/docs/funding_guidelines_programming.doc)
--   [Application Guidelines ](/docs/BOD%20Guideline%20Sheet%20Revised.pdf)
--   [Scoresheet ](/docs/bod_sc.pdf)
+-   [Bylaw Information](/docs/funding_guidelines_programming.doc)
+-   [Application Guidelines](/docs/BOD%20Guideline%20Sheet%20Revised.pdf)
+-   [Scoresheet](/docs/bod_sc.pdf)
 -   [Funding Calendar](https://www.google.com/calendar/embed?src=p04crgludhg3144aiat7k300hs%40group.calendar.google.com&ctz=America/Los_Angeles) (CAL)
