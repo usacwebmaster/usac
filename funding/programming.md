@@ -121,23 +121,29 @@ Please direct all questions to <TGIF@asucla.ucla.edu>.
 -   [Guidelines](http://tgif.ucla.edu/docs/tgif_guide.doc)
 -   [Website](http://tgif.ucla.edu/)
 
-## USA/ASUCLA Programming Fund
+## USA/BOD ASUCLA Programming Fund
 
-**Fall Deadline:** Week 2, Friday, October 12, 2018
+**Fall Deadline:** Tuesday, October 8, 2019 (week 2)
 
-**Winter Deadline:** Week 6, Friday, November 9, 2018
+**Winter Deadline:** Tuesday, November 5, 2019 (week 6)
 
-**Spring Deadline:** Week 7, Friday, February 22, 2019
+**Spring Deadline:** Tuesday, February 18, 2020 (week 7)
 
-**Due by 5:00 PM** submitted through USAC fund portal.
+**Due by 5:00 PM** submitted through MyUCLA portal.
 
 If you have any issues, please contact <usabudgetreview@gmail.com> and CC your SOLE advisor.
 
--   [USA/ASUCLA Application](https://www.usacfunds.ucla.edu/fundapp/bod/)
+### How to apply
 
-All student groups must meet with their Student Organizations, Leadership & Engagement Advisor prior to the deadline. If this is not done, your application will not be approved by your Student Organizations, Leadership & Engagement Advisor. Please combine ALL SUPPORTING DOCUMENTATION with your application; failure to do so may result in receiving no funding. Hearings will begin the week after the deadline and all student groups MUST sign up for a hearing time ONLINE, instructions on how to sign up will be emailed shortly after the deadline. Please note your application is not fully submitted until you receive a confirmation that your Student Organizations, Leadership & Engagement Advisor has approved your application. If you have any question, please contact your Student Organizations, Leadership & Engagement Advisor or email the USAC Budget Review Director by sending an email to<USABudgetReview@gmail.com>
+1. Log onto your UCLA account on <https://my.ucla.edu>
+2. Click on the subheader **Campus Life** > **Student Organization** > **Fund Requests**
+3. On Fund Requests: **Track Funds** > click **Search and Apply to Funds**
+4. Find **Board of Directors (USA/BOD) Programming Fund Application**
+5. Apply and fill out all pages: **Information Page > Fund Specific Questions > Budget Sheet > Supporting Documents**
+6. You should receive an email from <usabudgetreview@gmail.com> no later than a week after the deadline
 
--   [Bylaw Information](/docs/funding_guidelines_programming.doc)
--   [Application Guidelines](/docs/BOD%20Guideline%20Sheet%20Revised.pdf)
--   [Scoresheet](/docs/bod_sc.pdf)
--   [Funding Calendar](https://www.google.com/calendar/embed?src=p04crgludhg3144aiat7k300hs%40group.calendar.google.com&ctz=America/Los_Angeles) (CAL)
+All student groups must meet with their Student Organizations, Leadership & Engagement Advisor prior to the deadline. If this is not done, your application will not be approved by your Student Organizations, Leadership & Engagement Advisor. Please combine ALL SUPPORTING DOCUMENTATION with your application; failure to do so may result in receiving no funding. Hearings will begin the week after the deadline and all student groups MUST sign up for a hearing time ONLINE, instructions on how to sign up will be emailed shortly after the deadline. Please note your application is not fully submitted until you receive a confirmation that your Student Organizations, Leadership & Engagement Advisor has approved your application. If you have any question, please contact your Student Organizations, Leadership & Engagement Advisor or email the USAC Budget Review Director by sending an email to <USABudgetReview@gmail.com>
+
+- [Bylaw Information](/docs/funding_guidelines_programming.doc)
+- [Application Guidelines](/docs/bod_guidelines.pdf)
+- [Scoresheet](/docs/bod_sc.pdf)
