@@ -63,7 +63,9 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 
 ## Contingency Programming Fund
 
-Proposals are due twenty-one (21) days prior to the date of your program. There is NO retroactive funding. Please submit an electronic copy of the proposal using the application below. **Due by 12 noon AND in hard copy to Kerckhoff Mailbox \#58.**
+The Contingency Programming Fund helps student organizations fund activities and events which are desirable to the general interest of the UCLA Undergraduate Student Body. Funding can be applied toward expenses such as advertising, graphics, supplies, honorarium, facilities, food, transportation, and t-shirts.
+
+To apply, please complete the online application below. **Applications are due three weeks prior to the start of the event. There is NO retroactive funding.**
 
 -   [Application](https://forms.gle/oDGgrup8CJWL9ZJz8)
 -   [Guidelines](/docs/Finance%20Committee%20Guidelines.pdf)
