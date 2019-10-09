@@ -9,7 +9,7 @@ weight: -2
 	{% for officer in officers %}
 	<section>
 		{% if officer.picpath %}
-		<img src="/docs/{{ officer.picpath }}" alt="{{ officer.name }}">
+		<img class="portrait" src="/docs/{{ officer.picpath }}" alt="{{ officer.name }}">
 		{% endif %}
 
 		<main>
@@ -17,7 +17,11 @@ weight: -2
 			<h3>{{ officer.position }}</h3>
 
 			<address>
-			<p><a href="mailto:{{ officer.email }}">{{ officer.email }}</a>
+			{% if officer.email %}<p><a href="mailto:{{ officer.email }}">{{ officer.email }}</a>{% endif %}
+			<p>
+				{% if officer.facebook %}<a class="social-link invisible" href="https://www.facebook.com/{{ officer.facebook }}"><img src="/img/social-fb.svg" alt="Facebook"></a>{% endif %}
+				{% if officer.instagram %}<a class="social-link invisible" href="https://www.instagram.com/{{ officer.instagram }}"><img src="/img/social-ig.svg" alt="Instagram"></a>{% endif %}
+				{% if officer.twitter %}<a class="social-link invisible" href="https://www.twitter.com/{{ officer.twitter }}"><img src="/img/social-tw.svg" alt="Twitter"></a>{% endif %}
 			<p>{{ officer.addr }}
 			</address>
 		</main>

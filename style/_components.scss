@@ -13,6 +13,18 @@
 	height: 1em;
 }
 
+.social-link {
+	font-size: x-large;
+
+	&::after {
+		content: ' ';
+	}
+
+	img {
+		height: 1em;
+	}
+}
+
 .fullwidth {
 	width: 100%;
 }
@@ -71,7 +83,7 @@
 		break-inside: avoid-column;
 	}
 
-	img {
+	@at-root .portrait {
 		width: 10em;
 		margin: 0 2em 2em 0;
 
