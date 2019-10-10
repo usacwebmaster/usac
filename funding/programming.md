@@ -78,7 +78,7 @@ Are you putting on a health-related event on-campus? Then, apply to the Student 
 
 **When is it due?** Please submit your application and quotes two Mondays prior to the event.
 
-**Where do we submit it?** Applicants can submit our online form [here](https://docs.google.com/forms/d/e/1FAIpQLSce4vwNF4drxrGp9Ks8OzKwBb716E-y4XNH2OTwVVVKZKMsxg/viewform?usp=sf_link). All applications are approved at SWC Leadership meetings on Tuesdays from 5-6pm in Ackerman 3517.
+**Where do we submit it?** [Applicants can submit our online form here](https://forms.gle/FvyfQKMd9rn2jiVk9). All applications are approved at SWC Leadership meetings on Tuesdays from 5-6pm in Ackerman 3517.
 
 ## Supplemental Fund for Service (SFS)
 
