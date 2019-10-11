@@ -41,11 +41,11 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 
 ## Community Service Mini Fund
 
-**Fall Quarter:** Oct 19th, 2018 (For events that fall between 10/29/2018 - 2/4/2019)
+**Fall Quarter:** October 18th, 2019 (For events that fall between 10/28/2018 - 2/03/2020)
 
-**Winter Quarter:** Feb 1st, 2019 (For events that fall between 2/5/2019 - 5/6/2019)
+**Winter Quarter:** January 31st, 2020 (For events that fall between 02/04/2020 - 05/04/2020)
 
-**Spring Quarter:** April 26th, 2019 (For events that fall between 5/7/2019 - 6/14/2019)
+**Spring Quarter:** April 24th, 2020 (For events that fall between 05/05/2020 - 06/12/2020)
 
 **Due by 5:00PM**
 
