@@ -16,6 +16,6 @@ Under "[Applications](applications)," you access numerous opportunities to get i
 
 "[Resolutions](resolutions)" contains all of the Resolutions passed by USAC from 2010-2011 on.
 
-"[Clarifications](misc#clarification-of-facts)" contains Clarification of Facts deemed necesary by USAC from 2010-2011 on.
+"[Clarifications](misc#clarification-of-facts)" contains Clarification of Facts deemed necessary by USAC from 2010-2011 on.
 
 Under "[Historical](misc#historical-documents)," you can look back on various historical documents from the recent and not so recent past.
