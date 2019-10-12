@@ -86,7 +86,7 @@ Applications are OPEN for the 2018 - 2019 academic year!
 
 [SFS Guidelines](https://docs.google.com/document/d/1x49XXs0TZlcSHa9cVwGK8gJxhEhRyjutXDOIIVvZEII/edit?usp=sharing)
 
-SFS information is available on the [CSC website.](http://uclacsc.org/sfs/)
+SFS information is available on the [CSC website.](https://uclacsc.org/sfs/)
 
 **What is SFS?** The Supplemental Fund for Service (SFS) is intended to provide UCLA undergraduate students affiliated with a service project on-campus and UCLA student organizations the opportunity to pursue their service initiatives. This fund provides funding for tickets, fees and food for volunteers, volunteer appreciation and development, national organization dues, supplies, transportation, and conferences.
 
@@ -118,8 +118,8 @@ Please direct all questions to <TGIF@asucla.ucla.edu>.
 - [Mini Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform) (Google Form)
 - [Mini Fund Deadlines](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
 - [Main Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform) (Google Form)
-- [Guidelines](http://tgif.ucla.edu/docs/tgif_guide.doc)
-- [Website](http://tgif.ucla.edu/)
+- [Guidelines](https://tgif.ucla.edu/docs/tgif_guide.doc)
+- [Website](https://tgif.ucla.edu/)
 
 ## USA/BOD ASUCLA Programming Fund
 

@@ -17,7 +17,6 @@ The maximum amount any one group may apply for is $3,000 dollars. No matter what
 **Due by 5:00PM** submitted through USAC fund portal. If you have any issues, please contact <usabudgetreview@gmail.com> and CC your SOLE advisor.
 
 - [SOOF Application](https://www.usacfunds.ucla.edu/fundapp/soof/)
-- [SOOF Video](http://www.facebook.com/?ref=home#!/video/video.php?v=555051909424&comments) (Facebook)
 - [Budget Assumptions & Instructions](/docs/SOOF%20Budget%20and%20Assumptions%20(final).pdf)
 - [SOOF Budget Workshop](/docs/soof_workshop.ppt) (PPT)
 - [Evaluation Form](/docs/soof_evaluation.doc)
