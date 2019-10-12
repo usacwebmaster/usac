@@ -14,7 +14,13 @@ weight: -2
 
 		<main>
 			<h2>{{ officer.name }}</h2>
-			<h3>{{ officer.position }}</h3>
+			<h3>
+				{% if officer.webpage %}
+				<a href="{{ officer.webpage }}" class="invisible">{{ officer.position }}</a>
+				{% else %}
+				{{ officer.position }}
+				{% endif %}
+			</h3>
 
 			<address>
 			<p>
