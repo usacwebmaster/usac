@@ -103,23 +103,9 @@ program date on the application.
 For all other funding needs, submitted at least 14 days before funds
 need to be accessed.
 
-## TGIF (The Green Initiative Fund) Grant Application
+## TGIF (The Green Initiative Fund) Grant
 
-**The Green Initiative Fund Application deadlines:**
-
-Fall Deadline: Nov 2nd, 2018
-
-Winter Deadline: Feb 8th, 2019
-
-Spring Deadline: May 3rd, 2019
-
-Please direct all questions to <TGIF@asucla.ucla.edu>.
-
-- [Mini Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSfvQRaZknYbwziYV9np8kKV0sYoFdwYsKvtLX_Rb-IfasuP7g/viewform) (Google Form)
-- [Mini Fund Deadlines](https://docs.google.com/document/d/1_2aw4XpvE1GS9OhYoARo-nSph4omfy31mwDeZ4wWPSE/edit)
-- [Main Fund Application](https://docs.google.com/forms/d/e/1FAIpQLSf8zmgmuzwLdBvHxZEV5_H5yjzQYv6RlcRM_LaEKsZMjvaqsQ/viewform) (Google Form)
-- [Guidelines](https://tgif.ucla.edu/docs/tgif_guide.doc)
-- [Website](https://tgif.ucla.edu/)
+**All applications and deadlines for TGIF are available on [the fund's website](https://tgif.ucla.edu/getfunding.php).** Please direct any questions to <TGIF@asucla.ucla.edu>.
 
 ## USA/BOD ASUCLA Programming Fund
 
