@@ -82,9 +82,9 @@ Are you putting on a health-related event on-campus? Then, apply to the Student 
 
 ## Supplemental Fund for Service (SFS)
 
-Applications are OPEN for the 2018 - 2019 academic year!
+Applications are OPEN for the 2019 - 2020 academic year!
 
-[SFS Guidelines](https://docs.google.com/document/d/1x49XXs0TZlcSHa9cVwGK8gJxhEhRyjutXDOIIVvZEII/edit?usp=sharing)
+[SFS Guidelines](https://docs.google.com/document/d/1F9vXnHMqfgHp8YLWsZG_ES0Uqf4Bzg3esHPmvOdRSVE/edit?usp=sharing)
 
 SFS information is available on the [CSC website.](https://uclacsc.org/sfs/)
 
