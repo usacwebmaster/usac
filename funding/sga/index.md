@@ -22,14 +22,11 @@ each student group/department, and student government office.
 
 USA's funds can be utilized through 4 main methods:
 
-- [Purchase
-    Orders](/funding/sgahandbook/obtain_po.php)
-- [<span
-    class="underline">Honorariums</span>](/funding/sgahandbook/honorariums.php)
-- [Cash
-    Advances](/funding/sgahandbook/cash_advances.php)
-- [<span
-    class="underline">Reimbursements</span>](/funding/sgahandbook/pers_reimburse.php)
+- Payment of Invoice
+- Purchase Orders
+- Honorariums
+- Cash Advances
+- Reimbursements
 
 Student groups are granted funds through the process of proposals and
 hearings. After funds are granted, the funds are transferred into the
