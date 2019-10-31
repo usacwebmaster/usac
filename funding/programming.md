@@ -55,6 +55,16 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 - [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
 - [CS Mini Funding Cheat Sheet](/docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf)
 
+## Student Initiated Outreach Committee (SIOC) Mini Fund
+
+In order to enhance the services provided to educationally disadvantaged students in Southern California, the Student Initiated Outreach Committee provides a supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions. This funding will be available to all projects funded by the Community Activities Committee (CAC), Undergraduate Students Association Council (USAC), and the Student Initiated Outreach Committee (SIOC).
+
+Submit a time-stamped application to the front desk of the Community Programs Office, in Room 105 of the Student Activities Center by 5:00PM of the due date to the box of the SIOC Mini-Fund and SIOC Minifund Chairperson, Andrea Manrique. E-mail a copy of the application by 5:00PM of the due date to <siocminifund@cpo.ucla.edu>. **Late submissions will not be considered.**
+
+- [Guidelines](/docs/sioc_guidelines.pdf)
+- [Deadlines](/docs/sioc_deadlines.pdf)
+- [Application](/docs/sioc_application.pdf)
+
 ## Contingency Capital Items Fund
 
 **If you are a USAC office/commission or a student group with an office in Kerckhoff, apply to the Capital Contingency Fund! The fund covers technology and furniture items.** All proposals are due twenty-one (21) days before the date of purchase.
