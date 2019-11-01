@@ -1,11 +1,12 @@
 const fs = require('fs').promises
 
+const NEW_YEAR = 4 // May
+
 const input = 'indexed'
 const output = '/docs'
 
-// TODO: this is wrong
 function getSchoolYear(date) {
-	const year = date.getUTCFullYear()
+	const year = date.getUTCFullYear() - (date.getUTCMonth() < NEW_YEAR)
 	return `${year}-${year + 1}`
 }
 
