@@ -14,16 +14,11 @@ weight: -2
 
 		<main>
 			<h2>{{ officer.name }}</h2>
-			<h3>
-				{% if officer.webpage %}
-				<a href="{{ officer.webpage }}" class="invisible">{{ officer.position }}</a>
-				{% else %}
-				{{ officer.position }}
-				{% endif %}
-			</h3>
+			<h3>{{ officer.position }}</h3>
 
 			<address>
 			<p>
+				{% if officer.webpage %}<a class="social-link invisible" href="{{ officer.webpage }}"><img src="/img/social-www.svg" alt="Website"></a>{% endif %}
 				{% if officer.facebook %}<a class="social-link invisible" href="https://www.facebook.com/{{ officer.facebook }}"><img src="/img/social-fb.svg" alt="Facebook"></a>{% endif %}
 				{% if officer.instagram %}<a class="social-link invisible" href="https://www.instagram.com/{{ officer.instagram }}"><img src="/img/social-ig.svg" alt="Instagram"></a>{% endif %}
 				{% if officer.twitter %}<a class="social-link invisible" href="https://www.twitter.com/{{ officer.twitter }}"><img src="/img/social-tw.svg" alt="Twitter"></a>{% endif %}

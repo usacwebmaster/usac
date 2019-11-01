@@ -90,3 +90,5 @@ No restriction is applied to the use of this photograph in Associated Students U
 </section>
 
 </div>
+
+Some icons ([Font Awesome Free 5.11.2 by @fontawesome](https://fontawesome.com)) are used under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
