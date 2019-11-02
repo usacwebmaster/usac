@@ -5,13 +5,22 @@ weight: -1
 
 # Student Government Accounting - Overview
 
-The Student Government Accounting (SGA) office manages financial matters related to the funding of the Undergraduate Student Association. It is located in Kerckhoff Hall 332, and can be contacted via [310-825-3662](tel:310-825-3662) or <saccount@asucla.ucla.edu>.
+The Student Government Accounting (SGA) office manages financial matters related to the funding of the Undergraduate Student Association.
+
+<address class="inline-address">
+
+Kerckhoff Hall 332<br>
+[310-825-3662](tel:310-825-3662)<br>
+<saccount@asucla.ucla.edu><br>
+Mon-Fri 9am-5pm
+
+</address>
 
 Currently, the Undergraduate Students Association (USA) has over 700 student group/departments in our database, alone. As an effort to aid the student groups/departments, we have placed as many documents, forms, instructions and PowerPoint Presentations on this website for your convenience. For example: [How To Fill Out a Req](/docs/req-howto.pdf).
 
 The Student Government Accounting office uses the [General Requisition Form](/funding/sga/req) to process the expenditures of each student group/department, and student government office.
 
-USA's funds can be utilized through 4 main methods:
+USA's funds can be utilized through 5 main methods:
 
 - Payment of Invoice
 - Purchase Orders
