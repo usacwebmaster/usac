@@ -35,7 +35,7 @@ This website does not directly store any cookies on your computer. However, thir
 
 <section>
 
-![Homepage header](/img/header.jpg)
+<img class="portrait" src="/img/header.jpg" alt="Homepage header">
 
 <main>
 
@@ -49,7 +49,7 @@ No restriction is applied to the use of this photograph in University of Califor
 
 <section>
 
-![About section heading](/img/Uabout960x450.jpg)
+<img class="portrait" src="/img/Uabout960x450.jpg" alt="About section heading">
 
 <main>
 
@@ -63,7 +63,7 @@ No restriction is applied to the use of this photograph in Associated Students U
 
 <section>
 
-![Funding section heading](/img/Ufunding960x450.jpg)
+<img class="portrait" src="/img/Ufunding960x450.jpg" alt="Funding section heading">
 
 <main>
 
@@ -77,7 +77,7 @@ No restriction is applied to the use of this photograph in Associated Students U
 
 <section>
 
-![Documents section heading](/img/Udocuments960x450.jpg)
+<img class="portrait" src="/img/Udocuments960x450.jpg" alt="Documents section heading">
 
 <main>
 
