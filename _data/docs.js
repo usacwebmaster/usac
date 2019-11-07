@@ -19,10 +19,6 @@ module.exports = async () => {
 		const date = new Date(isoDate)
 		const year = getSchoolYear(date)
 
-		if (typeof ext === 'undefined') {
-			delete name
-		}
-
 		if (!(cat in index)) {
 			index[cat] = {}
 		}
@@ -31,7 +27,12 @@ module.exports = async () => {
 			index[cat][year] = []
 		}
 
-		index[cat][year].push({ date, url: `${output}/${file}` })
+		const doc = { date, url: `${output}/${file}` }
+		if (typeof ext !== 'undefined') {
+			doc.name = name
+		}
+
+		index[cat][year].push(doc)
 	}
 
 	return index

@@ -1,7 +1,12 @@
 {% macro doclist(cat, year, limit) %}
 <ol>
 	{%- for doc in cat[year] | top(limit) -%}
-	<li><a href="{{ doc.url }}"><time datetime="{{ doc.date | isodate }}">{{ doc.date | humandate }}</time></a>
+	<li>
+		<a href="{{ doc.url }}">
+			{%- if doc.name %}{{ doc.name }}
+			{%- else -%}<time datetime="{{ doc.date | isodate }}">{{ doc.date | humandate }}</time>
+			{%- endif -%}
+		</a>
 	{%- endfor -%}
 </ol>
 {% endmacro %}
