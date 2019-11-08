@@ -4,15 +4,15 @@
 	<section>
 		<h2>Budget</h2>
 		<ol>
-			<li><a href="/docs/budget.pdf">{{ current.budgetDate | humandate }}</a>
+			<li><a href="/docs/budget.pdf">{{ docs._budgetDate | humandate }}</a>
 		</ol>
 	</section>
 	<section>
 		<h2><a href="/documents/agendas" title="Archives">Agenda</a></h2>
-		{{ doclist(docs.agenda, current.schoolYear, 2) }}
+		{{ doclist(docs.agenda, docs._schoolYear, 2) }}
 	</section>
 	<section>
 		<h2><a href="/documents/minutes" title="Archives">Minutes</a></h2>
-		{{ doclist(docs.minutes, current.schoolYear, 2) }}
+		{{ doclist(docs.minutes, docs._schoolYear, 2) }}
 	</section>
 </div>

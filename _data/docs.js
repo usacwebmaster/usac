@@ -11,7 +11,10 @@ function getSchoolYear(date) {
 }
 
 module.exports = async () => {
-	const index = {}
+	const index = {
+		_schoolYear: getSchoolYear(new Date),
+		_budgetDate: new Date("2019-11-04")
+	}
 
 	const files = await fs.readdir(input)
 	for (const file of files.sort().reverse()) {
