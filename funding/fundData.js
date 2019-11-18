@@ -35,7 +35,7 @@ fundData = [
         tags: {
             fund_amount: '$2000 per quarter',
             deadline: 1, 
-            cause: 2,               
+            cause: [2],               
  
         }
     },
@@ -60,7 +60,7 @@ fundData = [
         tags: {
             fund_amount: '$500 per quarter',
             deadline: 1, 
-            cause: 2,               
+            cause: [2],               
  
         }
     }
