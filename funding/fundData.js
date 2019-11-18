@@ -53,7 +53,7 @@ fundData = [
         improve_your_chances: 'All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).',
 
         links: {
-            guidlines: 'google.com',
+            guidelines: 'google.com',
             application: 'google.com'
         },
 
