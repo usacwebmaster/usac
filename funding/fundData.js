@@ -15,6 +15,7 @@ cause_dict = {
 
 fundData = [
     {
+        id: 0,
         fund_org: 'Academic Affairs Commission',
         fund_name: 'Academic Success Referendum (ASRF)',
         deadline: '2 weeks prior to proposed program date',
@@ -39,6 +40,7 @@ fundData = [
         }
     },
     {
+        id: 1,
         fund_org: 'Academic Affairs Commission',
         fund_name: 'Travel Grant Mini Fund',
         deadline: '3 weeks prior to proposed program date.',
