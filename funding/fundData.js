@@ -28,7 +28,7 @@ fundData = [
         improve_your_chances: 'Consider feasibility, cost efficiency, benefit for future students, necessity, impact of students',
 
         links: {
-            guidlines: 'google.com',
+            guidelines: 'google.com',
             application: 'google.com'
         },
 
