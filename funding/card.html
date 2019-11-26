@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+    .card {
+        position: absolute;
+        width: 1000px;
+        height: 400px;
+        left: 0px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 0px;
+
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .heading {
+        /* Community Service Mini Fund */
+        position: absolute;
+        left: 5.5%;
+        right: 5.5%;
+        top: 8.75%;
+        bottom: 95%;
+
+        font-style: normal;
+        font-weight: normal;
+        font-size: 26px;
+        line-height: 30px;
+
+        color: #000000;
+    }
+
+    .greenbox {
+        position: absolute;
+        width: 10px;
+        height: 22px;
+        left: 5.5%;
+        top: ;
+
+        background: #39866F;
+    }
+
+    .greenbox_back {
+        position: absolute;
+        width: 134px;
+        height: 22px;
+        left: 6.5%;
+        top: 100px;
+
+        background: #EAEAEA;
+    }
+
+    .greenbox_text {
+        position: absolute;
+        left: 41.32%;
+        right: 49.31%;
+        top: 4.35%;
+        bottom: 95.34%;
+
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        color: #39866F;
+    }
+
+    .redbox {
+        position: absolute;
+        width: 10px;
+        height: 23px;
+        left: 213px;
+        top: 100px;
+
+        background: #B95555;
+    }
+
+    .redbox_back {
+        position: absolute;
+        width: 134px;
+        height: 23px;
+        left: 223px;
+        top: 100px;
+
+        background: #EAEAEA;
+    }
+
+    .redbox_text {
+        position: absolute;
+        left: 41.32%;
+        right: 49.31%;
+        top: 4.35%;
+        bottom: 95.34%;
+
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        color: #B95555;
+    }
+
+    .bluebox {
+        position: absolute;
+        width: 10px;
+        height: 23px;
+        left: 376px;
+        top: 100px;
+
+        background: #3B73A9;
+    }
+
+    .bluebox_back {
+        position: absolute;
+        width: 134px;
+        height: 23px;
+        left: 386px;
+        top: 100px;
+
+        background: #EAEAEA;
+    }
+
+    .bluebox_text {
+        position: absolute;
+        left: 41.32%;
+        right: 49.31%;
+        top: 4.35%;
+        bottom: 95.34%;
+
+        font-style: italic;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        /* or 143% */
+
+        color: #39866F;
+    }
+
+    .guide_button {
+        position: absolute;
+        border: 2px solid #3B73A9;
+        width: 177px;
+        height: 33px;
+        left: 600px;
+        top: 80%;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+        width: 177px;
+        height: 33px;
+        background: white;
+        font-style: italic;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #3B73A9;
+    }
+
+    .app_button {
+        position: absolute;
+        border: 2px solid #3B73A9;
+        width: 171px;
+        height: 33px;
+        left: 794px;
+        top: 300px;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25);
+        width: 171px;
+        height: 33px;
+        background: rgba(59, 115, 169, 0.9);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFFFFF;
+    }
+
+    .textbox1 {
+        position: absolute;
+        width: 450px;
+        height: 150px;
+        left: 50px;
+        top: 130px;
+    }
+
+    .textbox2 {
+        position: absolute;
+        width: 450px;
+        height: 150px;
+        left: 525px;
+        top: 130px;
+    }
+
+    .button_link {
+        color: inherit;
+        /* blue colors for links too */
+        text-decoration: inherit;
+        /* no underline */
+    }
+</style>
+</head>
+
+<body>
+
+    ​<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script id='card-template' type='text/x-handlebars-template'>
+        <div class="card">
+        <div class="heading">
+                {{fund_org}} - {{fund_name}}
+            </div>
+    
+            <div class="greenbox">
+            </div>
+            <div class="greenbox_back">
+                <div class="greenbox_text">
+                    {{tags.fund_amount}}
+                </div>
+            </div>
+    
+            <div class="redbox">
+            </div>
+            <div class="redbox_back">
+                <div class="redbox_text">
+                    {{tags.deadline}}
+                </div>
+            </div>
+    
+            <div class="bluebox">
+            </div>
+            <div class="bluebox_back">
+                <div class="bluebox_text">
+                    Cause: {{tags.cause}}
+                </div>
+            </div>
+            <div class="textbox1">
+                    <p><b>Deadline: </b>{{deadline}}</p>
+                    <p><b>Eligibility: </b>
+                        {{#if eligibility.group}}
+                            {{eligibility.group}}
+                        {{/if}}
+                        {{#if eligibility.individual}}
+                            <br/>
+                            {{eligibility.individual}}
+                        {{/if}}
+                    </p>
+                    <p><b>Contact: </b>{{contact}}</p>
+            </div>
+            <div class="textbox2">
+                    <p><b>About: </b>{{about}}</p>
+                    <p><b>Improve your chances: </b>{{improve_your_chances}}</p>
+            </div>
+            <button class="guide_button"><a class="button_link" href={{links.guidelines}} target="_blank">See Full Guidelines</a></button>
+            <button class="app_button"> <a class="button_link" href={{links.application}} target="_blank">View Application</a></button>
+        </div>
+    </script>
+    ​<div id='cards-list'>
+
+    </div>
+    <script src='./fundData.js'></script>
+    <script src='./renderCard.js'></script>
+</body>
+
+</html>
