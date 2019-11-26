@@ -21,15 +21,15 @@ fundData = [
         deadline: '2 weeks prior to proposed program date',
         eligibility: {
             individual: true,
-            group: true
+            group: false
         },
         contact: 'usaaac@asucla.ucla.edu',
         about: 'Fund given to causes that support academic success of students. No non academic program allowed.',
         improve_your_chances: 'Consider feasibility, cost efficiency, benefit for future students, necessity, impact of students',
 
         links: {
-            guidelines: 'google.com',
-            application: 'google.com'
+            guidelines: 'http://google.com',
+            application: 'http://google.com'
         },
 
         tags: {

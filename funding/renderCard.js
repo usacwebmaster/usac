@@ -33,8 +33,15 @@ function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
     
     return compiled;
 }
+function displayFunds(fundArray) {
+    var fundHTML = compileFundCards(fundArray, deadline_dict, cause_dict, template)
+    document.getElementById('cards-list').innerHTML = fundHTML
+}
+function displayFundsById(fundIdArray) {
+    var fundsToDisplay = fundData.filter(fund => fundIdArray.includes(fund.id))
+   displayFunds(fundsToDisplay)
+}
+// var fundHTML = compileFundCards(fundData, deadline_dict, cause_dict, template)
+// document.getElementById("cards-list").innerHTML = fundHTML;
 
-var fundHTML = compileFundCards(fundData, deadline_dict, cause_dict, template)
-
-document.getElementById("cards-list").innerHTML = fundHTML;
- // execute the compiled template and print the output to the console
+displayFunds(fundData)
