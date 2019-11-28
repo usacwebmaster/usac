@@ -67,9 +67,9 @@ Submit a time-stamped application to the front desk of the Community Programs Of
 
 ## Contingency Capital Items Fund
 
-**If you are a USAC office/commission or a student group with an office in Kerckhoff, apply to the Capital Contingency Fund! The fund covers technology and furniture items.** All proposals are due twenty-one (21) days before the date of purchase.
+The Contingency Capital Fund is an auxiliary source of funding for Capital Items only. Requests may fall under two categories: Computer/Computer-Related Items or Furniture/Non-Computer Equipment. To qualify for the Contingency Capital Fund, you must be an undergraduate student organization currently registered with the Student Organizations, Leadership & Engagement (SOLE) department with an office in Kerckhoff Hall. Please contact your SOLE Advisor for more information.
 
-- [Application](/docs/Capital%20Contingency%20Application%202019.pdf)
+- [Application](https://forms.gle/ULKcpN9rHnikCGEg7)
 
 ## Contingency Programming Fund
 
