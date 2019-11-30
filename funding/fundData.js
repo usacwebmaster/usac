@@ -53,8 +53,8 @@ fundData = [
         improve_your_chances: 'All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).',
 
         links: {
-            guidelines: 'google.com',
-            application: 'google.com'
+            guidelines: 'http://google.com',
+            application: 'http://google.com'
         },
 
         tags: {
@@ -62,6 +62,54 @@ fundData = [
             deadline: 1, 
             cause: [2],               
  
+        }
+    }, 
+    {
+        id: 2,
+        fund_org: 'Art Restoring Community (ARC)',
+        fund_name: 'Referendum Funding',
+        deadline: '2 weeks prior to proposed program date.',
+        eligibility: {
+            individual: true,
+            group: true
+        },
+        contact: 'usaaac@asucla.ucla.edu',
+        about: 'Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.',
+        improve_your_chances: 'All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).',
+
+        links: {
+            guidelines: 'http://google.com',
+            application: 'http://google.com'
+        },
+
+        tags: {
+            fund_amount: '$2500 per quarter',
+            deadline: 1, 
+            cause: [3],               
+        }
+    },
+    {
+        id: 3,
+        fund_org: '',
+        fund_name: 'Bruin Advocacy Grant',
+        deadline: 'Fridays, 5 weeks prior to proposed program date.',
+        eligibility: {
+            individual: true,
+            group: true
+        },
+        contact: 'usaaac@asucla.ucla.edu',
+        about: 'Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.',
+        improve_your_chances: 'All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).',
+
+        links: {
+            guidelines: 'http://google.com',
+            application: 'http://google.com'
+        },
+
+        tags: {
+            fund_amount: '$2500 per quarter',
+            deadline: 1, 
+            cause: [1],               
         }
     }
 ]

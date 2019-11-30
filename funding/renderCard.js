@@ -5,12 +5,10 @@ var template = Handlebars.compile(source);
 
 
 function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
-    console.log(fundArray)
-
     var compiled = "";
     var tempCard = null;
     
-    for (var i = 0; i < 1; i++) {
+    for (var i = 0; i < fundArray.length; i++) {
         tempCard = JSON.parse(JSON.stringify(fundArray[i]))
         tempCard.tags.deadline = deadlineDict[tempCard.tags.deadline];
         tempCard.tags.cause = tempCard.tags.cause.map( n => causeDict[n]);
