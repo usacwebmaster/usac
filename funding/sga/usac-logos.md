@@ -11,17 +11,17 @@ Please keep aspect ratio the same.
 
 ![left small logo](/docs/usac_horiz_sm.png)
 
-- [Black](/docs/USACpaidforBLACK.png) (PNG)
-- [White](/docs/USACpaidforWHITE.png) (PNG)
-- [Black](/docs/USACpaidfor.pdf) (PDF/Vector)
+- [Black](/docs/USACpaidforBLACK.png)
+- [White](/docs/USACpaidforWHITE.png)
+- [Black](/docs/USACpaidfor.pdf) (Vector)
 
 ## Centered
 
 ![centered small logo](/docs/usac_paid_for_vert_sm.png)
 
-- [Black](/docs/usac_paid_for_under.png) (PNG)
-- [White](/docs/usac_paid_for_underW.png) (PNG)
-- [Black](/docs/usac_paid_for_under_pdf.pdf) (PDF/Vector)
+- [Black](/docs/usac_paid_for_under.png)
+- [White](/docs/usac_paid_for_underW.png)
+- [Black](/docs/usac_paid_for_under_pdf.pdf) (Vector)
 
 ## Legacy Logos
 

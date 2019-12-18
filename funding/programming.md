@@ -36,8 +36,8 @@ The Bruin Advocacy concept is to provide students and organizations with the sco
 
 Bruin Advocacy Grant applications should be submitted to the EVP office mailbox (Kerckhoff Hall 300C) by 3:00pm on Fridays no later than five (5) weeks prior to the program. If you have any questions, email <usac.evp.bruindefendersdir@gmail.com>.
 
-- [Bruin Advocacy Grant Application (2018-2019)](https://goo.gl/forms/qeHtpO6W66jVGIVq2)  (Google Form)
-- [Bruin Advocacy Grant Guidelines (2018-2019)](https://tinyurl.com/BAGuidelines)  (Google Slides)
+- [Bruin Advocacy Grant Application (2018-2019)](https://goo.gl/forms/qeHtpO6W66jVGIVq2)
+- [Bruin Advocacy Grant Guidelines (2018-2019)](https://docs.google.com/presentation/d/1F1XP1HA533C76k7r36EEkakv90KVrh-vavDJXdLf1i4/edit)
 
 ## Community Service Mini Fund
 
@@ -52,7 +52,7 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 - [Online Application](https://www.usacfunds.ucla.edu/fundapp/csmini/)
 - [Guidelines](/docs/funding_guidelines_csmini.doc)
 - [Score Sheet](/docs/CS_Mini_Fund_Score_Sheet.doc)
-- [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform) (LINK)
+- [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform)
 - [CS Mini Funding Cheat Sheet](/docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf)
 
 ## Student Initiated Outreach Committee (SIOC) Mini Fund

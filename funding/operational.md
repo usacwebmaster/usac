@@ -18,7 +18,7 @@ The maximum amount any one group may apply for is $3,000 dollars. No matter what
 
 - [SOOF Application](https://www.usacfunds.ucla.edu/fundapp/soof/)
 - [Budget Assumptions & Instructions](/docs/SOOF%20Budget%20and%20Assumptions%20(final).pdf)
-- [SOOF Budget Workshop](/docs/soof_workshop.ppt) (PPT)
+- [SOOF Budget Workshop](/docs/soof_workshop.ppt)
 - [Evaluation Form](/docs/soof_evaluation.doc)
 - [T-Shirt Cheat Sheet](/docs/TShirtCheatSheet.pdf)
 - [Frequently Asked Questions](/docs/soof_faq.doc)

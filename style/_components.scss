@@ -69,6 +69,22 @@
 	&[href$=".ppt"]::after, &[href$=".pptx"]::after {
 		content: 'ppt';
 	}
+
+	&[href*="/forms/"]::after, &[href*="forms.gle"]::after {
+		content: 'form';
+	}
+
+	&[href*="/document/"]::after {
+		content: 'gdoc';
+	}
+
+	&[href*="/spreadsheet/"]::after {
+		content: 'gsheet';
+	}
+
+	&[href*="/presentation/"]::after {
+		content: 'gslide';
+	}
 }
 
 .people {
