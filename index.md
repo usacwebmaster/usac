@@ -8,6 +8,7 @@ title: Undergraduate Students Association
 
 # Announcements
 
-{{ (collections.all | mainSection('/posts/')).templateContent | safe }}
+{% from 'postlist.html' import postlist %}
+{{ postlist(collections.all, 2) }}
 
 [&rarr; Read all announcements](/posts)

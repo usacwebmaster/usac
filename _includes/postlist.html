@@ -1,0 +1,9 @@
+{% macro postlist(all, limit) %}
+{% for post in (all | children('/posts/') | reverse | top(limit)) %}
+<article class="post">
+	<h2>{{ post.data.title }}</h2>
+	<time datetime="{{ post.date | isodate }}">{{ post.date | humandate }}</time>
+	{{ post.templateContent | safe }}
+</article>
+{% endfor %}
+{% endmacro %}
