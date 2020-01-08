@@ -21,7 +21,7 @@ Important documents related to the Judicial Board:
 
 # Members
 
-<div class="people columns">
+<div class="people">
 
 {% for member in jboard %}
 <section>

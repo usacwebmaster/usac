@@ -88,10 +88,8 @@
 }
 
 .people {
-	&.columns {
-		@media #{$bp-not-main} {
-			column-count: 2;
-		}
+	@media #{$bp-not-main} {
+		column-count: 2;
 	}
 
 	section {
