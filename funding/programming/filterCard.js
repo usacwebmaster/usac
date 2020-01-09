@@ -41,12 +41,9 @@ function filterCards()
             deadline.push(i)
         }
 	}
-	console.log(checked)
 	var filteredIds = [];
 	for(var i = 0; i<fundData.length; i++){
-		console.log(fundData[i]['fund_name'], fundData[i]['tags']['cause'])
 		if(deadline.includes(fundData[i]["tags"]["deadline"]) && causeIsPresent(fundData[i]["tags"]["cause"], checked)){
-			console.log('pushed', fundData[i]['fund_name'])
 			filteredIds.push(fundData[i]["id"]);
 		}
     }
