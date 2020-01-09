@@ -1,7 +1,9 @@
 function causeIsPresent(card_causes, cause)
 {
-	console.log(cause);
-	for(var i = 0; i<card_causes.length; i++)
+	if (cause.length === 0) {
+		return true;
+	}
+	for(var i = 0; i < card_causes.length; i++)
 		if(cause.includes(card_causes[i]))
 			return true;
 	return false;
@@ -20,7 +22,7 @@ function filterCards()
 		if(c[i].checked==true)
 			checked.push(i+1);
     if (checked.length == 0) {
-        for(var i = 0; i < c.length; i++) {
+        for(var i = 1; i <= c.length; i++) {
             checked.push(i);
         }
     }
@@ -33,21 +35,22 @@ function filterCards()
 	for(var i = 0; i<d.length; i++)
 		if(d[i].checked==true)
 			deadline.push(i+1);
+
     if (deadline.length == 0) {
-        for(var i = 0; i < d.length; i++) {
+        for(var i = 1; i <= d.length; i++) {
             deadline.push(i)
         }
-    }
+	}
+	console.log(checked)
 	var filteredIds = [];
 	for(var i = 0; i<fundData.length; i++){
-		if(deadline.includes(fundData[i]["tags"]["deadline"]) && causeIsPresent(fundData[i]["tags"]["cause"], checked))
+		console.log(fundData[i]['fund_name'], fundData[i]['tags']['cause'])
+		if(deadline.includes(fundData[i]["tags"]["deadline"]) && causeIsPresent(fundData[i]["tags"]["cause"], checked)){
+			console.log('pushed', fundData[i]['fund_name'])
 			filteredIds.push(fundData[i]["id"]);
+		}
     }
-	if (filteredIds.length!=0)
-	{
-    	document.getElementById("text1").innerHTML = checked;
-    	displayFundsById(filteredIds)
-    }
+	displayFundsById(filteredIds)
 }
 
 createCheckboxes();

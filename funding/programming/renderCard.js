@@ -14,7 +14,9 @@ function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
         tempCard.tags.cause = tempCard.tags.cause.map( n => causeDict[n]);
         eligibility_group_str = ""
         eligibility_individual_str = ""
-
+        if (tempCard.fund_org !=="") {
+            tempCard.fund_name = " - " + tempCard.fund_name 
+        }
         // console.log(tempCard.eligibility)
         if (tempCard.eligibility.group == true) {
             eligibility_group_str = "Groups must be registered with SOLE"
@@ -32,12 +34,17 @@ function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
     return compiled;
 }
 function displayFunds(fundArray) {
-    var fundHTML = compileFundCards(fundArray, deadline_dict, cause_dict, template)
-    document.getElementById('cards-list').innerHTML = fundHTML
+    if (fundArray.length > 0){
+        var fundHTML = compileFundCards(fundArray, deadline_dict, cause_dict, template)
+        document.getElementById('cards-list').innerHTML = fundHTML
+    }
+    else {
+        document.getElementById('cards-list').innerHTML = "<h3>No funds found </h3>"
+    }
 }
 function displayFundsById(fundIdArray) {
     var fundsToDisplay = fundData.filter(fund => fundIdArray.includes(fund.id))
-   displayFunds(fundsToDisplay)
+    displayFunds(fundsToDisplay)
 }
 // var fundHTML = compileFundCards(fundData, deadline_dict, cause_dict, template)
 // document.getElementById("cards-list").innerHTML = fundHTML;

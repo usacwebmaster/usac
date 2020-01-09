@@ -37,6 +37,7 @@ module.exports = ec => {
 		templateFormats: ['html', 'md'],
 		dataTemplateEngine: false,
 		markdownTemplateEngine: 'njk',
-		htmlTemplateEngine: 'njk'
+		htmlTemplateEngine: 'njk',
+		templateFormats: ['md', 'html', 'njk', 'css', 'js']
 	}
 }
