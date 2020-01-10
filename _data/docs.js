@@ -1,26 +1,26 @@
 const fs = require('fs').promises
 
+const NEW_YEAR = 4 // May
+
 const input = 'indexed'
 const output = '/docs'
 
-// TODO: this is wrong
 function getSchoolYear(date) {
-	const year = date.getUTCFullYear()
+	const year = date.getUTCFullYear() - (date.getUTCMonth() < NEW_YEAR)
 	return `${year}-${year + 1}`
 }
 
 module.exports = async () => {
-	const index = {}
+	const index = {
+		_schoolYear: getSchoolYear(new Date),
+		_budgetDate: new Date("2019-12-16")
+	}
 
 	const files = await fs.readdir(input)
 	for (const file of files.sort().reverse()) {
 		const [cat, isoDate, name, ext] = file.split('.')
 		const date = new Date(isoDate)
 		const year = getSchoolYear(date)
-
-		if (typeof ext === 'undefined') {
-			delete name
-		}
 
 		if (!(cat in index)) {
 			index[cat] = {}
@@ -30,7 +30,12 @@ module.exports = async () => {
 			index[cat][year] = []
 		}
 
-		index[cat][year].push({ date, url: `${output}/${file}` })
+		const doc = { date, url: `${output}/${file}` }
+		if (typeof ext !== 'undefined') {
+			doc.name = name
+		}
+
+		index[cat][year].push(doc)
 	}
 
 	return index

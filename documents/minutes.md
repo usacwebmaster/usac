@@ -8,4 +8,4 @@ weight: 0
 {% from 'doclist.html' import docarchive %}
 {{ docarchive(docs.minutes) }}
 
-Older archives will be moved [from the old website](/documents/minutes.php) soon!
+If you believe there is a document missing, please [contact the webmaster](mailto:usacwebmaster@asucla.ucla.edu).

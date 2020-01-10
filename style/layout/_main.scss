@@ -16,18 +16,21 @@ body > main {
 		padding-right: $page-margin-width;
 	}
 
-	a:not(.header-anchor):not(.invisible) {
-		@extend %media-link;
-
+	a:not(.header-anchor) {
 		color: $ucla-blue;
-		text-decoration: underline;
 
-		margin: -0.33em;
-		padding: 0.33em;
+		&:not(.invisible) {
+			@extend %media-link;
 
-		#{$active-link} {
-			background-color: $ucla-yellow;
-			text-decoration: none;
+			text-decoration: underline;
+
+			margin: -0.33em;
+			padding: 0.33em;
+
+			#{$active-link} {
+				background-color: $ucla-yellow;
+				text-decoration: none;
+			}
 		}
 	}
 

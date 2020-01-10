@@ -20,7 +20,6 @@ title: Budget Report
 
 (*1* - **4100** - *190* - **1901** - *6220* - **00000**)
 
-*( entity* - **fund** - *division* - **department** - *expense account*
-- **event number** )
+*( entity* - **fund** - *division* - **department** - *expense account* - **event number** )
 
 (*x* - **xxxx** - *xxx* - **xxxx** - *xxxx* - **xxxxx**)

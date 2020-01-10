@@ -13,6 +13,18 @@
 	height: 1em;
 }
 
+.social-link {
+	font-size: x-large;
+
+	&::after {
+		content: ' ';
+	}
+
+	img {
+		height: 1em;
+	}
+}
+
 .fullwidth {
 	width: 100%;
 }
@@ -57,13 +69,27 @@
 	&[href$=".ppt"]::after, &[href$=".pptx"]::after {
 		content: 'ppt';
 	}
+
+	&[href*="/forms/"]::after, &[href*="forms.gle"]::after {
+		content: 'form';
+	}
+
+	&[href*="/document/"]::after {
+		content: 'gdoc';
+	}
+
+	&[href*="/spreadsheet/"]::after {
+		content: 'gsheet';
+	}
+
+	&[href*="/presentation/"]::after {
+		content: 'gslide';
+	}
 }
 
 .people {
-	&.columns {
-		@media #{$bp-not-main} {
-			column-count: 2;
-		}
+	@media #{$bp-not-main} {
+		column-count: 2;
 	}
 
 	section {
@@ -71,7 +97,7 @@
 		break-inside: avoid-column;
 	}
 
-	img {
+	@at-root .portrait {
 		width: 10em;
 		margin: 0 2em 2em 0;
 
@@ -82,6 +108,19 @@
 	main {
 		flex-grow: 1;
 	}
+
+	p {
+		margin: 0;
+	}
+}
+
+.post img {
+	width: $main-content-width * 0.7;
+	max-width: 100%;
+}
+
+.inline-address {
+	margin-left: 4ex;
 }
 
 .ddg-embed {
