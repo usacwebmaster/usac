@@ -9,6 +9,6 @@ title: Undergraduate Students Association
 # Announcements
 
 {% from 'postlist.html' import postlist %}
-{{ postlist(collections.all, 2) }}
+{{ postlist(collections.all, 1) }}
 
 [&rarr; Read all announcements](/posts)
