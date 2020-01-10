@@ -1,7 +1,96 @@
 ---
-title: Programming Funds
+title: Funding App
 ---
+{% raw %}
+<style>
+    @import url('fundCardStyle.css');
+</style>
+<script src='./fundData.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+<div class="wrapper">
+    <h2>Filters</h2>
+    <div id="filter-list">
+        <div class='filter-item-list'>
+            <h3 class="filter-item-title"> DEADLINE </h3>
+            <p id="dline"> </p>
+        </div>
+        <div class='filter-item-list'>
+            <h3 class="filter-item-title"> CAUSE </h3>
+            <p id="cse"></p>
+        </div>
+    </div>
+    <button class="app_button" onclick="filterCards()">Apply Filter</button>
+    <br />
+    <h2>Available Funds</h2>
+    <div id='cards-list'>
+        <!-- this is where html for fund cards appear -->
+    </div>
+</div>
 
-<h1>Programming Funding Documents</h1>
+<script id='card-template' type='text/x-handlebars-template'>
+    <div class="card">
+            <div class="heading">
+                    {{fund_org}}{{fund_name}}
+                </div>
+                <div class="TagContainer">
+                    <div class='one-tag'>
+                        <div class="greenbox">
+                        </div>
+                        <div class="greenbox_back">
+                            <div class="greenbox_text">
+                                {{tags.fund_amount}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class='one-tag'>
+                        <div class="redbox">
+                        </div>
+                        <div class="redbox_back">
+                            <div class="redbox_text">
+                                {{tags.deadline}}
+                            </div>
+                        </div>
+                    </div>
+                    <div class='one-tag'>
+                        <div class="bluebox">
+                        </div>
+                        <div class="bluebox_back">
+                            <div class="bluebox_text">
+                                Cause: {{tags.cause}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ContentContainer">
+                <div class="textbox supp-info">
+                        <p><b>Deadline: </b>{{deadline}}</p>
+                        <p><b>Eligibility: </b>
+                            {{#if eligibility.group}}
+                                {{eligibility.group}}
+                            {{/if}}
+                            {{#if eligibility.individual}}
+                                <br/>
+                                {{eligibility.individual}}
+                            {{/if}}
+                        </p>
+                        <p><b>Contact: </b><a href="mailto:{{contact}}">{{contact}}</a></p>
+                </div>
+                <div class="textbox">
+                        <p><b>About: </b>{{about}}</p>
+                        <p><b>Improve your chances: </b>{{improve_your_chances}}</p>
+                </div>
+                </div>
+                <div class="ButtonContainer">
+                {{#if links.guidelines}}
+                    <button class="guide_button"><a class="button_link" href={{links.guidelines}} target="_blank">Full Guidelines</a></button>
+                {{/if}}
+                {{#if links.application}}
+                <button class="app_button"> <a class="button_link" href={{links.application}} target="_blank">Application</a></button>
+                {{/if}}
+            </div>
 
-<p>Write the HTML code for your app here, and include any necessary files in this directory. Happy coding!
+            </div>
+        </script>
+<script src='./renderCard.js'></script>
+<script src='./filterCard.js'></script>
+{% endraw %}
