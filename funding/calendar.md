@@ -4,6 +4,6 @@ title: Funding Calendar
 
 # Current Funding Calendar
 
-<a href="/docs/calendar.fall2019.pdf" class="invisible">
-	<img src="/docs/calendar.fall2019.svg" alt="Fall 2019 Funding Calendar" class="fullwidth">
+<a href="/docs/calendar.winter2020.pdf" class="invisible">
+	<img src="/docs/calendar.winter2020.svg" alt="Winter 2020 Funding Calendar" class="fullwidth">
 </a>
