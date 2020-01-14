@@ -47,13 +47,13 @@ Bruin Advocacy Grant applications should be submitted to the EVP office mailbox 
 
 **Spring Quarter:** April 24th, 2020 (For events that fall between 05/05/2020 - 06/12/2020)
 
-**Due by 5:00PM**
+**Due by 12:00PM**
 
 - [Online Application](https://www.usacfunds.ucla.edu/fundapp/csmini/)
 - [Guidelines](/docs/funding_guidelines_csmini.doc)
-- [Score Sheet](/docs/CS_Mini_Fund_Score_Sheet.doc)
-- [Evaluation Form](https://docs.google.com/forms/d/e/1FAIpQLSdcQsIpbMtay9XBDjcUsVad5_cDpaKgTkONGxB6UI9lxq1u4A/viewform)
+- [Score Sheet](https://docs.google.com/document/d/1VPBxP0CI0Qz8Cb1rweYkrqFNW6I2SRJuEL9DzwwfCTA/edit)
 - [CS Mini Funding Cheat Sheet](/docs/CS%20Mini%20Funding%20Cheat%20Sheet%2017-18.pdf)
+- [How to fill out a CS Mini application (NEW Winter 2020)](https://drive.google.com/file/d/1mS7VrwH308hoF4lolEujnOeA9ehx5eGR/view)
 
 ## Student Initiated Outreach Committee (SIOC) Mini Fund
 
@@ -94,7 +94,7 @@ Are you putting on a health-related event on-campus? Then, apply to the Student 
 
 Applications are OPEN for the 2019 - 2020 academic year!
 
-[SFS Guidelines](https://docs.google.com/document/d/1F9vXnHMqfgHp8YLWsZG_ES0Uqf4Bzg3esHPmvOdRSVE/edit?usp=sharing)
+[SFS Guidelines](https://docs.google.com/document/d/1F9vXnHMqfgHp8YLWsZG_ES0Uqf4Bzg3esHPmvOdRSVE/edit)
 
 SFS information is available on the [CSC website.](https://uclacsc.org/sfs/)
 
