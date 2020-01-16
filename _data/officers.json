@@ -82,7 +82,7 @@
 	{
 		"oid": "5",
 		"dept": "GR2",
-		"name": "Position Open - To Be Elected Fall '19",
+		"name": "Orion Smedley",
 		"position": "General Representative 2",
 		"desc": "",
 		"phone": "",
@@ -102,7 +102,7 @@
 	{
 		"oid": "6",
 		"dept": "GR3",
-		"name": "Position Open - To Be Elected Fall '19",
+		"name": "Brandon Broukhim",
 		"position": "General Representative 3",
 		"desc": "",
 		"phone": "",
@@ -222,11 +222,11 @@
 	{
 		"oid": "12",
 		"dept": "FSC",
-		"name": "Position Open - To Be Elected Fall '19",
+		"name": "Millen Srivastava",
 		"position": "Financial Supports Commissioner",
 		"desc": "",
 		"phone": "",
-		"webpage": "",
+		"webpage": "https://fsc.usac.ucla.edu/",
 		"orgsync": "",
 		"addr": "KH300A",
 		"email": "usafsc@asucla.ucla.edu",
