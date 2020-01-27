@@ -106,17 +106,17 @@ title: Programming Funds Search
 </div>
 
 <style>
-{% set comma = joiner() %}
-{% for cat in ['dline', 'cause'] %}
-	{% for desc in funds[cat] %}
-		{% set outer = loop %}
-		{% for desc in funds[cat] %}
-			{% if loop.index !== outer.index %}
+{%- set comma = joiner() -%}
+{%- for cat in ['dline', 'cause'] -%}
+	{%- for desc in funds[cat] -%}
+		{%- set outer = loop -%}
+		{%- for desc in funds[cat] -%}
+			{%- if loop.index !== outer.index -%}
 				{{ comma() }} .hide-{{ cat }}-{{ outer.index }}:not(.hide-{{ cat }}-{{ loop.index }}) .{{ cat }}-{{ outer.index }}
-			{% endif %}
-		{% endfor %}
-	{% endfor %}
-{% endfor %}
+			{%- endif -%}
+		{%- endfor -%}
+	{%- endfor -%}
+{%- endfor -%}
 {
 	display: none;
 }
