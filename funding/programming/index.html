@@ -35,13 +35,13 @@ title: Programming Funds Search
 			</h3>
 			<ul class="fund-tags">
 				{% for name, vals in fund.tags %}
-					<li class="fund-tag-{{ name }}">
-						{% if (vals | typeof) === 'string' %}
-							{{ vals }}
-						{% else %}
+					<li class="fund-tag-{{ name }}" title="{{ name | title }}">
+						{% if funds.filters[name] %}
 							{% for val in vals %}
 								{{ funds.filters[name][val - 1] }}
 							{% endfor %}
+						{% else %}
+							{{ vals }}
 						{% endif %}
 				{% endfor %}
 			</ul>

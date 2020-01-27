@@ -4,8 +4,6 @@ const rewrite = {
 }
 
 module.exports = ec => {
-	ec.addFilter('typeof', val => typeof val)
-
 	ec.addFilter('top', (arr, n) => arr.slice(0, n))
 
 	ec.addFilter('mainSection', (all, url) => all.find(page => page.url === url.match(/^\/[^/]*\/?/)[0]))

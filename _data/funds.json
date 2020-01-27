@@ -32,7 +32,7 @@
 				"application": "https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link"
 			},
 			"tags": {
-				"fund_amount": "$2000 per quarter",
+				"amount": "$2000 per quarter",
 				"deadline": [1],
 				"cause": [2]
 			}
@@ -54,7 +54,7 @@
 				"application": "https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link"
 			},
 			"tags": {
-				"fund_amount": "$500 per quarter",
+				"amount": "$500 per quarter",
 				"deadline": [1],
 				"cause": [2]
 			}
@@ -77,7 +77,7 @@
 				"application": "/docs/ARC%202019-2020%20Application.pdf"
 			},
 			"tags": {
-				"fund_amount": "$2500 per quarter",
+				"amount": "$2500 per quarter",
 				"deadline": [2],
 				"cause": [3]
 			}
@@ -99,7 +99,7 @@
 				"application": "https://goo.gl/forms/qeHtpO6W66jVGIVq2"
 			},
 			"tags": {
-				"fund_amount": "$5000 per quarter",
+				"amount": "$5000 per quarter",
 				"deadline": [1],
 				"cause": [1]
 			}
@@ -121,7 +121,7 @@
 				"application": "https://www.usacfunds.ucla.edu/fundapp/csmini/"
 			},
 			"tags": {
-				"fund_amount": "$3500 per quarter",
+				"amount": "$3500 per quarter",
 				"deadline": [2],
 				"cause": [5]
 			}
@@ -143,7 +143,7 @@
 				"application": "/docs/sioc_application.pdf"
 			},
 			"tags": {
-				"fund_amount": "Funding varies",
+				"amount": "Funding varies",
 				"deadline": [2],
 				"cause": [5]
 			}
@@ -165,7 +165,7 @@
 				"application": "https://forms.gle/ULKcpN9rHnikCGEg7"
 			},
 			"tags": {
-				"fund_amount": "Funding varies",
+				"amount": "Funding varies",
 				"deadline": [1],
 				"cause": [6]
 			}
@@ -187,7 +187,7 @@
 				"application": "https://forms.gle/oDGgrup8CJWL9ZJz8"
 			},
 			"tags": {
-				"fund_amount": "Funding varies",
+				"amount": "Funding varies",
 				"deadline": [1],
 				"cause": [6]
 			}
@@ -209,7 +209,7 @@
 				"application": "https://forms.gle/FvyfQKMd9rn2jiVk9"
 			},
 			"tags": {
-				"fund_amount": "$750 per quarter",
+				"amount": "$750 per quarter",
 				"deadline": [1],
 				"cause": [6]
 			}
@@ -231,7 +231,7 @@
 				"application": "https://docs.google.com/document/d/1_-epDWMmKbRfGkGf1H7xphEjvghWHUYXIXKU3ZTlloY/edit"
 			},
 			"tags": {
-				"fund_amount": "$3,250 per quarter",
+				"amount": "$3,250 per quarter",
 				"deadline": [2],
 				"cause": [2]
 			}
@@ -253,7 +253,7 @@
 				"application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMainFundApplication20192020"
 			},
 			"tags": {
-				"fund_amount": "$10,000 per quarter",
+				"amount": "$10,000 per quarter",
 				"deadline": [2],
 				"cause": [4]
 			}
@@ -275,7 +275,7 @@
 				"application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMiniFundApplication20192020"
 			},
 			"tags": {
-				"fund_amount": "$500 per quarter",
+				"amount": "$500 per quarter",
 				"deadline": [2],
 				"cause": [4]
 			}
@@ -297,7 +297,7 @@
 				"application": "/docs/bod_guidelines.pdf"
 			},
 			"tags": {
-				"fund_amount": "$50,000 per quarter",
+				"amount": "$50,000 per quarter",
 				"deadline": [2],
 				"cause": [6]
 			}
