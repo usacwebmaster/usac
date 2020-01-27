@@ -1,5 +1,3 @@
-const Terser = require('terser')
-
 const rewrite = {
 	'/funding/': '/funding/sga/',
 	'/about/eboard/': '/documents/elections/'
@@ -22,8 +20,6 @@ module.exports = ec => {
 
 	ec.addFilter('isodate', date => date.toISOString().split('T')[0])
 	ec.addFilter('humandate', date => date.toLocaleDateString(undefined, { timeZone: 'UTC' }))
-
-	ec.addFilter('jsmin', src => Terser.minify(src).code)
 
 	ec.setLibrary('md', require('markdown-it')('commonmark').use(require('markdown-it-anchor'), {
 		permalink: true,

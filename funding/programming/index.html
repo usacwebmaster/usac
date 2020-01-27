@@ -1,98 +1,124 @@
 ---
-title: Programming Funds
+title: Programming Funds Search
 ---
 
-<script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
-<div class="wrapper">
-    <h2>Filters</h2>
-    <div id="filter-list">
-        <div class='filter-item-list'>
-            <h3 class="filter-item-title"> DEADLINE </h3>
-            <p id="dline"> </p>
-        </div>
-        <div class='filter-item-list'>
-            <h3 class="filter-item-title"> CAUSE </h3>
-            <p id="cse"></p>
-        </div>
-    </div>
-    <button class="app_button" onclick="filterCards()">Apply Filter</button>
-    <br />
-    <h2>Available Funds</h2>
-    <div id='cards-list'>
-        <!-- this is where html for fund cards appear -->
-    </div>
+<h1>Programming Funds Search <small>(BETA)</small></h1>
+
+<p>Use this page to narrow down your search for USAC funds. The <a href="list">old list of funds</a> is still available.
+
+<div id="funding-app">
+	<div class="filter-list">
+		<div class='filter-item-list'>
+			<h3 class="filter-item-title">Deadline</h3>
+			<ul class="dline">
+				{% for dline in funds.deadlines %}
+				<li><label><input type="checkbox" name="dline" value="{{ loop.index }}"> {{ dline }}</label>
+				{% endfor %}
+			</ul>
+		</div>
+		<div class='filter-item-list'>
+			<h3 class="filter-item-title">Cause</h3>
+			<ul class="cse">
+				{% for cause in funds.causes %}
+				<li><label><input type="checkbox" name="cause" value="{{ loop.index }}"> {{ cause }}</label>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	<br />
+	<h2>Available Funds</h2>
+	<div class='cards-list'>
+		<p class="no-funds-msg">No funds selected.</p>
+		{% for fund in funds.funds %}
+		<div class="card dline-{{fund.tags.deadline}} {% for cause in fund.tags.cause %} cause-{{ cause }}{% endfor %}">
+			<div class="heading">
+				{% if fund.fund_org %}
+				{{ fund.fund_org }} -
+				{% endif %}
+				{{ fund.fund_name }}
+			</div>
+			<div class="TagContainer">
+				<div class='one-tag'>
+					<div class="greenbox">
+					</div>
+					<div class="greenbox_back">
+						<div class="greenbox_text">
+							{{ fund.tags.fund_amount }}
+						</div>
+					</div>
+				</div>
+				<div class='one-tag'>
+					<div class="redbox">
+					</div>
+					<div class="redbox_back">
+						<div class="redbox_text">
+							{{ funds.deadlines[fund.tags.deadline - 1] }}
+						</div>
+					</div>
+				</div>
+				{% for cause in fund.tags.cause %}
+				<div class='one-tag'>
+					<div class="bluebox">
+					</div>
+					<div class="bluebox_back">
+						<div class="bluebox_text">
+							Cause: {{ funds.causes[cause - 1] }}
+						</div>
+					</div>
+				</div>
+				{% endfor %}
+			</div>
+			<div class="ContentContainer">
+				<div class="textbox supp-info">
+						<p><b>Deadline: </b>{{ fund.deadline }}</p>
+						<p><b>Eligibility: </b>
+							{% if fund.eligibility.group %}
+								Groups must be registered with SOLE.
+							{% endif %}
+							{% if fund.eligibility.individual %}
+								Individuals may also apply.
+							{% endif %}
+						</p>
+						<p><b>Contact: </b><a href="mailto:{{fund.contact}}">{{ fund.contact }}</a></p>
+				</div>
+				<div class="textbox">
+						<p><b>About: </b>{{ fund.about }}</p>
+						<p><b>Improve your chances: </b>{{ fund.improve_your_chances }}</p>
+				</div>
+			</div>
+			<div class="ButtonContainer">
+				{% if links.guidelines %}
+				<button class="guide_button"><a class="invisible button_link" href={{ fund.links.guidelines }}>Full Guidelines</a></button>
+				{% endif %}
+				{% if links.application %}
+				<button class="app_button"> <a class="invisible button_link" href={{ fund.links.application }}>Application</a></button>
+				{% endif %}
+			</div>
+		</div>
+		{% endfor %}
+	</div>
 </div>
 
-{% raw %}
-<script id='card-template' type='text/x-handlebars-template'>
-    <div class="card">
-            <div class="heading">
-                    {{fund_org}}{{fund_name}}
-                </div>
-                <div class="TagContainer">
-                    <div class='one-tag'>
-                        <div class="greenbox">
-                        </div>
-                        <div class="greenbox_back">
-                            <div class="greenbox_text">
-                                {{tags.fund_amount}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class='one-tag'>
-                        <div class="redbox">
-                        </div>
-                        <div class="redbox_back">
-                            <div class="redbox_text">
-                                {{tags.deadline}}
-                            </div>
-                        </div>
-                    </div>
-                    <div class='one-tag'>
-                        <div class="bluebox">
-                        </div>
-                        <div class="bluebox_back">
-                            <div class="bluebox_text">
-                                Cause: {{tags.cause}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="ContentContainer">
-                <div class="textbox supp-info">
-                        <p><b>Deadline: </b>{{deadline}}</p>
-                        <p><b>Eligibility: </b>
-                            {{#if eligibility.group}}
-                                {{eligibility.group}}
-                            {{/if}}
-                            {{#if eligibility.individual}}
-                                <br/>
-                                {{eligibility.individual}}
-                            {{/if}}
-                        </p>
-                        <p><b>Contact: </b><a href="mailto:{{contact}}">{{contact}}</a></p>
-                </div>
-                <div class="textbox">
-                        <p><b>About: </b>{{about}}</p>
-                        <p><b>Improve your chances: </b>{{improve_your_chances}}</p>
-                </div>
-                </div>
-                <div class="ButtonContainer">
-                {{#if links.guidelines}}
-                    <button class="guide_button"><a class="button_link" href={{links.guidelines}} target="_blank">Full Guidelines</a></button>
-                {{/if}}
-                {{#if links.application}}
-                <button class="app_button"> <a class="button_link" href={{links.application}} target="_blank">Application</a></button>
-                {{/if}}
-            </div>
+<style>
+{% set comma = joiner() %}
+{% for cat in ['dline', 'cause'] %}
+{% for n in range(1, 10) %}
+{{ comma() }} .hide-{{ cat }}-{{ n }} .{{ cat }}-{{ n }}
+{% endfor %}
+{% endfor %}
+{
+	display: none;
+}
+</style>
 
-            </div>
-        </script>
-{% endraw %}
-
-{% set src %}
-    const fund_data = {{ funds | dump | safe }};
-    {% include 'script/renderCard.js' %}
-    {% include 'script/filterCard.js' %}
-{% endset %}
-<script>{{ src | jsmin | safe }}</script>
+<script>
+document.getElementById('funding-app').addEventListener('change', function () {
+	for (const cat of ['dline', 'cause']) {
+		const inputs = document.getElementsByName(cat)
+		const ignore = !Array.prototype.some.call(inputs, inp => inp.checked)
+		for (const inp of inputs) {
+			this.classList[(inp.checked || ignore) ? 'remove' : 'add'](`hide-${cat}-${inp.value}`)
+		}
+	}
+})
+</script>
