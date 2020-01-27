@@ -25,7 +25,7 @@
 			"about": "Fund given to causes that support academic success of students. No non academic program allowed.",
 			"improve_your_chances": "Consider feasibility, cost efficiency, benefit for future students, necessity, impact of students",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/asrf_guidelines.pdf",
+				"guidelines": "/docs/asrf_guidelines.pdf",
 				"application": "https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link"
 			},
 			"tags": {
@@ -49,7 +49,7 @@
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/tgmf_guidelines.pdf",
+				"guidelines": "/docs/tgmf_guidelines.pdf",
 				"application": "https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link"
 			},
 			"tags": {
@@ -73,8 +73,9 @@
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/ARC%202019-2020%20Guidelines.pdf",
-				"application": "https://usac.ucla.edu/docs/ARC%202019-2020%20Application.pdf"
+				"faq": "/docs/ARC%202019-2020%20FAQ.pdf",
+				"guidelines": "/docs/ARC%202019-2020%20Guidelines.pdf",
+				"application": "/docs/ARC%202019-2020%20Application.pdf"
 			},
 			"tags": {
 				"fund_amount": "$2500 per quarter",
@@ -121,7 +122,7 @@
 			"about": "Student program which contributes to the elimination of poverty and social problems; and/or provides direct services to disadvantaged groups.",
 			"improve_your_chances": "Innovation-as a response to the needs of the target population, uniqueness, professional services that address unmet needs, provide direct service",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/funding_guidelines_csmini.doc",
+				"guidelines": "/docs/funding_guidelines_csmini.doc",
 				"application": "https://www.usacfunds.ucla.edu/fundapp/csmini/"
 			},
 			"tags": {
@@ -145,8 +146,8 @@
 			"about": "A supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions.",
 			"improve_your_chances": "The program or service to be implemented must be directly correlated towards increasing the academic competitiveness of socio-economically/educationally disadvantaged students and underrepresented communities towards eligibility or attendance to the University of California or other institutions of higher learning.",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/sioc_guidelines.pdf",
-				"application": "https://usac.ucla.edu/docs/sioc_application.pdf"
+				"guidelines": "/docs/sioc_guidelines.pdf",
+				"application": "/docs/sioc_application.pdf"
 			},
 			"tags": {
 				"fund_amount": "Funding varies",
@@ -193,7 +194,7 @@
 			"about": "Helps student organizations fund activities and events which are desirable to the general interest of the UCLA Undergraduate Student Body.",
 			"improve_your_chances": "Food, retreats, parking, etc. will be funded.",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/Finance%20Committee%20Guidelines.pdf",
+				"guidelines": "/docs/Finance%20Committee%20Guidelines.pdf",
 				"application": "https://forms.gle/oDGgrup8CJWL9ZJz8"
 			},
 			"tags": {
@@ -313,8 +314,8 @@
 			"about": "Fund to help programming costs of events organized and hosted by officially registered student organizations.",
 			"improve_your_chances": "Apply for funding towards advertising or graphics, facilities or equipment rentals, food, honoraria, props or costumes.",
 			"links": {
-				"guidelines": "https://usac.ucla.edu/docs/bod_guidelines.pdf",
-				"application": "https://usac.ucla.edu/docs/bod_guidelines.pdf"
+				"guidelines": "/docs/bod_guidelines.pdf",
+				"application": "/docs/bod_guidelines.pdf"
 			},
 			"tags": {
 				"fund_amount": "$50,000 per quarter",
