@@ -1,3 +1,7 @@
+const deadline_dict = fund_data.deadlines
+const cause_dict = fund_data.causes
+const fundData = fund_data.funds
+
 // compile the template
 
 var source = document.getElementById('card-template').innerHTML;
@@ -7,7 +11,7 @@ var template = Handlebars.compile(source);
 function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
     var compiled = "";
     var tempCard = null;
-    
+
     for (var i = 0; i < fundArray.length; i++) {
         tempCard = JSON.parse(JSON.stringify(fundArray[i]))
         tempCard.tags.deadline = deadlineDict[tempCard.tags.deadline];
@@ -15,7 +19,7 @@ function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
         eligibility_group_str = ""
         eligibility_individual_str = ""
         if (tempCard.fund_org !=="") {
-            tempCard.fund_name = " - " + tempCard.fund_name 
+            tempCard.fund_name = " - " + tempCard.fund_name
         }
         // console.log(tempCard.eligibility)
         if (tempCard.eligibility.group == true) {
@@ -30,7 +34,7 @@ function compileFundCards(fundArray, deadlineDict, causeDict, cardTemplate) {
         compiled += cardTemplate(tempCard);
 
     }
-    
+
     return compiled;
 }
 function displayFunds(fundArray) {

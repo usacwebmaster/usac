@@ -1,11 +1,7 @@
 ---
-title: Funding App
+title: Programming Funds
 ---
-{% raw %}
-<style>
-    @import url('fundCardStyle.css');
-</style>
-<script src='./fundData.js'></script>
+
 <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
 <div class="wrapper">
     <h2>Filters</h2>
@@ -27,6 +23,7 @@ title: Funding App
     </div>
 </div>
 
+{% raw %}
 <script id='card-template' type='text/x-handlebars-template'>
     <div class="card">
             <div class="heading">
@@ -91,6 +88,11 @@ title: Funding App
 
             </div>
         </script>
-<script src='./renderCard.js'></script>
-<script src='./filterCard.js'></script>
 {% endraw %}
+
+{% set src %}
+    const fund_data = {{ funds | dump | safe }};
+    {% include 'script/renderCard.js' %}
+    {% include 'script/filterCard.js' %}
+{% endset %}
+<script>{{ src | jsmin | safe }}</script>
