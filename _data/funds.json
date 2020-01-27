@@ -1,9 +1,9 @@
 {
-	"deadlines": [
+	"dline": [
 		"Contingent on Event",
 		"Fixed Per Quarter"
 	],
-	"causes": [
+	"cause": [
 		"Political Advocacy",
 		"Academic Success",
 		"Cultural Awareness",

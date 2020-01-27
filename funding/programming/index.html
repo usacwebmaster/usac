@@ -6,12 +6,15 @@ title: Programming Funds Search
 
 <p>Use this page to narrow down your search for USAC funds. The <a href="list">old list of funds</a> is still available.
 
-<div id="funding-app">
+<div
+	class="{% for cat in ['dline', 'cause'] %}{% for desc in funds[cat] %} hide-{{ cat }}-{{ loop.index }}{% endfor %}{% endfor %}"
+	onchange="this.classList[event.target.checked ? 'remove' : 'add'](`hide-${event.target.name}-${event.target.value}`)">
+
 	<div class="filter-list">
 		<div class='filter-item-list'>
 			<h3 class="filter-item-title">Deadline</h3>
 			<ul class="dline">
-				{% for dline in funds.deadlines %}
+				{% for dline in funds.dline %}
 				<li><label><input type="checkbox" name="dline" value="{{ loop.index }}"> {{ dline }}</label>
 				{% endfor %}
 			</ul>
@@ -19,7 +22,7 @@ title: Programming Funds Search
 		<div class='filter-item-list'>
 			<h3 class="filter-item-title">Cause</h3>
 			<ul class="cse">
-				{% for cause in funds.causes %}
+				{% for cause in funds.cause %}
 				<li><label><input type="checkbox" name="cause" value="{{ loop.index }}"> {{ cause }}</label>
 				{% endfor %}
 			</ul>
@@ -52,7 +55,7 @@ title: Programming Funds Search
 					</div>
 					<div class="redbox_back">
 						<div class="redbox_text">
-							{{ funds.deadlines[fund.tags.deadline - 1] }}
+							{{ funds.dline[fund.tags.deadline - 1] }}
 						</div>
 					</div>
 				</div>
@@ -62,7 +65,7 @@ title: Programming Funds Search
 					</div>
 					<div class="bluebox_back">
 						<div class="bluebox_text">
-							Cause: {{ funds.causes[cause - 1] }}
+							Cause: {{ funds.cause[cause - 1] }}
 						</div>
 					</div>
 				</div>
@@ -105,23 +108,16 @@ title: Programming Funds Search
 <style>
 {% set comma = joiner() %}
 {% for cat in ['dline', 'cause'] %}
-{% for n in range(1, 10) %}
-{{ comma() }} .hide-{{ cat }}-{{ n }} .{{ cat }}-{{ n }}
-{% endfor %}
+	{% for desc in funds[cat] %}
+		{% set outer = loop %}
+		{% for desc in funds[cat] %}
+			{% if loop.index !== outer.index %}
+				{{ comma() }} .hide-{{ cat }}-{{ outer.index }}:not(.hide-{{ cat }}-{{ loop.index }}) .{{ cat }}-{{ outer.index }}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
 {% endfor %}
 {
 	display: none;
 }
 </style>
-
-<script>
-document.getElementById('funding-app').addEventListener('change', function () {
-	for (const cat of ['dline', 'cause']) {
-		const inputs = document.getElementsByName(cat)
-		const ignore = !Array.prototype.some.call(inputs, inp => inp.checked)
-		for (const inp of inputs) {
-			this.classList[(inp.checked || ignore) ? 'remove' : 'add'](`hide-${cat}-${inp.value}`)
-		}
-	}
-})
-</script>
