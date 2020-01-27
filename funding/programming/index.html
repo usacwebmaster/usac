@@ -7,86 +7,59 @@ title: Programming Funds Search
 <p>Use this page to narrow down your search for USAC funds. The <a href="list">old list of funds</a> is still available.
 
 <div
-	class="{% for cat in ['dline', 'cause'] %}{% for desc in funds[cat] %} hide-{{ cat }}-{{ loop.index }}{% endfor %}{% endfor %}"
+	class="{% for cat, opts in funds.filters %}{% for opt in opts %} hide-{{ cat }}-{{ loop.index }}{% endfor %}{% endfor %}"
 	onchange="this.classList[event.target.checked ? 'remove' : 'add'](`hide-${event.target.name}-${event.target.value}`)">
 
-	<div class="filter-list">
-		<div class='filter-item-list'>
-			<h3 class="filter-item-title">Deadline</h3>
-			<ul class="dline">
-				{% for dline in funds.dline %}
-				<li><label><input type="checkbox" name="dline" value="{{ loop.index }}"> {{ dline }}</label>
+	<div class="fund-filters">
+		{% for cat, opts in funds.filters %}
+		<div>
+			<h3>{{ cat | upper }}</h3>
+			<ul>
+				{% for opt in opts %}
+				<li><label><input type="checkbox" name="{{ cat }}" value="{{ loop.index }}"> {{ opt }}</label>
 				{% endfor %}
 			</ul>
 		</div>
-		<div class='filter-item-list'>
-			<h3 class="filter-item-title">Cause</h3>
-			<ul class="cse">
-				{% for cause in funds.cause %}
-				<li><label><input type="checkbox" name="cause" value="{{ loop.index }}"> {{ cause }}</label>
-				{% endfor %}
-			</ul>
-		</div>
+		{% endfor %}
 	</div>
-	<br />
-	<h2>Available Funds</h2>
-	<div class='cards-list'>
-		<p class="no-funds-msg">No funds selected.</p>
+
+	<div class="cards-list">
+		<p class="no-cards-msg">No funds selected.
 		{% for fund in funds.funds %}
-		<div class="card dline-{{fund.tags.deadline}} {% for cause in fund.tags.cause %} cause-{{ cause }}{% endfor %}">
-			<div class="heading">
+		<div class="card {% for name, vals in fund.tags %}{% for val in vals %} {{ name }}-{{ val }}{% endfor %}{% endfor %}">
+			<h2 class="card-title">
 				{% if fund.fund_org %}
 				{{ fund.fund_org }} -
 				{% endif %}
 				{{ fund.fund_name }}
-			</div>
-			<div class="TagContainer">
-				<div class='one-tag'>
-					<div class="greenbox">
-					</div>
-					<div class="greenbox_back">
-						<div class="greenbox_text">
-							{{ fund.tags.fund_amount }}
-						</div>
-					</div>
-				</div>
-				<div class='one-tag'>
-					<div class="redbox">
-					</div>
-					<div class="redbox_back">
-						<div class="redbox_text">
-							{{ funds.dline[fund.tags.deadline - 1] }}
-						</div>
-					</div>
-				</div>
-				{% for cause in fund.tags.cause %}
-				<div class='one-tag'>
-					<div class="bluebox">
-					</div>
-					<div class="bluebox_back">
-						<div class="bluebox_text">
-							Cause: {{ funds.cause[cause - 1] }}
-						</div>
-					</div>
-				</div>
+			</h3>
+			<ul class="fund-tags">
+				{% for name, vals in fund.tags %}
+					<li class="fund-tag-{{ name }}">
+						{% if (vals | typeof) === 'string' %}
+							{{ vals }}
+						{% else %}
+							{% for val in vals %}
+								{{ funds.filters[name][val - 1] }}
+							{% endfor %}
+						{% endif %}
 				{% endfor %}
-			</div>
-			<div class="ContentContainer">
-				<div class="textbox supp-info">
-						<p><b>Deadline: </b>{{ fund.deadline }}</p>
-						<p><b>Eligibility: </b>
-							{% if fund.eligibility.group %}
-								Groups must be registered with SOLE.
-							{% endif %}
-							{% if fund.eligibility.individual %}
-								Individuals may also apply.
-							{% endif %}
-						</p>
-						<p><b>Contact: </b><a href="mailto:{{fund.contact}}">{{ fund.contact }}</a></p>
+			</ul>
+			<div class="fund-desc">
+				<div>
+					<p><b>Deadline:</b> {{ fund.deadline }}
+					<p><b>Eligibility:</b>
+						{% if fund.eligibility.group %}
+							Groups must be registered with SOLE.
+						{% endif %}
+						{% if fund.eligibility.individual %}
+							Individuals may also apply.
+						{% endif %}
+					<p><b>Contact:</b> <a href="mailto:{{ fund.contact }}">{{ fund.contact }}</a>
 				</div>
-				<div class="textbox">
-						<p><b>About: </b>{{ fund.about }}</p>
-						<p><b>Improve your chances: </b>{{ fund.improve_your_chances }}</p>
+				<div>
+					<p><b>About:</b> {{ fund.about }}
+					<p><b>Improve your chances:</b> {{ fund.improve_your_chances }}
 				</div>
 			</div>
 			<div class="ButtonContainer">
@@ -107,10 +80,10 @@ title: Programming Funds Search
 
 <style>
 {%- set comma = joiner() -%}
-{%- for cat in ['dline', 'cause'] -%}
-	{%- for desc in funds[cat] -%}
+{%- for cat, opts in funds.filters -%}
+	{%- for opt in opts -%}
 		{%- set outer = loop -%}
-		{%- for desc in funds[cat] -%}
+		{%- for opt in opts -%}
 			{%- if loop.index !== outer.index -%}
 				{{ comma() }} .hide-{{ cat }}-{{ outer.index }}:not(.hide-{{ cat }}-{{ loop.index }}) .{{ cat }}-{{ outer.index }}
 			{%- endif -%}

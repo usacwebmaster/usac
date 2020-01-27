@@ -1,151 +1,90 @@
-.filter-list {
+.fund-filters {
 	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
+
+	> * {
+		margin-right: 4em;
+	}
+
+	@media #{$bp-main} {
+		flex-direction: column;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
 }
 
-.filter-item-title {
-	margin-block-end: 0em;
-	text-transform: uppercase;
-}
-
-.filter-item-list ul {
-	list-style: none;
-	padding: 0;
-}
-
-.filter-item-list {
-	margin-right: 4em;
-}
 .cards-list {
 	position: relative;
-	min-height: 5em;
+	min-height: 4em;
+
+	@at-root .no-cards-msg {
+		position: absolute;
+		z-index: -1;
+	}
+
+	@at-root .card {
+		background-color: white;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+		border: thin solid rgba(0, 0, 0, 0.25);
+
+		padding: 2em 1.5em;
+		margin: 2em 0;
+
+		@at-root .card-title {
+			margin-top: 0;
+		}
+	}
 }
 
-.card {
+.fund-tags {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		background-color: #EAEAEA;
+		border-left: 1ex solid;
+
+		font-size: smaller;
+		padding: 0.5ex 1ex;
+		margin-right: 2ex;
+
+		@at-root .fund-tag-fund_amount {
+			color: #39866F;
+		}
+
+		@at-root .fund-tag-deadline {
+			color: #B95555;
+		}
+
+		@at-root .fund-tag-cause {
+			color: #3B73A9;
+		}
+	}
+}
+
+.fund-desc {
 	display: flex;
 	flex-direction: column;
-	padding: 1%;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-	border-radius: 0px;
-	margin: 2em 0;
-	background-color: white;
-}
 
-.no-funds-msg {
-	position: absolute;
-	z-index: -1;
-}
+	@media #{$bp-not-main} {
+		flex-direction: row;
 
-.TagContainer {
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	border-radius: 0px;
-	padding-left: 2%;
-}
-
-.ContentContainer {
-	display: flex;
-	flex-direction: row;
-	border-radius: 0px;
-	padding-left: 2%;
+		> :first-child {
+			flex: 0 0 20em;
+			margin-right: 1em;
+		}
+	}
 }
 
 .ButtonContainer {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	border-radius: 0px;
-	margin-bottom: 2%;
-}
-
-.heading {
-	padding: 2%;
-	margin-top: 5px;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 22px;
-	line-height: 30px;
-	color: #000000;
-}
-
-.one-tag {
-	display: flex;
-	flex-direction: row;
-}
-.greenbox {
-	width: 10px;
-	height: 22px;
-
-	background: #39866F;
-}
-
-.greenbox_back {
-	width: 150px;
-	height: 22px;
-	margin-right: 2.5%;
-	background: #EAEAEA;
-}
-
-.greenbox_text {
-	margin-left: 2%;
-	font-style: italic;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 20px;
-	/* or 143% */
-
-	color: #39866F;
-}
-
-.redbox {
-	width: 10px;
-	height: 22px;
-
-	background: #B95555;
-}
-
-.redbox_back {
-	width: 150px;
-	height: 22px;
-	margin-right: 2.5%;
-	background: #EAEAEA;
-}
-
-.redbox_text {
-	margin-left: 2%;
-	font-style: italic;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 20px;
-
-	color: #B95555;
-}
-
-.bluebox {
-	width: 10px;
-	height: 22px;
-
-	background: #3B73A9;
-}
-
-.bluebox_back {
-	width: 180px;
-	height: 22px;
-	margin-right: 2.5%;
-	background: #EAEAEA;
-}
-
-.bluebox_text {
-	margin-left: 2%;
-	font-style: italic;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 20px;
-	/* or 143% */
-
-	color: #39866F;
 }
 
 .guide_button {
@@ -187,27 +126,4 @@
 
 .app_button:hover {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.textbox {
-	margin-right: 5%;
-}
-
-
-@media #{$bp-main} {
-	.filter-list {
-		flex-direction: column;
-	}
-	.ContentContainer {
-		flex-direction: column;
-	}
-	.TagContainer {
-		flex-direction: column;
-	}
-	.one-tag {
-		margin-top: 8px;
-	}
-	.supp-info {
-		width: 100%
-	}
 }
