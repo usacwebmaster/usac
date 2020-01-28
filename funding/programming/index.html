@@ -24,12 +24,12 @@ title: Programming Funds Search
 	</div>
 
 	<div class="cards-list">
-		<p class="no-cards-msg">No funds selected.
+		<p class="no-cards-msg">No funds matching those criteria.
 		{% for fund in funds.funds %}
 		<div class="card {% for name, vals in fund.tags %}{% for val in vals %} {{ name }}-{{ val }}{% endfor %}{% endfor %}">
 			<h2 class="card-title">
 				{% if fund.fund_org %}
-				{{ fund.fund_org }} -
+				{{ fund.fund_org }} &mdash;
 				{% endif %}
 				{{ fund.fund_name }}
 			</h3>

@@ -54,35 +54,35 @@
 
 	// TODO: use case-insensitive matching (not supported in IE, Edge)
 
-	&[href$=".pdf"]::after {
+	&[href$='.pdf']::after {
 		content: 'pdf';
 	}
 
-	&[href$=".doc"]::after, &[href$=".docx"]::after {
+	&[href$='.doc']::after, &[href$='.docx']::after {
 		content: 'doc';
 	}
 
-	&[href$=".xls"]::after, &[href$=".xlsx"]::after {
+	&[href$='.xls']::after, &[href$='.xlsx']::after {
 		content: 'xls';
 	}
 
-	&[href$=".ppt"]::after, &[href$=".pptx"]::after {
+	&[href$='.ppt']::after, &[href$='.pptx']::after {
 		content: 'ppt';
 	}
 
-	&[href*="/forms/"]::after, &[href*="forms.gle"]::after {
+	&[href*='/forms/']::after, &[href*='forms.gle']::after {
 		content: 'form';
 	}
 
-	&[href*="/document/"]::after {
+	&[href*='/document/']::after {
 		content: 'gdoc';
 	}
 
-	&[href*="/spreadsheet/"]::after {
+	&[href*='/spreadsheet/']::after {
 		content: 'gsheet';
 	}
 
-	&[href*="/presentation/"]::after {
+	&[href*='/presentation/']::after {
 		content: 'gslide';
 	}
 }
