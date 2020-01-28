@@ -3,7 +3,7 @@
 	padding: 0;
 
 	a {
-		&[aria-current], #{$active-link} {
+		&[aria-current], #{$ready} {
 			color: $ucla-gold;
 		}
 	}
@@ -84,6 +84,31 @@
 
 	&[href*="/presentation/"]::after {
 		content: 'gslide';
+	}
+}
+
+@mixin pop-out($amount, $inset: '') {
+	border: thin solid rgba(0, 0, 0, 0.25);
+	box-shadow: unquote($inset) 0 ($amount * 2px) 4px rgba(0, 0, 0, 0.25);
+}
+
+.button {
+	@include pop-out(1);
+
+	background-color: white;
+	padding: 0.5ex 3ex;
+
+	&.primary {
+		background-color: rgba(59, 115, 169, 0.9);
+		color: white;
+	}
+
+	#{$ready} {
+		@include pop-out(2);
+	}
+
+	&:active {
+		@include pop-out(1, inset);
 	}
 }
 

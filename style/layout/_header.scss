@@ -7,7 +7,7 @@ header {
 		margin: 0;
 
 		a {
-			#{$active-link} {
+			#{$ready} {
 				color: $ucla-gold;
 			}
 		}
@@ -23,7 +23,7 @@ header {
 			color: $ucla-blue-darkest;
 			background-color: $ucla-gold;
 
-			#{$active-link} {
+			#{$ready} {
 				background-color: $ucla-gold-darkest;
 			}
 

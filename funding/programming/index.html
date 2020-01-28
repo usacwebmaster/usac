@@ -62,17 +62,16 @@ title: Programming Funds Search
 					<p><b>Improve your chances:</b> {{ fund.improve_your_chances }}
 				</div>
 			</div>
-			<div class="ButtonContainer">
+			<p class="card-actions">
 				{% if fund.links.faq %}
-				<button class="guide_button"><a class="invisible button_link" href={{ fund.links.faq }}>FAQs</a></button>
+				<a class="invisible button" href="{{ fund.links.faq }}">FAQs</a>
 				{% endif %}
 				{% if fund.links.guidelines %}
-				<button class="guide_button"><a class="invisible button_link" href={{ fund.links.guidelines }}>Full Guidelines</a></button>
+				<a class="invisible button" href="{{ fund.links.guidelines }}">Full Guidelines</a>
 				{% endif %}
 				{% if fund.links.application %}
-				<button class="app_button"> <a class="invisible button_link" href={{ fund.links.application }}>Application</a></button>
+				<a class="invisible button primary" href="{{ fund.links.application }}">Application</a>
 				{% endif %}
-			</div>
 		</div>
 		{% endfor %}
 	</div>
