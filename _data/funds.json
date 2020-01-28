@@ -16,7 +16,6 @@
 	},
 	"funds": [
 		{
-			"id": 0,
 			"fund_org": "Academic Affairs Commission",
 			"fund_name": "Academic Success Referendum (ASRF)",
 			"deadline": "2 weeks prior to proposed program date",
@@ -38,7 +37,6 @@
 			}
 		},
 		{
-			"id": 1,
 			"fund_org": "Academic Affairs Commission",
 			"fund_name": "Travel Grant Mini Fund",
 			"deadline": "3 weeks prior to proposed program date.",
@@ -60,7 +58,6 @@
 			}
 		},
 		{
-			"id": 2,
 			"fund_org": "Art Restoring Community (ARC)",
 			"fund_name": "Referendum Funding",
 			"deadline": "Fixed per quarter, exact date varies depending on quarter.",
@@ -83,7 +80,6 @@
 			}
 		},
 		{
-			"id": 3,
 			"fund_org": "",
 			"fund_name": "Bruin Advocacy Grant",
 			"deadline": "Fridays, 5 weeks prior to proposed program date.",
@@ -105,7 +101,6 @@
 			}
 		},
 		{
-			"id": 4,
 			"fund_org": "",
 			"fund_name": "Community Service Mini Fund",
 			"deadline": "Week 3 (Fall). Week 4 (Winter and Spring)",
@@ -127,7 +122,6 @@
 			}
 		},
 		{
-			"id": 5,
 			"fund_org": "Student Initiated Outreach Committee (SIOC)",
 			"fund_name": "Mini Fund",
 			"deadline": "Fixed per quarter, exact date varies depending on quarter.",
@@ -149,7 +143,6 @@
 			}
 		},
 		{
-			"id": 6,
 			"fund_org": "",
 			"fund_name": "Contingency Capital Items Fund",
 			"deadline": "3 Weeks prior to purchase",
@@ -171,7 +164,6 @@
 			}
 		},
 		{
-			"id": 7,
 			"fund_org": "",
 			"fund_name": "Contingency Programming Fund",
 			"deadline": "3 weeks prior to proposed program date.",
@@ -193,7 +185,6 @@
 			}
 		},
 		{
-			"id": 8,
 			"fund_org": "",
 			"fund_name": "Student Wellness Programming Fund",
 			"deadline": "2 Mondays prior to proposed program date.",
@@ -215,7 +206,6 @@
 			}
 		},
 		{
-			"id": 9,
 			"fund_org": "",
 			"fund_name": "Supplemental Fund for Service (SFS)",
 			"deadline": "4 Weeks (for conferences) 2 Weeks (for programs and other funding needs)",
@@ -237,8 +227,7 @@
 			}
 		},
 		{
-			"id": 10,
-			"fund_org": "TGIF (The Green Initiative Fund) Grant Application",
+			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
 			"fund_name": "Main Fund",
 			"deadline": "Fall: October 11, Winter: January 17 Spring: April 10",
 			"eligibility": {
@@ -259,8 +248,7 @@
 			}
 		},
 		{
-			"id": 11,
-			"fund_org": "TGIF (The Green Initiative Fund) Grant Application",
+			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
 			"fund_name": "Mini Fund",
 			"deadline": "Fridays of Week 2, 4, 6, 8",
 			"eligibility": {
@@ -275,13 +263,12 @@
 				"application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMiniFundApplication20192020"
 			},
 			"tags": {
-				"amount": "$500 per quarter",
+				"amount": "$500 per quarter ($1,000 cap)",
 				"deadline": [2],
 				"cause": [4]
 			}
 		},
 		{
-			"id": 12,
 			"fund_org": "",
 			"fund_name": "USA/BOD ASUCLA Programming Fund",
 			"deadline": "Fall: October 8, 2019 Winter: November 5, 2019 Spring: February 18, 2020",

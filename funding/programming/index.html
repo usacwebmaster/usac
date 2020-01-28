@@ -4,7 +4,7 @@ title: Programming Funds Search
 
 <h1>Programming Funds Search <small>(BETA)</small></h1>
 
-<p>Use this page to narrow down your search for USAC funds. The <a href="list">old list of funds</a> is still available.
+<p>Use this page to narrow down your search for USAC funds <i>(make sure to review all funding guidelines to determine if you are eligible for other funds as well)</i>. The <a href="list">old list of funds</a> is still available.
 
 <div
 	class="{% for cat, opts in funds.filters %}{% for opt in opts %} hide-{{ cat }}-{{ loop.index }}{% endfor %}{% endfor %}"
@@ -26,7 +26,7 @@ title: Programming Funds Search
 	<div class="cards-list">
 		<p class="no-cards-msg">No funds matching those criteria.
 		{% for fund in funds.funds %}
-		<div class="card {% for name, vals in fund.tags %}{% for val in vals %} {{ name }}-{{ val }}{% endfor %}{% endfor %}">
+		<div class="card {% for name, vals in fund.tags %}{% if funds.filters[name] %}{% for val in vals %} {{ name }}-{{ val }}{% endfor %}{% endif %}{% endfor %}">
 			<h2 class="card-title">
 				{% if fund.fund_org %}
 				{{ fund.fund_org }} &mdash;
@@ -35,14 +35,13 @@ title: Programming Funds Search
 			</h3>
 			<ul class="fund-tags">
 				{% for name, vals in fund.tags %}
-					<li class="fund-tag-{{ name }}" title="{{ name | title }}">
-						{% if funds.filters[name] %}
-							{% for val in vals %}
-								{{ funds.filters[name][val - 1] }}
-							{% endfor %}
-						{% else %}
-							{{ vals }}
-						{% endif %}
+					{% if funds.filters[name] %}
+						{% for val in vals %}
+						<li class="fund-tag-{{ name }}" title="{{ name | title }}">{{ funds.filters[name][val - 1] }}
+						{% endfor %}
+					{% else %}
+						<li class="fund-tag-{{ name }}" title="{{ name | title }}">{{ vals }}
+					{% endif %}
 				{% endfor %}
 			</ul>
 			<div class="fund-desc">
