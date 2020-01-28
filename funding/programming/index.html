@@ -47,13 +47,7 @@ title: Programming Funds Search
 			<div class="fund-desc">
 				<div>
 					<p><b>Deadline:</b> {{ fund.deadline }}
-					<p><b>Eligibility:</b>
-						{% if fund.eligibility.group %}
-							Groups must be registered with SOLE.
-						{% endif %}
-						{% if fund.eligibility.individual %}
-							Individuals may also apply.
-						{% endif %}
+					<p><b>Eligibility:</b> {{ fund.eligibility }}
 					<p><b>Contact:</b> <a href="mailto:{{ fund.contact }}">{{ fund.contact }}</a>
 				</div>
 				<div>
