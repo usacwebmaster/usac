@@ -24,8 +24,8 @@
 			"about": "Fund given to causes that support academic success of students. No non academic program allowed.",
 			"improve_your_chances": "Consider feasibility, cost efficiency, benefit for future students, necessity, impact of students",
 			"links": {
-				"guidelines": "/docs/asrf_guidelines.pdf",
-				"application": "https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link"
+				"Guidelines": "/docs/asrf_guidelines.pdf",
+				"Application": "https://docs.google.com/forms/d/e/1FAIpQLScJDG_qP5HUj_YINPAoyIcMVpVXHKd8UXV4moZ4O3ZFj6smFw/viewform?usp=sf_link"
 			},
 			"tags": {
 				"amount": "$2000 per quarter",
@@ -42,8 +42,8 @@
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
-				"guidelines": "/docs/tgmf_guidelines.pdf",
-				"application": "https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link"
+				"Guidelines": "/docs/tgmf_guidelines.pdf",
+				"Application": "https://docs.google.com/forms/d/e/1FAIpQLSdvz61zHoKszP9mFi-I6dCGymTYHsuAPXv7ajjmG6l7fBKmXg/viewform?usp=sf_link"
 			},
 			"tags": {
 				"amount": "$500 per quarter",
@@ -60,9 +60,9 @@
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
-				"faq": "/docs/ARC%202019-2020%20FAQ.pdf",
-				"guidelines": "/docs/ARC%202019-2020%20Guidelines.pdf",
-				"application": "/docs/ARC%202019-2020%20Application.pdf"
+				"FAQs": "/docs/ARC%202019-2020%20FAQ.pdf",
+				"Guidelines": "/docs/ARC%202019-2020%20Guidelines.pdf",
+				"Application": "/docs/ARC%202019-2020%20Application.pdf"
 			},
 			"tags": {
 				"amount": "$2500 per quarter",
@@ -79,8 +79,8 @@
 			"about": "Fund for students looking to advocate on behalf of themselves or organization for issues important to them.",
 			"improve_your_chances": "Advocacy must be on local/state/national/international issues or a core mission statement in the organizations bylaws/constitution.",
 			"links": {
-				"guidelines": "https://docs.google.com/presentation/d/1F1XP1HA533C76k7r36EEkakv90KVrh-vavDJXdLf1i4/edit",
-				"application": "https://goo.gl/forms/qeHtpO6W66jVGIVq2"
+				"Guidelines": "https://docs.google.com/presentation/d/1F1XP1HA533C76k7r36EEkakv90KVrh-vavDJXdLf1i4/edit",
+				"Application": "https://goo.gl/forms/qeHtpO6W66jVGIVq2"
 			},
 			"tags": {
 				"amount": "$5000 per quarter",
@@ -90,15 +90,17 @@
 		},
 		{
 			"fund_org": "",
-			"fund_name": "Community Service Mini Fund",
+			"fund_name": "Community Service Mini Fund (CS Mini)",
 			"deadline": "Week 3 (Fall). Week 4 (Winter and Spring)",
 			"eligibility": "Groups must be registered with SOLE.",
 			"contact": "csminifund@gmail.com",
 			"about": "Student program which contributes to the elimination of poverty and social problems; and/or provides direct services to disadvantaged groups.",
 			"improve_your_chances": "Innovation-as a response to the needs of the target population, uniqueness, professional services that address unmet needs, provide direct service",
 			"links": {
-				"guidelines": "/docs/funding_guidelines_csmini.doc",
-				"application": "https://www.usacfunds.ucla.edu/fundapp/csmini/"
+				"Score Sheet": "https://docs.google.com/document/d/1VPBxP0CI0Qz8Cb1rweYkrqFNW6I2SRJuEL9DzwwfCTA/edit",
+				"Tutorial": "https://drive.google.com/file/d/1mS7VrwH308hoF4lolEujnOeA9ehx5eGR/view",
+				"Guidelines": "/docs/funding_guidelines_csmini.doc",
+				"Application": "https://www.usacfunds.ucla.edu/fundapp/csmini/"
 			},
 			"tags": {
 				"amount": "$3500 per quarter",
@@ -115,8 +117,9 @@
 			"about": "A supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions.",
 			"improve_your_chances": "The program or service to be implemented must be directly correlated towards increasing the academic competitiveness of socio-economically/educationally disadvantaged students and underrepresented communities towards eligibility or attendance to the University of California or other institutions of higher learning.",
 			"links": {
-				"guidelines": "/docs/sioc_guidelines.pdf",
-				"application": "/docs/sioc_application.pdf"
+				"Deadlines": "/docs/sioc_deadlines.pdf",
+				"Guidelines": "/docs/sioc_guidelines.pdf",
+				"Application": "/docs/sioc_application.pdf"
 			},
 			"tags": {
 				"amount": "Funding varies",
@@ -133,8 +136,8 @@
 			"about": "Fund given to USAC office/commission or a student group with an office in Kerckhoff to cover cost of technology and furniture items.",
 			"improve_your_chances": "Consider the type of tech/furniture you are requesting. Computers, cabinents, desks, will be funded. Laptops, microwaves, etc. won’t.",
 			"links": {
-				"guidelines": "",
-				"application": "https://forms.gle/ULKcpN9rHnikCGEg7"
+				"Guidelines": "",
+				"Application": "https://forms.gle/ULKcpN9rHnikCGEg7"
 			},
 			"tags": {
 				"amount": "Funding varies",
@@ -151,8 +154,8 @@
 			"about": "Helps student organizations fund activities and events which are desirable to the general interest of the UCLA Undergraduate Student Body.",
 			"improve_your_chances": "Food, retreats, parking, etc. will be funded.",
 			"links": {
-				"guidelines": "/docs/Finance%20Committee%20Guidelines.pdf",
-				"application": "https://forms.gle/oDGgrup8CJWL9ZJz8"
+				"Guidelines": "/docs/Finance%20Committee%20Guidelines.pdf",
+				"Application": "https://forms.gle/oDGgrup8CJWL9ZJz8"
 			},
 			"tags": {
 				"amount": "Funding varies",
@@ -169,8 +172,8 @@
 			"about": "Help funds event organizing and supply costs for health-related events on-campus.",
 			"improve_your_chances": "Student orgs may apply mulitiple times, as long as each application is for a different event.",
 			"links": {
-				"guidelines": "",
-				"application": "https://forms.gle/FvyfQKMd9rn2jiVk9"
+				"Guidelines": "",
+				"Application": "https://forms.gle/FvyfQKMd9rn2jiVk9"
 			},
 			"tags": {
 				"amount": "$750 per quarter",
@@ -187,8 +190,8 @@
 			"about": "Provide UCLA undergraduate students affiliated with a service project on-campus and UCLA student organizations the opportunity to pursue their service initiatives.",
 			"improve_your_chances": "Recipients of service include: UCLA students, Non-UCLA students, Non-human recipients (ex. Animals, Environment).",
 			"links": {
-				"guidelines": "https://docs.google.com/document/d/1F9vXnHMqfgHp8YLWsZG_ES0Uqf4Bzg3esHPmvOdRSVE/edit?usp=sharing",
-				"application": "https://docs.google.com/document/d/1_-epDWMmKbRfGkGf1H7xphEjvghWHUYXIXKU3ZTlloY/edit"
+				"Guidelines": "https://docs.google.com/document/d/1F9vXnHMqfgHp8YLWsZG_ES0Uqf4Bzg3esHPmvOdRSVE/edit?usp=sharing",
+				"Application": "https://docs.google.com/document/d/1_-epDWMmKbRfGkGf1H7xphEjvghWHUYXIXKU3ZTlloY/edit"
 			},
 			"tags": {
 				"amount": "$3,250 per quarter",
@@ -205,8 +208,8 @@
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
-				"guidelines": "https://tgif.ucla.edu/getfunding.php",
-				"application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMainFundApplication20192020"
+				"Guidelines": "https://tgif.ucla.edu/getfunding.php",
+				"Application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMainFundApplication20192020"
 			},
 			"tags": {
 				"amount": "$10,000 per quarter",
@@ -223,8 +226,8 @@
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
-				"guidelines": "https://tgif.ucla.edu/getfunding.php",
-				"application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMiniFundApplication20192020"
+				"Guidelines": "https://tgif.ucla.edu/getfunding.php",
+				"Application": "https://www.cognitoforms.com/ASUCLASGA/TGIFMiniFundApplication20192020"
 			},
 			"tags": {
 				"amount": "$500 per quarter",
@@ -242,8 +245,8 @@
 			"about": "Fund to help programming costs of events organized and hosted by officially registered student organizations.",
 			"improve_your_chances": "Apply for funding towards advertising or graphics, facilities or equipment rentals, food, honoraria, props or costumes.",
 			"links": {
-				"guidelines": "/docs/bod_guidelines.pdf",
-				"application": "/docs/bod_guidelines.pdf"
+				"Guidelines": "/docs/bod_guidelines.pdf",
+				"Application": "/docs/bod_guidelines.pdf"
 			},
 			"tags": {
 				"amount": "$50,000 per quarter",

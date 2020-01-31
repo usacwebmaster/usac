@@ -57,15 +57,9 @@ title: Programming Funds Search
 				</div>
 			</div>
 			<p class="card-actions">
-				{% if fund.links.faq %}
-				<a class="invisible button" href="{{ fund.links.faq }}">FAQs</a>
-				{% endif %}
-				{% if fund.links.guidelines %}
-				<a class="invisible button" href="{{ fund.links.guidelines }}">Full Guidelines</a>
-				{% endif %}
-				{% if fund.links.application %}
-				<a class="invisible button primary" href="{{ fund.links.application }}">Application</a>
-				{% endif %}
+				{% for type, link in fund.links %}
+				<a class="invisible button {% if type === 'Application' %}primary{% endif %}" href="{{ link }}">{{ type }}</a>
+				{% endfor %}
 		</div>
 		{% endfor %}
 	</div>
