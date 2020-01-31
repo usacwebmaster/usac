@@ -17,7 +17,7 @@
 
 .cards-list {
 	position: relative;
-	min-height: 4em;
+	padding-bottom: 3em;
 
 	@at-root .no-cards-msg {
 		position: absolute;
@@ -27,9 +27,10 @@
 	@at-root .card {
 		@include pop-out(2);
 		background-color: white;
+		overflow: auto;
 
 		padding: 2em 1.5em;
-		margin: 2em 0;
+		margin-top: 3em;
 
 		@at-root .card-title {
 			margin-top: 0;
@@ -40,7 +41,19 @@
 			margin-bottom: 0;
 
 			.button {
-				margin-right: 2ex;
+				margin-right: 1em;
+			}
+
+			@media #{$bp-main} {
+				text-align: center;
+
+				.button {
+					margin: 0;
+
+					&:not(:last-of-type) {
+						margin-bottom: 1.5em;
+					}
+				}
 			}
 		}
 	}
