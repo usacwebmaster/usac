@@ -253,6 +253,24 @@
 				"deadline": [2],
 				"cause": [1]
 			}
+		},
+		{
+			"fund_org": "Office of the Internal Vice President (IVP)",
+			"fund_name": "Partnership Fund",
+			"deadline": "Friday of Finals Week of Winter Quarter (March 20th, 2020).",
+			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
+			"contact": "ssolemnidad22@g.ucla.edu",
+			"about": "Logistical support such as publicity, reserving spaces, and other opportunities to connect USAC with student organizations.",
+			"improve_your_chances": "Consider relevance, practicality, thrift, longevity, necessity, accessibility, and strength of your application.",
+			"links": {
+				"Guidelines": "https://docs.google.com/document/d/1jA_9zvVlaEQcntyxdVvs4rvPRlpRcXdsJphTSpz6lvk/edit",
+				"Application": "https://docs.google.com/forms/d/e/1FAIpQLSecgonYR7fjhImVrasQdZQAdNg6DhBkbTDpP2sPNSf74i0cIg/viewform"
+			},
+			"tags": {
+				"amount": "$1,200 per organization",
+				"deadline": [1],
+				"cause": [6]
+			}
 		}
 	]
 }
