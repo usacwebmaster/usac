@@ -26,8 +26,8 @@ title: Programming Funds Search
 
 	<div class="cards-list">
 		<p class="no-cards-msg">No funds matching those criteria.
-		{% for fund in funds.funds %}
-		<div id="fund-{{ loop.index }}" class="card {% for name, vals in fund.tags %}{% if funds.filters[name] %}{% for val in vals %} {{ name }}-{{ val }}{% endfor %}{% endif %}{% endfor %}">
+		{% for fund in funds.funds | reverse %}
+		<div id="fund-{{ fund.id }}" class="card {% for name, vals in fund.tags %}{% if funds.filters[name] %}{% for val in vals %} {{ name }}-{{ val }}{% endfor %}{% endif %}{% endfor %}">
 			<h2 class="card-title">
 				{% if fund.fund_org %}
 				{{ fund.fund_org }} &mdash;
