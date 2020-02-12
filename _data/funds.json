@@ -21,7 +21,7 @@
 			"fund_name": "Academic Success Referendum (ASRF)",
 			"deadline": "2 weeks prior to proposed program date",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "usaaac@asucla.ucla.edu",
+			"contact": ["usaaac@asucla.ucla.edu"],
 			"about": "Fund given to causes that support academic success of students. No non academic program allowed.",
 			"improve_your_chances": "Consider feasibility, cost efficiency, benefit for future students, necessity, impact of students",
 			"links": {
@@ -40,7 +40,7 @@
 			"fund_name": "Travel Grant Mini Fund",
 			"deadline": "3 weeks prior to proposed program date.",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "usaaac@asucla.ucla.edu",
+			"contact": ["usaaac@asucla.ucla.edu"],
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
@@ -59,7 +59,7 @@
 			"fund_name": "Referendum Funding",
 			"deadline": "Fixed per quarter, exact date varies depending on quarter.",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "acarcfund@asucla.ucla.edu",
+			"contact": ["acarcfund@asucla.ucla.edu"],
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
@@ -79,7 +79,7 @@
 			"fund_name": "Bruin Advocacy Grant",
 			"deadline": "Fridays, 5 weeks prior to proposed program date.",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "usac.evp.bruindefendersdir@gmail.com",
+			"contact": ["usac.evp.bruindefendersdir@gmail.com"],
 			"about": "Fund for students looking to advocate on behalf of themselves or organization for issues important to them.",
 			"improve_your_chances": "Advocacy must be on local/state/national/international issues or a core mission statement in the organizations bylaws/constitution.",
 			"links": {
@@ -98,7 +98,7 @@
 			"fund_name": "Community Service Mini Fund (CS Mini)",
 			"deadline": "Week 3 (Fall) or Week 4 (Winter and Spring) at 12 noon.",
 			"eligibility": "Groups must be registered with SOLE.",
-			"contact": "csminifund@gmail.com",
+			"contact": ["csminifund@gmail.com"],
 			"about": "Student program which contributes to the elimination of poverty and social problems; and/or provides direct services to disadvantaged groups.",
 			"improve_your_chances": "Innovation-as a response to the needs of the target population, uniqueness, professional services that address unmet needs, provide direct service",
 			"links": {
@@ -119,7 +119,7 @@
 			"fund_name": "Mini Fund",
 			"deadline": "Fixed per quarter, exact date varies depending on quarter.",
 			"eligibility": "Groups must be registered with SOLE.",
-			"contact": "siocminifund@cpo.ucla.edu",
+			"contact": ["siocminifund@cpo.ucla.edu"],
 			"about": "A supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions.",
 			"improve_your_chances": "The program or service to be implemented must be directly correlated towards increasing the academic competitiveness of socio-economically/educationally disadvantaged students and underrepresented communities towards eligibility or attendance to the University of California or other institutions of higher learning.",
 			"links": {
@@ -139,7 +139,7 @@
 			"fund_name": "Contingency Capital Items Fund",
 			"deadline": "3 Weeks prior to purchase",
 			"eligibility": "Groups must be registered with SOLE and have physical office space in Kerckhoff Hall.",
-			"contact": "usaficom@asucla.ucla.edu",
+			"contact": ["usaficom@asucla.ucla.edu"],
 			"about": "Fund given to USAC office/commission or a student group with an office in Kerckhoff to cover cost of technology and furniture items.",
 			"improve_your_chances": "Consider the type of tech/furniture you are requesting. Computers, cabinents, desks, will be funded. Laptops, microwaves, etc. won’t.",
 			"links": {
@@ -158,7 +158,7 @@
 			"fund_name": "Contingency Programming Fund",
 			"deadline": "3 weeks prior to proposed program date.",
 			"eligibility": "Groups must be registered with SOLE.",
-			"contact": "usaficom@asucla.ucla.edu",
+			"contact": ["usaficom@asucla.ucla.edu"],
 			"about": "Helps student organizations fund activities and events which are desirable to the general interest of the UCLA Undergraduate Student Body.",
 			"improve_your_chances": "Food, retreats, parking, etc. will be funded.",
 			"links": {
@@ -177,7 +177,7 @@
 			"fund_name": "Student Wellness Programming Fund",
 			"deadline": "2 Mondays prior to proposed program date.",
 			"eligibility": "Groups must be registered with SOLE.",
-			"contact": "usaaac@asucla.ucla.edu",
+			"contact": ["usaaac@asucla.ucla.edu"],
 			"about": "Help funds event organizing and supply costs for health-related events on-campus.",
 			"improve_your_chances": "Student orgs may apply mulitiple times, as long as each application is for a different event.",
 			"links": {
@@ -196,7 +196,7 @@
 			"fund_name": "Supplemental Fund for Service (SFS)",
 			"deadline": "4 Weeks (for conferences) 2 Weeks (for programs and other funding needs)",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "sfs@uclacsc.org",
+			"contact": ["sfs@uclacsc.org"],
 			"about": "Provide UCLA undergraduate students affiliated with a service project on-campus and UCLA student organizations the opportunity to pursue their service initiatives.",
 			"improve_your_chances": "Recipients of service include: UCLA students, Non-UCLA students, Non-human recipients (ex. Animals, Environment).",
 			"links": {
@@ -215,7 +215,7 @@
 			"fund_name": "Main Fund",
 			"deadline": "Fall: October 11, Winter: January 17 Spring: April 10",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "TGIF@asucla.ucla.edu",
+			"contact": ["TGIF@asucla.ucla.edu"],
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
@@ -234,7 +234,7 @@
 			"fund_name": "Mini Fund",
 			"deadline": "Fridays of Week 2, 4, 6, 8",
 			"eligibility": "UCLA students, staff, and faculty; provided there is undergraduate student involvement and/or benefit.",
-			"contact": "TGIF@asucla.ucla.edu",
+			"contact": ["TGIF@asucla.ucla.edu"],
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
@@ -254,7 +254,7 @@
 			"fund_name": "USA/BOD ASUCLA Programming Fund",
 			"deadline": "Fall: October 8, 2019 Winter: November 5, 2019 Spring: February 18, 2020",
 			"eligibility": "Groups must be registered with SOLE.",
-			"contact": "usabudgetreview@gmail.com",
+			"contact": ["usabudgetreview@gmail.com"],
 			"about": "Fund to help programming costs of events organized and hosted by officially registered student organizations.",
 			"improve_your_chances": "Apply for funding towards advertising or graphics, facilities or equipment rentals, food, honoraria, props or costumes.",
 			"links": {
@@ -273,7 +273,7 @@
 			"fund_name": "Partnership Fund",
 			"deadline": "Friday of Finals Week of Winter Quarter (March 20th, 2020).",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
-			"contact": "ssolemnidad22@g.ucla.edu",
+			"contact": ["ssolemnidad22@g.ucla.edu", "arshg2811@gmail.com"],
 			"about": "Logistical support such as publicity, reserving spaces, and other opportunities to connect USAC with student organizations.",
 			"improve_your_chances": "Consider relevance, practicality, thrift, longevity, necessity, accessibility, and strength of your application.",
 			"links": {
@@ -292,7 +292,7 @@
 			"fund_name": "CommUnity Fund",
 			"deadline": "Periodically throughout the quarter.",
 			"eligibility": "Groups must be registered with SOLE.",
-			"contact": "usac.cac@gmail.com",
+			"contact": ["usac.cac@gmail.com"],
 			"about": "To help alleviate some of the fiscal burdens student organizations face when putting on culturally relevant projects and events.",
 			"improve_your_chances": "Consider application thoroughness, applicant necessity, and program's benefit for the student body. Include cost estimates/quotes/documentation.",
 			"links": {

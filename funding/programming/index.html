@@ -49,7 +49,12 @@ title: Programming Funds Search
 				<div>
 					<p><b>Deadline:</b> {{ fund.deadline }}
 					<p><b>Eligibility:</b> {{ fund.eligibility }}
-					<p><b>Contact:</b> <a href="mailto:{{ fund.contact }}">{{ fund.contact }}</a>
+					<p><b>Contact:</b>
+						{%- set comma = joiner(', ') -%}
+						{%- for email in fund.contact -%}
+						{{ comma() }}
+						<a href="mailto:{{ email }}">{{ email }}</a>
+						{%- endfor -%}
 				</div>
 				<div>
 					<p><b>About:</b> {{ fund.about }}
