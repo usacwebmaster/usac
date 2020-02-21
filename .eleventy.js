@@ -1,6 +1,9 @@
+const EBOARD = 'https://www.uclaelectionsboard.org/'
 const rewrite = {
 	'/funding/': '/funding/sga/',
-	'/about/eboard/': '/documents/elections/'
+	'/elections/': EBOARD,
+	'/about/eboard/': EBOARD,
+	'/documents/elections/': `${EBOARD}#comp-k6e35ave`
 }
 
 module.exports = ec => {
