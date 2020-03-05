@@ -4,7 +4,7 @@
 	<li>
 		<a href="{{ doc.url }}">
 			{%- if doc.name %}{{ doc.name }}
-			{%- else -%}<time datetime="{{ doc.date | isodate }}">{{ doc.date | humandate }}</time>
+			{%- else -%}<time datetime="{{ doc.date | isoDate }}">{{ doc.date | humanDate }}</time>
 			{%- endif -%}
 		</a>
 	{%- endfor -%}

@@ -21,8 +21,8 @@ module.exports = ec => {
 		.sort(({ data: a }, { data: b }) => (a.weight || 0) - (b.weight || 0) || (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)))
 	ec.addFilter('navlink', link => rewrite[link] || link)
 
-	ec.addFilter('isodate', date => date.toISOString().split('T')[0])
-	ec.addFilter('humandate', date => date.toLocaleDateString(undefined, { timeZone: 'UTC' }))
+	ec.addFilter('isoDate', date => date.toISOString().split('T')[0])
+	ec.addFilter('humanDate', date => date.toLocaleDateString(undefined, { timeZone: 'UTC' }))
 
 	ec.setLibrary('md', require('markdown-it')('commonmark').use(require('markdown-it-anchor'), {
 		permalink: true,

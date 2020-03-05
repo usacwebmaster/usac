@@ -2,7 +2,7 @@
 {% for post in (all | children('/posts/') | reverse | top(limit)) %}
 <article class="post">
 	<h2>{{ post.data.title }}</h2>
-	<time datetime="{{ post.date | isodate }}">{{ post.date | humandate }}</time>
+	<time datetime="{{ post.date | isoDate }}">{{ post.date | humanDate }}</time>
 	{{ post.templateContent | safe }}
 </article>
 {% endfor %}
