@@ -62,6 +62,9 @@ title: Programming Funds Search
 				</div>
 			</div>
 			<p class="card-actions">
+				{% if fund.alert %}
+				<em class="card-actions-alert">{{ fund.alert }}</em>
+				{% endif %}
 				{% for type, link in fund.links %}
 				<a class="invisible button {% if type === 'Application' %}primary{% endif %}" href="{{ link }}">{{ type }}</a>
 				{% endfor %}
