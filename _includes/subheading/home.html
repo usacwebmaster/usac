@@ -1,1 +1,7 @@
-documents.html
+{% from 'postlist.html' import posttime %}
+{% include 'subheading/documents.html' %}
+
+{% set post = collections.all | children('/posts/') | last %}
+<div>
+	<a class="recent-post" href="/posts">Announcement {{ posttime(post) }}: {{ post.data.title }}</a>
+</div>

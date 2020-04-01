@@ -1,8 +1,12 @@
+{% macro posttime(post) -%}
+<time datetime="{{ post.date | isoDate }}">{{ post.date | humanDate }}</time>
+{%- endmacro %}
+
 {% macro postlist(all, limit) %}
 {% for post in (all | children('/posts/') | reverse | top(limit)) %}
 <article class="post">
 	<h2>{{ post.data.title }}</h2>
-	<time datetime="{{ post.date | isoDate }}">{{ post.date | humanDate }}</time>
+	{{ posttime(post) }}
 	{{ post.templateContent | safe }}
 </article>
 {% endfor %}

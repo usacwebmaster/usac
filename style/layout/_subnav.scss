@@ -37,7 +37,7 @@
 				column-rule: thin solid rgba(255, 255, 255, 0.5);
 				column-gap: 4rem;
 
-				margin-top: 2rem;
+				margin: 2rem auto;
 
 				h2 {
 					margin-top: 0;
@@ -52,6 +52,31 @@
 			@media #{$bp-fold} {
 				section:not(:last-child) {
 					border-bottom: $divider;
+				}
+			}
+		}
+
+		@at-root .recent-post {
+			color: $ucla-blue;
+
+			display: inline-block;
+			background-color: $ucla-yellow;
+			@extend %expand-bg;
+
+			&::after {
+				content: ' \2192';
+			}
+
+			time {
+				font-style: italic;
+				font-size: smaller;
+
+				&::before {
+					content: '(';
+				}
+
+				&::after {
+					content: ')';
 				}
 			}
 		}

@@ -21,11 +21,9 @@ body > main {
 
 		&:not(.invisible) {
 			@extend %media-link;
+			@extend %expand-bg;
 
 			text-decoration: underline;
-
-			margin: -0.33em;
-			padding: 0.33em;
 
 			#{$ready} {
 				background-color: $ucla-yellow;
