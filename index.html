@@ -1,0 +1,26 @@
+---
+title: Undergraduate Students Association
+---
+
+<h1>Welcome</h1>
+
+<q>USAC</q> is an acronym for Undergraduate Students Association Council, the governing body of the Undergraduate Students Association (USA) whose membership is comprised of every UCLA undergraduate student. <a href="/about">Learn more about USAC.</a>
+
+<h1>Announcements</h1>
+
+{% from 'postlist.html' import postlist %}
+{% set limit = 5 %}
+
+<div class="carousel">
+	<nav>
+		<ul>
+			{% for i in range(limit, 0, -1) %}
+			<li><a class="invisible" href="#post-{{ i }}"></a>
+			{% endfor %}
+		</ul>
+	</nav>
+
+	<div class="carousel-track">{{ postlist(collections.all, limit, false) }}</div>
+</div>
+
+<a href="/posts">&rarr; Read all announcements</a>

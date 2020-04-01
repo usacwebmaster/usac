@@ -2,6 +2,8 @@ $page-margin-width: 2rem;
 $sidebar-width: 20rem;
 $main-content-width: 50rem;
 
+$fixed-header-height: $page-margin-width + 4rem;
+
 $bp-fold: '(max-width: 50rem)'; // TODO: relative
 $bp-main: '(max-width: #{$main-content-width + $page-margin-width + $sidebar-width})';
 $bp-footer: '(max-width: 40rem)'; // TODO: relative

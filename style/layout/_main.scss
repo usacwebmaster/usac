@@ -16,19 +16,16 @@ body > main {
 		padding-right: $page-margin-width;
 	}
 
-	a:not(.header-anchor) {
+	a:not(.header-anchor):not(.invisible) {
+		@extend %media-link;
+		@extend %expand-bg;
+
 		color: $ucla-blue;
+		text-decoration: underline;
 
-		&:not(.invisible) {
-			@extend %media-link;
-			@extend %expand-bg;
-
-			text-decoration: underline;
-
-			#{$ready} {
-				background-color: $ucla-yellow;
-				text-decoration: none;
-			}
+		#{$ready} {
+			background-color: $ucla-yellow;
+			text-decoration: none;
 		}
 	}
 
