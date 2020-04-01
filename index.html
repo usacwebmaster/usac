@@ -17,10 +17,9 @@ title: Undergraduate Students Association
 			{% for i in range(limit, 0, -1) %}
 			<li><a class="invisible" href="#post-{{ i }}"></a>
 			{% endfor %}
+			<li><a href="/posts">Read all &rarr;</a>
 		</ul>
 	</nav>
 
 	<div class="carousel-track">{{ postlist(collections.all, limit, false) }}</div>
 </div>
-
-<a href="/posts">&rarr; Read all announcements</a>

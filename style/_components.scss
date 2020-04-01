@@ -187,6 +187,19 @@
 		top: $fixed-header-height;
 		left: 0;
 
+		.invisible {
+			display: inline-block;
+			height: 0;
+			vertical-align: middle;
+
+			padding: 0.5em;
+			border-radius: 0.5em;
+
+			margin-right: 0.5em;
+
+			background-color: $ucla-blue-lightest;
+		}
+
 		ul {
 			list-style: none;
 			padding: 0;
@@ -194,17 +207,26 @@
 
 		li {
 			display: inline-block;
-		}
 
-		a {
-			display: inline-block;
-			height: 0;
-			padding: 0.5em;
-			border-radius: 0.5em;
+			&:nth-of-type(1) a {
+				background-color: $ucla-blue-darkest;
+			}
 
-			background-color: $ucla-blue-darkest;
+			&:nth-of-type(2) a {
+				background-color: $ucla-blue-darker;
+			}
 
-			margin-right: 0.5em;
+			&:nth-of-type(3) a {
+				background-color: $ucla-blue;
+			}
+
+			&:nth-of-type(4) a {
+				background-color: $ucla-blue-lighter;
+			}
+
+			&:last-of-type {
+				margin-left: 1em;
+			}
 		}
 	}
 
