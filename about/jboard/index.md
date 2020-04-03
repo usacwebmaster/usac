@@ -4,20 +4,13 @@ title: Judicial Board
 
 # Judicial Board
 
-The Judicial Board (J-Board) is the judicial branch of USAC. Similar to the Supreme Court, J-Board reviews cases of actions taken among the officers, commissioners, and funding bodies to ensure compliance with the USA Constitution & Bylaws, among many other types of cases.
+The Judicial Board is the judicial branch of the UCLA Undergraduate Students Association (USA). Serving in a similar capacity as the United States Supreme Court, the Judicial Board primarily adjudicates disputes involving infractions of the USA Constitution, Bylaws, and Election Code. Additionally, the Judicial Board serves as a board of appeals concerning decisions made by the Elections Board.
 
-In order to file a petition, please complete a <q>Petition for Consideration</q> according to the guidelines listed in the <q>Official Rules of the Judicial Board.</q> Both documents can be found [below](#documents).
+The Judicial Board is a reactionary institution and can only exercise its powers following a formal request via a petition. In order to file a petition, please complete a [Petition for Consideration](/docs/petition.doc) per the guidelines outlined in the document and the [Official Rules of the Judicial Board](/docs/jboard_rules.pdf).
 
 - Email: <uclajudicialboard@gmail.com>
 - Advisor: Orlando Luna (105 Kerckhoff)
-
-# Documents
-
-Important documents related to the Judicial Board:
-
 - [List of Valid Objections](/docs/ObjectionList.pdf)
-- [Petitions for Consideration](/docs/petition.doc)
-- [Official Rules of the Judicial Board](/docs/jboard_rules.pdf)
 
 # Members
 
