@@ -14,6 +14,7 @@
 			"Community Service"
 		]
 	},
+
 	"funds": [
 		{
 			"id": 0,
@@ -34,6 +35,7 @@
 				"cause": [3]
 			}
 		},
+
 		{
 			"id": 1,
 			"fund_org": "Academic Affairs Commission",
@@ -53,6 +55,7 @@
 				"cause": [3]
 			}
 		},
+
 		{
 			"id": 2,
 			"fund_org": "Arts Restoring Community (ARC)",
@@ -74,6 +77,7 @@
 				"cause": [4]
 			}
 		},
+
 		{
 			"id": 3,
 			"fund_org": "",
@@ -94,6 +98,7 @@
 				"cause": [2]
 			}
 		},
+
 		{
 			"id": 4,
 			"fund_org": "",
@@ -115,6 +120,7 @@
 				"cause": [6]
 			}
 		},
+
 		{
 			"id": 5,
 			"fund_org": "Student Initiated Outreach Committee (SIOC)",
@@ -136,6 +142,7 @@
 				"cause": [6]
 			}
 		},
+
 		{
 			"id": 6,
 			"fund_org": "",
@@ -156,6 +163,7 @@
 				"cause": [1]
 			}
 		},
+
 		{
 			"id": 7,
 			"fund_org": "",
@@ -176,6 +184,7 @@
 				"cause": [1]
 			}
 		},
+
 		{
 			"id": 8,
 			"fund_org": "",
@@ -195,6 +204,7 @@
 				"cause": [1]
 			}
 		},
+
 		{
 			"id": 9,
 			"fund_org": "",
@@ -215,6 +225,7 @@
 				"cause": [6]
 			}
 		},
+
 		{
 			"id": 10,
 			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
@@ -234,6 +245,7 @@
 				"cause": [5]
 			}
 		},
+
 		{
 			"id": 11,
 			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
@@ -254,6 +266,7 @@
 				"cause": [5]
 			}
 		},
+
 		{
 			"id": 12,
 			"fund_org": "",
@@ -274,6 +287,7 @@
 				"cause": [1]
 			}
 		},
+
 		{
 			"id": 13,
 			"fund_org": "Office of the Internal Vice President (IVP)",
@@ -294,6 +308,7 @@
 				"cause": [6]
 			}
 		},
+
 		{
 			"id": 14,
 			"fund_org": "Cultural Affairs Commission (CAC)",
