@@ -1,6 +1,6 @@
 const fs = require('fs').promises
 
-const NEW_YEAR = 4 // May
+const NEW_YEAR = 5 // June
 
 const input = 'indexed'
 const output = '/docs'
