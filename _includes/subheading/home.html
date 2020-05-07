@@ -1,9 +1,7 @@
 {% from 'postlist.html' import posttime %}
 {% include 'subheading/documents.html' %}
 
-{# TODO: reinstate when top announcement is relevant
 {% set post = collections.all | children('/posts/') | last %}
 <div>
 	<a class="recent-post" href="/posts">Announcement {{ posttime(post) }}: {{ post.data.title }}</a>
 </div>
-#}
