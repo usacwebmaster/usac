@@ -32,18 +32,19 @@
 			<div class="intro">
 				<h1>{{ (collections.all | mainSection(page.url)).data.title }}</h1>
 
-				{% include 'subheading/' + (collections.all | mainSection(page.url) | sectionName) + '.html' ignore missing %}
+				{% for file in subheading %}
+				{% include 'subheading/' + file + '.html' %}
+				{% endfor %}
 			</div>
 
 			<aside>
-				{% set subnav %}{% include 'subnav/' + (collections.all | mainSection(page.url) | sectionName) + '.html' ignore missing %}{% endset %}
-				{% if subnav %}
-				{{ subnav | safe }}
+				{% for file in subnav %}
+				{% include 'subnav/' + file + '.html' %}
 				{% else %}
 				<nav>
 					{{ navlist((collections.all | mainSection(page.url)).url, page.url, collections.all, 2) }}
 				</nav>
-				{% endif %}
+				{% endfor %}
 			</aside>
 		</div>
 	</div>
