@@ -1,7 +1,6 @@
 const EBOARD = 'https://www.uclaelectionsboard.org/'
 const rewrite = {
 	'/funding/': '/funding/sga/',
-	'/elections/': EBOARD,
 	'/about/eboard/': EBOARD,
 	'/documents/elections/': `${EBOARD}#comp-k6e35ave`
 }
