@@ -5,6 +5,12 @@ weight: 2
 
 # Miscellaneous Documents
 
+## Charters
+
+Guiding documents for various USAC initiatives.
+
+- [Charter for the Good Clothes Good People Basic Needs Referendum](/docs/GCGP%20Charter.pdf)
+
 ## Statements
 
 Statements made by the Undergraduate Students Association Council.
