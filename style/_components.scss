@@ -43,7 +43,19 @@
 }
 
 .stat-fancy {
-	font-size: 1em;
+	@extend %divider-bottom;
+
+	margin: 0.5em 0;
+
+	// Space between content and divider line
+	&::after {
+		padding-top: 1em;
+	}
+
+	span {
+		display: block;
+		margin-bottom: 0.75em;
+	}
 
 	b {
 		display: block;

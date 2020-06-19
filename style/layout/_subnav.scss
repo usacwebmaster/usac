@@ -86,16 +86,6 @@
 		@media #{$bp-not-fold} {
 			width: $sidebar-width;
 		}
-
-		margin: 0 auto;
-
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-
-		section {
-			@extend %divider-bottom;
-		}
 	}
 
 	nav {
