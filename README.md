@@ -4,16 +4,16 @@ Source code for the official USAC website, built with [Eleventy](https://11ty.io
 
 ## Development
 
-The latest LTS version of [Node.js](https://nodejs.org) (and `npm`) must be installed. This repository is organized as a NPM package. To get started,
+The latest LTS version of [Node.js](https://nodejs.org) (and `npm`) must be installed. Familiarity with NPM is assumed. To get started,
 
 	npm install	# Install dependencies (when changed)
 	npm start	# Run a local instance of the website
 
 ## Organization
 
-The website is compiled by Eleventy from the following files, which describe the structure, as well as all the other files, which provide the content. The template engine is [Nunjucks](https://mozilla.github.io/nunjucks/).
+The website is compiled by Eleventy from the following files, which describe the structure; as well as all the other files, which provide the content. The template syntax is [Nunjucks](https://mozilla.github.io/nunjucks/).
 
-*Reading the entire documentation for Eleventy is highly recommended, since it's well-written and this website uses many of its features.*
+*Reading the entire documentation for Eleventy is highly recommended in order to understand this manual.*
 
 - `_data/`
 	- JSON files serving as <q>databases</q> for certain pages
@@ -28,3 +28,8 @@ The website is compiled by Eleventy from the following files, which describe the
 	- `type` is an enumeration
 	- `date` is in ISO format; the day or day and month may be omitted
 	- `name` may be omitted
+- `.eleventy.js`
+	- Copy `docs/`, `indexed/`, and `img/` to output (static files)
+	- The custom navigation system, implemented via filters
+	- Defines static redirects (e.g. navigation links to external pages)
+- `.eleventyignore` hides some pages from the site, like this manual
