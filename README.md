@@ -4,12 +4,10 @@ Source code for the official USAC website, built with [Eleventy](https://11ty.io
 
 ## Development
 
-The latest LTS version of [Node.js](https://nodejs.org) (and `npm`) must be installed.
+The latest LTS version of [Node.js](https://nodejs.org) (and `npm`) must be installed. This repository is organized as a NPM package. To get started,
 
-First, download the dependencies:
+	npm install	# Install dependencies (when changed)
+	npm start	# Run a local instance of the website
 
-	npm install
 
-Then, run a local instance of the website:
 
-	npm start
