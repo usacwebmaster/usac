@@ -9,7 +9,9 @@ weight: -2
 	{% for officer in officers %}
 	<section>
 		{% if officer.picpath %}
-		<img class="portrait" src="/docs/{{ officer.picpath }}" alt="{{ officer.name }}">
+		<figure class="portrait">
+			<img src="/docs/{{ officer.picpath }}" alt="{{ officer.name }}">
+		</figure>
 		{% endif %}
 
 		<main>

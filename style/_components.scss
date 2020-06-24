@@ -149,11 +149,13 @@
 	}
 
 	@at-root .portrait {
-		width: 10em;
-		margin: 0 2em 2em 0;
+		margin: 1.5em 1.5em 0 0;
 
-		border: thin solid gray;
-		padding: 2px;
+		img {
+			width: 10em;
+			border: thin solid gray;
+			padding: 2px;
+		}
 	}
 
 	main {

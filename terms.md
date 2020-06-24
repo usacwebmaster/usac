@@ -35,9 +35,13 @@ This website does not directly store any cookies on your computer. However, thir
 
 <section>
 
-<img class="portrait" src="/img/header.jpg" alt="Homepage header">
+<figure class="portrait">
+	<img src="/img/header.jpg" alt="Homepage header">
+</figure>
 
 <main>
+
+<h2>Kerckhoff Exterior</h2>
 
 Credit: &copy; 2003 by Alan Nyiri, courtesy of the Atkinson Photographic Archive.
 
@@ -49,9 +53,13 @@ No restriction is applied to the use of this photograph in University of Califor
 
 <section>
 
-<img class="portrait" src="/img/Uabout960x450.jpg" alt="About section heading">
+<figure class="portrait">
+	<img src="/img/Uabout960x450.jpg" alt="About section heading">
+</figure>
 
 <main>
+
+<h2>Kerckhoff Staircase</h2>
 
 Credit: &copy; 2014 Logan Cai
 
@@ -63,9 +71,13 @@ No restriction is applied to the use of this photograph in Associated Students U
 
 <section>
 
-<img class="portrait" src="/img/Ufunding960x450.jpg" alt="Funding section heading">
+<figure class="portrait">
+	<img src="/img/Ufunding960x450.jpg" alt="Funding section heading">
+</figure>
 
 <main>
+
+<h2>SGA Staircase</h2>
 
 Credit: &copy; 2014 Logan Cai
 
@@ -77,9 +89,13 @@ No restriction is applied to the use of this photograph in Associated Students U
 
 <section>
 
-<img class="portrait" src="/img/Udocuments960x450.jpg" alt="Documents section heading">
+<figure class="portrait">
+	<img src="/img/Udocuments960x450.jpg" alt="Documents section heading">
+</figure>
 
 <main>
+
+<h2>Bulletin Board</h2>
 
 Credit: &copy; 2014 Logan Cai
 
