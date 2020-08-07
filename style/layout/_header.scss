@@ -37,7 +37,9 @@ header {
 		margin: 0;
 
 		@media #{$bp-fold} {
-			display: none;
+			// Visually hidden, but present for screen readers
+			position: absolute;
+			top: -$fixed-header-height;
 		}
 	}
 
