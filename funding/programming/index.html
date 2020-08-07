@@ -47,9 +47,9 @@ title: Programming Funds Search
 			</ul>
 			<div class="fund-desc">
 				<div>
-					<p><b>Deadline:</b> {{ fund.deadline }}
-					<p><b>Eligibility:</b> {{ fund.eligibility }}
-					<p><b>Contact:</b>
+					<p><strong>Deadline:</strong> {{ fund.deadline }}
+					<p><strong>Eligibility:</strong> {{ fund.eligibility }}
+					<p><strong>Contact:</strong>
 						{%- set comma = joiner(', ') -%}
 						{%- for email in fund.contact -%}
 						{{ comma() }}
@@ -57,8 +57,8 @@ title: Programming Funds Search
 						{%- endfor -%}
 				</div>
 				<div>
-					<p><b>About:</b> {{ fund.about }}
-					<p><b>Improve your chances:</b> {{ fund.improve_your_chances }}
+					<p><strong>About:</strong> {{ fund.about }}
+					<p><strong>Improve your chances:</strong> {{ fund.improve_your_chances }}
 				</div>
 			</div>
 			<p class="card-actions">
@@ -66,7 +66,7 @@ title: Programming Funds Search
 				<em class="card-actions-alert">{{ fund.alert }}</em>
 				{% endif %}
 				{% for type, link in fund.links %}
-				<a class="invisible button {% if type === 'Application' %}primary{% endif %}" href="{{ link }}">{{ type }}</a>
+				<a class="invisible button {% if type === 'Application' %}primary{% endif %}" href="{{ link }}" aria-label="{{ type }} for {{ fund.fund_name }}">{{ type }}</a>
 				{% endfor %}
 		</div>
 		{% endfor %}

@@ -10,7 +10,7 @@ weight: -2
 	<section>
 		{% if officer.picpath %}
 		<figure class="portrait">
-			<img src="/docs/{{ officer.picpath }}" alt="{{ officer.name }}">
+			<img src="/docs/{{ officer.picpath }}" alt="">
 		</figure>
 		{% endif %}
 
@@ -20,10 +20,10 @@ weight: -2
 
 			<address>
 			<p>
-				{% if officer.webpage %}<a class="social-link invisible" href="{{ officer.webpage }}"><img src="/img/social-www.svg" alt="Website"></a>{% endif %}
-				{% if officer.facebook %}<a class="social-link invisible" href="https://www.facebook.com/{{ officer.facebook }}"><img src="/img/social-fb.svg" alt="Facebook"></a>{% endif %}
-				{% if officer.instagram %}<a class="social-link invisible" href="https://www.instagram.com/{{ officer.instagram }}"><img src="/img/social-ig.svg" alt="Instagram"></a>{% endif %}
-				{% if officer.twitter %}<a class="social-link invisible" href="https://www.twitter.com/{{ officer.twitter }}"><img src="/img/social-tw.svg" alt="Twitter"></a>{% endif %}
+				{% if officer.webpage %}<a class="social-link invisible" href="{{ officer.webpage }}"><img src="/img/social-www.svg" alt="Website for {{ officer.position }}"></a>{% endif %}
+				{% if officer.facebook %}<a class="social-link invisible" href="https://www.facebook.com/{{ officer.facebook }}"><img src="/img/social-fb.svg" alt="Facebook for {{ officer.position }}"></a>{% endif %}
+				{% if officer.instagram %}<a class="social-link invisible" href="https://www.instagram.com/{{ officer.instagram }}"><img src="/img/social-ig.svg" alt="Instagram for {{ officer.position }}"></a>{% endif %}
+				{% if officer.twitter %}<a class="social-link invisible" href="https://www.twitter.com/{{ officer.twitter }}"><img src="/img/social-tw.svg" alt="Twitter for {{ officer.position }}"></a>{% endif %}
 			<p><a href="mailto:{{ officer.email }}">{{ officer.email }}</a>
 			<p>{{ officer.addr }}
 			</address>
