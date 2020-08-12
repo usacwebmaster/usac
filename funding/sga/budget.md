@@ -24,22 +24,22 @@ title: Budget Report
 		<th>fund
 		<th>division
 		<th>department
-		<th>expense<br>account
-		<th>event<br>number
+		<th>expense account
+		<th>event number
 	<tr>
-		<td>( 1 -
-		<td>4100 -
-		<td>190 -
-		<td>1901 -
-		<td>6220 -
-		<td>00000 )
+		<td><samp>( 1 -</samp>
+		<td><samp>4100 -</samp>
+		<td><samp>190 -</samp>
+		<td><samp>1901 -</samp>
+		<td><samp>6220 -</samp>
+		<td><samp>00000 )</samp>
 	<tr>
-		<td>( x -
-		<td>xxxx -
-		<td>xxx -
-		<td>xxxx -
-		<td>xxxx -
-		<td>xxxxx )
+		<td><samp>( x -</samp>
+		<td><samp>xxxx -</samp>
+		<td><samp>xxx -</samp>
+		<td><samp>xxxx -</samp>
+		<td><samp>xxxx -</samp>
+		<td><samp>xxxxx )</samp>
 </table>
 
 ## Historical Budget Reports
