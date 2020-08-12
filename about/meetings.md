@@ -12,5 +12,5 @@ For meeting minutes and agendas, see the [Documents section](/documents).
 ## Livestream
 
 <div class="video-frame">
-	<iframe src="https://www.youtube.com/embed/live_stream?channel=UCJbtA3hr74CKQd0t-Rin4IA"></iframe>
+	<iframe title="YouTube video player" src="https://www.youtube.com/embed/live_stream?channel=UCJbtA3hr74CKQd0t-Rin4IA"></iframe>
 </div>
