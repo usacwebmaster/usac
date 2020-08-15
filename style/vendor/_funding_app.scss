@@ -5,6 +5,10 @@
 		margin-right: 4em;
 	}
 
+	h2 {
+		font-size: larger;
+	}
+
 	@media #{$bp-main} {
 		flex-direction: column;
 	}

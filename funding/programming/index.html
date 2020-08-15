@@ -14,7 +14,7 @@ title: Programming Funds Search
 	<div class="fund-filters">
 		{% for cat, opts in funds.filters %}
 		<div>
-			<h3>{{ cat | upper }}</h3>
+			<h2>{{ cat | upper }}</h2>
 			<ul>
 				{% for opt in opts %}
 				<li><label><input type="checkbox" name="{{ cat }}" value="{{ loop.index }}"> {{ opt }}</label>
