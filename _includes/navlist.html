@@ -11,7 +11,7 @@
 
 {# TODO: not need root parameter #}
 {% macro navsel(path, curPath, all, root) %}
-<select onchange="location.href = this.value" aria-hidden="true">
+<select title="Navigation" onchange="location.href = this.value" aria-hidden="true">
 	<option value="{{ path | navlink }}" {% if curPath == url %}selected{% endif %}>{{ root }}
 	{% for link in (all | children(path) | navsort) %}
 	<option value="{{ link.url | navlink }}" {% if curPath | descendsFrom(link.url) %}selected{% endif %}>{{ link.data.title }}

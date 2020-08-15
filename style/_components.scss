@@ -13,6 +13,17 @@
 	height: 1em;
 }
 
+.skip-link {
+	position: absolute;
+	top: -2em;
+
+	color: white;
+
+	&:focus {
+		top: 0;
+	}
+}
+
 .social-link {
 	font-size: x-large;
 

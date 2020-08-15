@@ -18,6 +18,8 @@
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-48504411-1")</script>
 
 <body class="section-{{ collections.all | mainSection(page.url) | sectionName }}">
+	<a class="skip-link" href="#main">Skip to main content</a>
+
 	<div class="fold">
 		<header>
 			<h1><a href="/"><img src="/img/logo_UCLA_blue_boxed.svg" alt="UCLA" class="text-logo"> USAC</a></h1>
@@ -49,7 +51,7 @@
 		</div>
 	</div>
 
-	<main>
+	<main id="main">
 		{{ content | safe }}
 	</main>
 
