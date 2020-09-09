@@ -169,14 +169,13 @@
 			"fund_org": "",
 			"fund_name": "Contingency Programming Fund",
 			"deadline": "3 weeks prior to proposed program date.",
-			"eligibility": "Groups must be registered with SOLE.",
+			"eligibility": "Groups must be registered with SOLE. Only active for online initiatives.",
 			"contact": ["usaficom@asucla.ucla.edu"],
 			"about": "Helps student organizations fund activities and events which are desirable to the general interest of the UCLA Undergraduate Student Body.",
 			"improve_your_chances": "Food, retreats, parking, etc. will be funded.",
-			"alert": "Only active for online initiatives",
 			"links": {
 				"Guidelines": "/docs/Finance%20Committee%20Guidelines.pdf",
-				"Application": "https://forms.gle/oDGgrup8CJWL9ZJz8"
+				"Application": "https://forms.gle/PoUWGrECx7DZtie38"
 			},
 			"tags": {
 				"amount": "Funding varies",
