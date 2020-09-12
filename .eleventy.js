@@ -8,8 +8,11 @@ const rewrite = {
 module.exports = ec => {
 	ec.addFilter('top', (arr, n) => arr.slice(0, n))
 
-	ec.addFilter('mainSection', (all, url) => all.find(page => page.url === url.match(/^\/[^/]*\/?/)[0]))
 	ec.addFilter('sectionName', page => page.fileSlug || 'home')
+	ec.addFilter('mainSection', (all, url) => {
+		const [top] = url.match(/^\/[^/]*\/?/)
+		return all.find(page => page.url === top)
+	})
 
 	ec.addFilter('children', (all, url) =>
 		all.filter(page => page.url.startsWith(url) && !page.url.slice(url.length, -1).includes('/') && page.url !== url))
