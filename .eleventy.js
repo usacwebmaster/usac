@@ -1,3 +1,6 @@
+const MarkdownIt = require('markdown-it')
+const markdownItAnchor = require('markdown-it-anchor')
+
 module.exports = ec => {
 	ec.addFilter('top', (arr, n) => arr.slice(0, n))
 
@@ -20,9 +23,8 @@ module.exports = ec => {
 		return applyWeight(root)
 	})
 
-	ec.setLibrary('md', require('markdown-it')('commonmark').use(require('markdown-it-anchor'), {
+	ec.setLibrary('md', MarkdownIt('commonmark').use(markdownItAnchor, {
 		permalink: true,
-		permalinkSymbol: ''
 	}))
 
 	ec.addPassthroughCopy({
