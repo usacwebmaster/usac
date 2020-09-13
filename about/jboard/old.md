@@ -1,6 +1,5 @@
 ---
 title: Previous Judicial Board Terms
-weight: 0
 ---
 
 # {{ title }}

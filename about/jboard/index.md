@@ -1,5 +1,6 @@
 ---
 title: Judicial Board
+weight: null
 ---
 
 # Judicial Board
@@ -38,7 +39,7 @@ The Judicial Board is a reactionary institution and can only exercise its powers
 # Terms
 
 <ul>
-{% for child in collections.all | children(page.url) | sort(true, true, 'fileSlug') %}
+{% for child in collections.jboard | sort(true, true, 'fileSlug') %}
 {% set year = child.fileSlug | float %}
 {% if year > 0 %}
 <li><a href="{{ child.url }}">{{ year }}&ndash;{{ year + 1 }}</a>
