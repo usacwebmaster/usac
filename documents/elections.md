@@ -1,5 +1,6 @@
 ---
 title: Elections
+url: https://www.uclaelectionsboard.org/#comp-k6e35ave
 ---
 
 # Election Guidelines

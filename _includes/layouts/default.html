@@ -17,7 +17,7 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48504411-1"></script>
 <script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-48504411-1")</script>
 
-<body class="section-{{ collections.all | mainSection(page.url) | sectionName }}">
+<body class="section-{{ page.url | mainSectionId }}">
 	<a class="skip-link" href="#main">Skip to main content</a>
 
 	<div class="fold">
@@ -25,14 +25,14 @@
 			<h1><a href="/"><img src="/img/logo-UCLA-bluebox-USAC-white.svg" alt="UCLA USAC" class="text-logo"></a></h1>
 
 			<nav>
-				{{ navlist('/', page.url, collections.all, 1) }}
-				{{ navsel('/', page.url, collections.all, 'Home') }}
+				{{ navlist(collections.nav, page.url, 1) }}
+				{{ navsel(collections.nav, page.url) }}
 			</nav>
 		</header>
 
 		<div class="subnav">
 			<div class="intro">
-				<h1>{{ (collections.all | mainSection(page.url)).data.title }}</h1>
+				<h1>{{ (collections.nav | mainSection(page.url)).data.title }}</h1>
 
 				{% for file in subheading %}
 				{% include 'subheading/' + file + '.html' %}
@@ -44,7 +44,7 @@
 				{% include 'subnav/' + file + '.html' %}
 				{% else %}
 				<nav>
-					{{ navlist((collections.all | mainSection(page.url)).url, page.url, collections.all, 2) }}
+					{{ navlist(collections.nav | mainSection(page.url), page.url, 2) }}
 				</nav>
 				{% endfor %}
 			</aside>

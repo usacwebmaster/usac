@@ -1,30 +1,24 @@
-const EBOARD = 'https://www.uclaelectionsboard.org/'
-const rewrite = {
-	'/funding/': '/funding/sga/',
-	'/about/eboard/': EBOARD,
-	'/documents/elections/': `${EBOARD}#comp-k6e35ave`
-}
-
 module.exports = ec => {
 	ec.addFilter('top', (arr, n) => arr.slice(0, n))
 
-	ec.addFilter('sectionName', page => page.fileSlug || 'home')
-	ec.addFilter('mainSection', (all, url) => {
-		const [top] = url.match(/^\/[^/]*\/?/)
-		return all.find(page => page.url === top)
-	})
-
-	ec.addFilter('children', (all, url) =>
-		all.filter(page => page.url.startsWith(url) && !page.url.slice(url.length, -1).includes('/') && page.url !== url))
-	ec.addFilter('descendsFrom', (desc, anc) => desc.startsWith(anc))
-
-	ec.addFilter('navsort', pages => pages
-		.filter(({ data }) => data.weight !== 0)
-		.sort(({ data: a }, { data: b }) => (a.weight || 0) - (b.weight || 0) || (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)))
-	ec.addFilter('navlink', link => rewrite[link] || link)
-
 	ec.addFilter('isoDate', date => date.toISOString().split('T')[0])
 	ec.addFilter('humanDate', date => date.toLocaleDateString(undefined, { timeZone: 'UTC' }))
+
+	ec.addFilter('mainSectionId', url => url.split('/')[1])
+	ec.addFilter('mainSection', (nav, url) => url === '/' ? nav : nav.children[url.split('/')[1]])
+
+	ec.addFilter('navLink', item => item.data.url || item.data.page.url)
+	ec.addFilter('descendsFrom', (url, item) => url.startsWith(item.data.page.url))
+
+	ec.addCollection('nav', c => {
+		const root = { children: {} }
+		for (const page of c.getAll()) {
+			const item = page.url.split('/').slice(1, -1).reduce((item, seg) => item.children[seg] = item.children[seg] || { children: {} }, root)
+			item.data = page.data
+		}
+
+		return applyWeight(root)
+	})
 
 	ec.setLibrary('md', require('markdown-it')('commonmark').use(require('markdown-it-anchor'), {
 		permalink: true,
@@ -44,4 +38,15 @@ module.exports = ec => {
 		markdownTemplateEngine: 'njk',
 		htmlTemplateEngine: 'njk'
 	}
+}
+
+function applyWeight(item) {
+	item.navItems = Object.keys(item.children).filter(seg => applyWeight(item.children[seg]).data.weight !== 0)
+	item.navItems.sort((aSeg, bSeg) => {
+		const a = item.children[aSeg].data
+		const b = item.children[bSeg].data
+		return (a.weight || 0) - (b.weight || 0) || (a.title > b.title ? 1 : a.title < b.title ? -1 : 0)
+	})
+
+	return item
 }

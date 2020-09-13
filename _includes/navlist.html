@@ -1,20 +1,21 @@
-{% macro navlist(path, curPath, all, depth) %}
+{% macro navlist(item, curUrl, depth) %}
 <ul>
-	{% for link in (all | children(path) | navsort) %}
-	<li><a href="{{ link.url | navlink }}" {% if curPath | descendsFrom(link.url) %}aria-current="page"{% endif %}>{{ link.data.title }}</a>
+	{% for seg in item.navItems %}
+	{% set child = item.children[seg] %}
+	<li><a href="{{ child | navLink }}" {% if curUrl | descendsFrom(child) %}aria-current="page"{% endif %}>{{ child.data.title }}</a>
 	{% if depth > 1 %}
-	{{ navlist(link.url, curPath, all, depth - 1) }}
+	{{ navlist(child, curUrl, depth - 1) }}
 	{% endif %}
 	{% endfor %}
 </ul>
 {% endmacro %}
 
-{# TODO: not need root parameter #}
-{% macro navsel(path, curPath, all, root) %}
+{% macro navsel(item, curUrl) %}
 <select title="Navigation" onchange="location.href = this.value" aria-hidden="true">
-	<option value="{{ path | navlink }}" {% if curPath == url %}selected{% endif %}>{{ root }}
-	{% for link in (all | children(path) | navsort) %}
-	<option value="{{ link.url | navlink }}" {% if curPath | descendsFrom(link.url) %}selected{% endif %}>{{ link.data.title }}
+	<option value="{{ item | navLink }}" {% if curUrl | descendsFrom(item) %}selected{% endif %}>Home
+	{% for seg in item.navItems %}
+	{% set child = item.children[seg] %}
+	<option value="{{ child | navLink }}" {% if curUrl | descendsFrom(child) %}selected{% endif %}>{{ child.data.title }}
 	{% endfor %}
 </select>
 {% endmacro %}
