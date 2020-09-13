@@ -2,8 +2,8 @@
 <time datetime="{{ post.date | isoDate }}">{{ post.date | humanDate }}</time>
 {%- endmacro %}
 
-{% macro postlist(all, limit, metadata=true) %}
-{% for post in (all | children('/posts/') | reverse | top(limit)) %}
+{% macro postlist(posts, limit, metadata=true) %}
+{% for post in (posts | reverse | top(limit)) %}
 <article class="post" id="post-{{ loop.revindex }}">
 	{% if metadata %}
 	<h2>{{ post.data.title }}</h2>
