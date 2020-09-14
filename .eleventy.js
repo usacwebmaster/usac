@@ -25,6 +25,7 @@ module.exports = ec => {
 
 	ec.setLibrary('md', MarkdownIt('commonmark').use(markdownItAnchor, {
 		permalink: true,
+		permalinkSymbol: '#'
 	}))
 
 	ec.addPassthroughCopy({
