@@ -10,16 +10,16 @@ subnav:
 
 <q>USAC</q> is an acronym for Undergraduate Students Association Council, the governing body of the Undergraduate Students Association (USA) whose membership is comprised of every UCLA undergraduate student. <a href="/about">Learn more about USAC.</a>
 
-<h1>Announcements</h1>
+<h1 id="recent">Announcements</h1>
 
 {% from 'postlist.html' import postlist %}
 {% set limit = 5 %}
 
 <div class="carousel">
-	<nav>
+	<nav aria-labelledby="recent">
 		<ul>
 			{% for i in range(limit, 0, -1) %}
-			<li><a class="invisible" href="#post-{{ i }}" aria-role="tab"></a>
+			<li><a class="invisible" href="#post-{{ i }}" title="Post {{ i }}"></a>
 			{% endfor %}
 			<li><a href="/posts">Read all &rarr;</a>
 		</ul>
