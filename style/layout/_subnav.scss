@@ -82,7 +82,7 @@
 		}
 	}
 
-	aside {
+	@at-root .intro-detail {
 		@media #{$bp-not-fold} {
 			width: $sidebar-width;
 		}

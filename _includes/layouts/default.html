@@ -20,15 +20,15 @@
 <body class="section-{{ page.url | mainSectionId }}">
 	<a class="skip-link" href="#main">Skip to main content</a>
 
-	<div class="fold">
-		<header>
+	<header>
+		<div class="topnav">
 			<h1><a href="/"><img src="/img/logo-UCLA-bluebox-USAC-white.svg" alt="UCLA USAC" class="text-logo"></a></h1>
 
 			<nav>
 				{{ navlist(collections.nav, page.url, 1) }}
 				{{ navsel(collections.nav, page.url) }}
 			</nav>
-		</header>
+		</div>
 
 		<div class="subnav">
 			<div class="intro">
@@ -39,17 +39,17 @@
 				{% endfor %}
 			</div>
 
-			<aside>
+			<div class="intro-detail">
 				{% for file in subnav %}
 				{% include 'subnav/' + file + '.html' %}
 				{% else %}
-				<nav>
+				<nav aria-label="Navigation for {{ (collections.nav | mainSection(page.url)).data.title }} section">
 					{{ navlist(collections.nav | mainSection(page.url), page.url, 2) }}
 				</nav>
 				{% endfor %}
-			</aside>
+			</div>
 		</div>
-	</div>
+	</header>
 
 	<main id="main">
 		{{ content | safe }}

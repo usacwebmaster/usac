@@ -1,4 +1,4 @@
-header {
+.topnav {
 	display: flex;
 	align-items: center;
 
@@ -13,9 +13,8 @@ header {
 		}
 	}
 
-	nav {
-		flex-grow: 1;
-		text-align: right;
+	ul {
+		margin: 0;
 
 		a {
 			padding: 0.5em 1.0em;
@@ -31,10 +30,6 @@ header {
 				text-decoration: underline;
 			}
 		}
-	}
-
-	ul {
-		margin: 0;
 
 		@media #{$bp-fold} {
 			// Visually hidden, but present for screen readers

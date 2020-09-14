@@ -11,7 +11,7 @@
 {% endmacro %}
 
 {% macro navsel(item, curUrl) %}
-<select title="Navigation" onchange="location.href = this.value" aria-hidden="true">
+<select title="Site navigation" onchange="location.href = this.value" aria-hidden="true">
 	<option value="{{ item | navLink }}" {% if curUrl | descendsFrom(item) %}selected{% endif %}>Home
 	{% for seg in item.navItems %}
 	{% set child = item.children[seg] %}
