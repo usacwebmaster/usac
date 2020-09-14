@@ -1,7 +1,7 @@
 module.exports = eleventyConfig => {
 	const mainSectionId = url => url.split('/')[1]
 	eleventyConfig.addFilter('mainSectionId', mainSectionId)
-	eleventyConfig.addFilter('mainSection', (nav, url) => url === '/' ? nav : nav.children[mainSectionId(url)])
+	eleventyConfig.addFilter('mainSection', (nav, url) => url.lastIndexOf('/') ? nav.children[mainSectionId(url)] : nav)
 
 	eleventyConfig.addFilter('navLink', item => item.data.url || item.data.page.url)
 	eleventyConfig.addFilter('descendsFrom', (url, item) => url.startsWith(item.data.page.url))
