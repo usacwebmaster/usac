@@ -195,7 +195,7 @@
 			"improve_your_chances": "Student orgs may apply multiple times, as long as each application is for a different event.",
 			"links": {
 				"Guidelines": "",
-				"Application": "https://forms.gle/FvyfQKMd9rn2jiVk9"
+				"Application": "https://forms.gle/YQ24w36NEUSwwo9C9"
 			},
 			"tags": {
 				"amount": "$750 per quarter",
@@ -270,12 +270,11 @@
 			"id": 12,
 			"fund_org": "",
 			"fund_name": "USA/BOD ASUCLA Programming Fund",
-			"deadline": "Fall: October 8, 2019 Winter: November 5, 2019 Spring: February 18, 2020",
+			"deadline": "Fall: October 8, 2020 (Week 1). Winter: November 10, 2020 (Week 6). Spring: February 16, 2020 (Week 7).",
 			"eligibility": "Groups must be registered with SOLE.",
 			"contact": ["usabudgetreview@gmail.com"],
 			"about": "Fund to help programming costs of events organized and hosted by officially registered student organizations.",
 			"improve_your_chances": "Apply for funding towards advertising or graphics, facilities or equipment rentals, food, honoraria, props or costumes.",
-			"alert": "Fund is now closed for Spring 2020",
 			"links": {
 				"Guidelines": "/docs/bod_guidelines.pdf",
 				"Application": "/docs/bod_guidelines.pdf"
