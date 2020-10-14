@@ -65,7 +65,7 @@
 			"contact": ["cacarcfund@asucla.ucla.edu"],
 			"about": "Quarterly fund used to promote cultural diversity through arts. Funds facility and venue costs, program supplies, honorarium, and youth programs.",
 			"improve_your_chances": "Make sure you are promoting cultural awareness of marginalized communities, diversity, and art alongside related events.",
-			"alert": "Round 2 is closed for Spring 2020",
+			"alert": "Round 2 is closed for Spring 2020.",
 			"links": {
 				"FAQs": "/docs/ARC%202019-2020%20FAQ.pdf",
 				"Guidelines": "/docs/ARC%202019-2020%20Guidelines.pdf",
@@ -87,9 +87,9 @@
 			"contact": ["usaevp@gmail.com"],
 			"about": "Fund for students looking to advocate on behalf of themselves or organization for issues important to them.",
 			"improve_your_chances": "Advocacy must be on local/state/national/international issues or a core mission statement in the organizations bylaws/constitution.",
-			"alert": "Fund is now closed for Spring 2020",
+			"alert": "Fund will open soon.",
 			"links": {
-				"Guidelines": "https://docs.google.com/presentation/d/1F1XP1HA533C76k7r36EEkakv90KVrh-vavDJXdLf1i4/edit",
+				"Guidelines": "/docs/Bruin%20Advocacy%20Grant%20Guidelines.pdf",
 				"Application": "https://goo.gl/forms/qeHtpO6W66jVGIVq2"
 			},
 			"tags": {
@@ -103,7 +103,7 @@
 			"id": 4,
 			"fund_org": "",
 			"fund_name": "Community Service Mini Fund (CS Mini)",
-			"deadline": "Week 3 (Fall) or Week 4 (Winter and Spring) at 12 noon.",
+			"deadline": "Fall: October 23rd. Winter: January 29th. Spring: April 23rd.",
 			"eligibility": "Groups must be registered with SOLE.",
 			"contact": ["csminifund@gmail.com"],
 			"about": "Student program which contributes to the elimination of poverty and social problems; and/or provides direct services to disadvantaged groups.",
@@ -130,7 +130,7 @@
 			"contact": ["siocminifund@cpo.ucla.edu"],
 			"about": "A supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions.",
 			"improve_your_chances": "The program or service to be implemented must be directly correlated towards increasing the academic competitiveness of socio-economically/educationally disadvantaged students and underrepresented communities towards eligibility or attendance to the University of California or other institutions of higher learning.",
-			"alert": "Fund is now closed for Spring 2020",
+			"alert": "Fund is now closed for Spring 2020.",
 			"links": {
 				"Deadlines": "/docs/sioc_deadlines.pdf",
 				"Guidelines": "/docs/sioc_guidelines.pdf",
@@ -152,7 +152,7 @@
 			"contact": ["usaficom@asucla.ucla.edu"],
 			"about": "Fund given to USAC office/commission or a student group with an office in Kerckhoff to cover cost of technology and furniture items.",
 			"improve_your_chances": "Consider the type of tech/furniture you are requesting. Computers, cabinents, desks, will be funded. Laptops, microwaves, etc. won’t.",
-			"alert": "Fund is now closed for Spring 2020",
+			"alert": "Fund is not yet open.",
 			"links": {
 				"Guidelines": "",
 				"Application": "https://forms.gle/ULKcpN9rHnikCGEg7"
@@ -194,7 +194,7 @@
 			"about": "Help funds event organizing and supply costs for health-related events on-campus.",
 			"improve_your_chances": "Student orgs may apply multiple times, as long as each application is for a different event.",
 			"links": {
-				"Guidelines": "",
+				"Guidelines": "https://forms.gle/YQ24w36NEUSwwo9C9",
 				"Application": "https://forms.gle/YQ24w36NEUSwwo9C9"
 			},
 			"tags": {
@@ -213,9 +213,9 @@
 			"contact": ["sfs@uclacsc.org"],
 			"about": "Provide UCLA undergraduate students affiliated with a service project on-campus and UCLA student organizations the opportunity to pursue their service initiatives.",
 			"improve_your_chances": "Recipients of service include: UCLA students, Non-UCLA students, Non-human recipients (ex. Animals, Environment).",
-			"alert": "Fund is now closed until further notice.",
+			"alert": "Fund will open soon.",
 			"links": {
-				"Guidelines": "https://docs.google.com/document/d/1F9vXnHMqfgHp8YLWsZG_ES0Uqf4Bzg3esHPmvOdRSVE/edit?usp=sharing",
+				"Guidelines": "/docs/SFS_Guidelines.pdf",
 				"Application": "https://docs.google.com/document/d/1_-epDWMmKbRfGkGf1H7xphEjvghWHUYXIXKU3ZTlloY/edit"
 			},
 			"tags": {
@@ -229,14 +229,14 @@
 			"id": 10,
 			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
 			"fund_name": "Main Fund",
-			"deadline": "Fall: October 11, Winter: January 17 Spring: April 10",
+			"deadline": "Friday of Week 2",
 			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
 			"contact": ["TGIF@asucla.ucla.edu"],
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
-				"Guidelines": "https://tgif.ucla.edu/getfunding.php",
-				"Application": "https://www.cognitoforms.com/ASUCLASGA/TGIFSpring2020Application"
+				"Guidelines": "https://tgif.ucla.edu/apply/process/",
+				"Application": "https://tgif.ucla.edu/apply/main/"
 			},
 			"tags": {
 				"amount": "$10,000 per quarter",
@@ -255,8 +255,8 @@
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
-				"Guidelines": "https://tgif.ucla.edu/getfunding.php",
-				"Application": "https://www.cognitoforms.com/ASUCLASGA/TGIFSpring2020Application"
+				"Guidelines": "https://tgif.ucla.edu/apply/process/",
+				"Application": "https://tgif.ucla.edu/apply/mini/"
 			},
 			"tags": {
 				"amount": "$500 per quarter",
@@ -295,7 +295,7 @@
 			"contact": ["ssolemnidad22@g.ucla.edu", "arshg2811@gmail.com"],
 			"about": "Logistical support such as publicity, reserving spaces, and other opportunities to connect USAC with student organizations.",
 			"improve_your_chances": "Consider relevance, practicality, thrift, longevity, necessity, accessibility, and strength of your application.",
-			"alert": "Fund is now closed for Spring 2020",
+			"alert": "Fund is closed for Fall 2020.",
 			"links": {
 				"Guidelines": "https://docs.google.com/document/d/1jA_9zvVlaEQcntyxdVvs4rvPRlpRcXdsJphTSpz6lvk/edit",
 				"Application": "https://docs.google.com/forms/d/e/1FAIpQLSecgonYR7fjhImVrasQdZQAdNg6DhBkbTDpP2sPNSf74i0cIg/viewform"
@@ -316,6 +316,7 @@
 			"contact": ["usac.cac@gmail.com"],
 			"about": "To help alleviate some of the fiscal burdens student organizations face when putting on culturally relevant projects and events.",
 			"improve_your_chances": "Consider application thoroughness, applicant necessity, and program's benefit for the student body. Include cost estimates/quotes/documentation.",
+			"alert": "Fund is closed for Fall 2020.",
 			"links": {
 				"Guidelines": "https://www.uclacac.com/funding-apps#comp-jwbpus6n",
 				"Application": "https://docs.google.com/forms/d/e/1FAIpQLSfIWzo-rsmPIF1yiKaxsDhqJAPM5LwcE4TKjf_whImUmkIU6A/viewform"
