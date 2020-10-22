@@ -1,9 +1,9 @@
 [
-	{ "name": "Jamail Gibbs", "position": "Chief Justice" },
-	{ "name": "Ellen Park", "position": "Associate Chief Justice" },
-	{ "name": "Dawson Khoury", "position": "Justice" },
+	{ "name": "Ellen Park", "position": "Chief Justice" },
+	{ "name": "Ranhita Bora", "position": "Associate Chief Justice" },
 	{ "name": "Aniq Chunara", "position": "Justice" },
 	{ "name": "Shubham Gupta", "position": "Justice" },
-	{ "name": "Ranhita Bora", "position": "Justice" },
-	{ "name": "Anthony Garcia", "position": "Justice" }
+	{ "name": "Mayank Killedar", "position": "Justice" },
+	{ "name": "Aviv Assayag", "position": "Justice" },
+	{ "name": "Roz Kohan", "position": "Justice" }
 ]
