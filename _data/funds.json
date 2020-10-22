@@ -171,6 +171,10 @@
 			"deadline": "3 weeks prior to proposed program date.",
 			"eligibility": "Groups must be registered with SOLE. Only active for online initiatives.",
 			"contact": ["usaficom@asucla.ucla.edu"],
+			"social": {
+				"facebook": "uclausacficom",
+				"instagram": "usac_ficom"
+			},
 			"about": "Helps student organizations fund activities and events which are desirable to the general interest of the UCLA Undergraduate Student Body.",
 			"improve_your_chances": "Food, retreats, parking, etc. will be funded.",
 			"links": {

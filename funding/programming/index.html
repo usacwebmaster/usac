@@ -2,6 +2,8 @@
 title: Programming Funds Search
 ---
 
+{%- from 'social.html' import socialblob -%}
+
 <h1>Programming Funds Search</h1>
 
 <p>Use this page to narrow down your search for USAC funds <em>(make sure to review all funding guidelines to determine if you are eligible for other funds as well)</em>.
@@ -55,6 +57,10 @@ title: Programming Funds Search
 						{{ comma() }}
 						<a href="mailto:{{ email }}">{{ email }}</a>
 						{%- endfor -%}
+						{% if fund.social %}
+						{{ comma() }}
+						{{ socialblob(fund.social, fund.fund_name) }}
+						{% endif %}
 				</div>
 				<div>
 					<p><strong>About:</strong> {{ fund.about }}
