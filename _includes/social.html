@@ -1,0 +1,6 @@
+{% macro socialblob(data, name) -%}
+	{% if data.webpage %}<a class="social-link invisible" href="{{ data.webpage }}"><img src="/img/social-www.svg" alt="Website for {{ name }}"></a>{% endif %}
+	{% if data.facebook %}<a class="social-link invisible" href="https://www.facebook.com/{{ data.facebook }}"><img src="/img/social-fb.svg" alt="Facebook for {{ name }}"></a>{% endif %}
+	{% if data.instagram %}<a class="social-link invisible" href="https://www.instagram.com/{{ data.instagram }}"><img src="/img/social-ig.svg" alt="Instagram for {{ name }}"></a>{% endif %}
+	{% if data.twitter %}<a class="social-link invisible" href="https://www.twitter.com/{{ data.twitter }}"><img src="/img/social-tw.svg" alt="Twitter for {{ name }}"></a>{% endif %}
+{% endmacro %}
