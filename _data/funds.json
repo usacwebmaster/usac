@@ -65,11 +65,10 @@
 			"contact": ["cacarcfund@asucla.ucla.edu"],
 			"about": "Quarterly fund used to promote cultural diversity through arts. Funds facility and venue costs, program supplies, honorarium, and youth programs.",
 			"improve_your_chances": "Make sure you are promoting cultural awareness of marginalized communities, diversity, and art alongside related events.",
-			"alert": "Round 2 is closed for Spring 2020.",
 			"links": {
-				"FAQs": "/docs/ARC%202019-2020%20FAQ.pdf",
-				"Guidelines": "/docs/ARC%202019-2020%20Guidelines.pdf",
-				"Application": "/docs/ARC%202019-2020%20Application.pdf"
+				"FAQs": "/docs/arc.faq.pdf",
+				"Guidelines": "/docs/arc.guidelines.pdf",
+				"Application": "/docs/arc.application.pdf"
 			},
 			"tags": {
 				"amount": "$2500 per quarter",
