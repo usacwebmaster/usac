@@ -86,10 +86,9 @@
 			"contact": ["usaevp@gmail.com"],
 			"about": "Fund for students looking to advocate on behalf of themselves or organization for issues important to them.",
 			"improve_your_chances": "Advocacy must be on local/state/national/international issues or a core mission statement in the organizations bylaws/constitution.",
-			"alert": "Fund will open soon.",
 			"links": {
 				"Guidelines": "/docs/Bruin%20Advocacy%20Grant%20Guidelines.pdf",
-				"Application": "https://goo.gl/forms/qeHtpO6W66jVGIVq2"
+				"Application": "/docs/Bruin%20Advocacy%20Grant%20Application.pdf"
 			},
 			"tags": {
 				"amount": "$5000 per quarter",
