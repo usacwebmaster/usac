@@ -128,11 +128,10 @@
 			"contact": ["siocminifund@cpo.ucla.edu"],
 			"about": "A supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions.",
 			"improve_your_chances": "The program or service to be implemented must be directly correlated towards increasing the academic competitiveness of socio-economically/educationally disadvantaged students and underrepresented communities towards eligibility or attendance to the University of California or other institutions of higher learning.",
-			"alert": "Fund is now closed for Spring 2020.",
 			"links": {
 				"Deadlines": "/docs/sioc_deadlines.pdf",
 				"Guidelines": "/docs/sioc_guidelines.pdf",
-				"Application": "/docs/sioc_application.pdf"
+				"Application": "/docs/sioc_application.docx"
 			},
 			"tags": {
 				"amount": "Funding varies",
