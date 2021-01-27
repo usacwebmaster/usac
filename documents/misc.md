@@ -33,5 +33,5 @@ Various historical documents from the recent and not so recent past.
 <li><a href="{{ doc.url }}">{{ year.split('-')[1] }} &mdash; {{ doc.name }}</a>
 {% endfor %}
 {% endfor %}
-<li><a href="/docs/roster.xls">Historical Roster of Elected Student Body Officers</a>
+<li><a href="/docs/roster.pdf">Historical Roster of Elected Student Body Officers</a>
 </ul>
