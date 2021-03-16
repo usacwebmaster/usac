@@ -13,7 +13,7 @@ function getSchoolYear(date) {
 module.exports = async () => {
 	const index = {
 		_schoolYear: getSchoolYear(new Date),
-		_budgetDate: new Date('2021-03-09')
+		_budgetDate: new Date('2021-03-15')
 	}
 
 	const files = await fs.readdir(input)
