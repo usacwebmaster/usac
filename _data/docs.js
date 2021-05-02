@@ -1,6 +1,8 @@
 const fs = require('fs').promises
 
-const NEW_YEAR = 4 // May
+// Temporary hack. This should be May, not June.
+// Need to set the boundary at a date, not month.
+const NEW_YEAR = 5 // June
 
 const input = 'indexed'
 const output = '/docs'
