@@ -1,8 +1,7 @@
 const fs = require('fs').promises
 
-// Temporary hack. This should be May, not June.
-// Need to set the boundary at a date, not month.
-const NEW_YEAR = 5 // June
+// TODO: Need to set the boundary at a date, not month.
+const NEW_YEAR = 4 // May
 
 const input = 'indexed'
 const output = '/docs'
@@ -15,7 +14,7 @@ function getSchoolYear(date) {
 module.exports = async () => {
 	const index = {
 		_schoolYear: getSchoolYear(new Date),
-		_budgetDate: new Date('2021-05-24')
+		_budgetDate: new Date('2021-05-28')
 	}
 
 	const files = await fs.readdir(input)
