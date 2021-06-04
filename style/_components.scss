@@ -156,7 +156,10 @@
 
 	section {
 		display: flex;
+		// Non-Firefox
 		break-inside: avoid-column;
+		// Firefox
+		overflow: hidden;
 	}
 
 	@at-root .portrait {
