@@ -17,7 +17,7 @@ weight: -1
 <address>
 
 <{{ member.email }}><br>
-{{ member.ext }}<br>
+{% if member.ext %}{{ member.ext }}<br>{% endif %}
 {{ member.addr }}
 
 </address>
