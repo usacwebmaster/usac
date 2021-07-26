@@ -1,9 +1,7 @@
 [
-	{ "name": "Ellen Park", "position": "Chief Justice" },
-	{ "name": "Ranhita Bora", "position": "Associate Chief Justice" },
-	{ "name": "Aniq Chunara", "position": "Justice" },
-	{ "name": "Shubham Gupta", "position": "Justice" },
-	{ "name": "Mayank Killedar", "position": "Justice" },
-	{ "name": "Aviv Assayag", "position": "Justice" },
-	{ "name": "Roz Kohan", "position": "Justice" }
+	{ "name": "Ranhita Bora", "position": "Chief Justice" },
+	{ "name": "Mayank Killedar", "position": "Associate Chief Justice" },
+	{ "name": "Shubham Gupta", "position": "Associate Justice" },
+	{ "name": "Aviv Assayag", "position": "Associate Justice" },
+	{ "name": "Roz Kohan", "position": "Associate Justice" }
 ]
