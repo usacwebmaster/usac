@@ -286,27 +286,6 @@
 				"deadline": [2],
 				"cause": [1]
 			}
-		},
-
-		{
-			"id": 14,
-			"fund_org": "Cultural Affairs Commission (CAC)",
-			"fund_name": "CommUnity Fund",
-			"deadline": "Periodically throughout the quarter.",
-			"eligibility": "Groups must be registered with SOLE.",
-			"contact": ["usac.cac@gmail.com"],
-			"about": "To help alleviate some of the fiscal burdens student organizations face when putting on culturally relevant projects and events.",
-			"improve_your_chances": "Consider application thoroughness, applicant necessity, and program's benefit for the student body. Include cost estimates/quotes/documentation.",
-			"alert": "Fund is closed for Fall 2020.",
-			"links": {
-				"Guidelines": "https://www.uclacac.com/funding-apps#comp-jwbpus6n",
-				"Application": "https://docs.google.com/forms/d/e/1FAIpQLSfIWzo-rsmPIF1yiKaxsDhqJAPM5LwcE4TKjf_whImUmkIU6A/viewform"
-			},
-			"tags": {
-				"amount": "$2,500 per cycle",
-				"deadline": [1],
-				"cause": [4]
-			}
 		}
 	]
 }
