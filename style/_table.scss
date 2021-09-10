@@ -1,0 +1,24 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	caption-side: bottom;
+
+	caption {
+		font-style: italic;
+	}
+}
+
+tr {
+	&:nth-child(odd) {
+		background-color: white;
+	}
+
+	&:nth-child(even) {
+		background-color: $ucla-blue-lightest;
+	}
+}
+
+th, td {
+	padding: 0.5em;
+}
