@@ -166,7 +166,7 @@
 			"fund_org": "",
 			"fund_name": "Contingency Programming Fund",
 			"deadline": "3 weeks prior to proposed program date.",
-			"eligibility": "Groups must be registered with SOLE. Only active for online initiatives.",
+			"eligibility": "Groups must be registered with SOLE and following all University COVID-19 protocols. In-person, off-campus events will require additional SOLE advisor approval (forward email to FiCom).",
 			"contact": ["usaficom@asucla.ucla.edu"],
 			"social": {
 				"facebook": "uclausacficom",
@@ -177,7 +177,7 @@
 			"links": {
 				"Office Hours": "https://docs.google.com/document/d/1FDnPx3TIZDzoT4mu8cohO8u2vKZhPBEL1ua8mut7x4o/edit?usp=sharing",
 				"Guidelines": "/docs/Finance%20Committee%20Guidelines.pdf",
-				"Application": "https://forms.gle/PoUWGrECx7DZtie38"
+				"Application": "https://forms.gle/qz3unuvUZcckJZKi7"
 			},
 			"tags": {
 				"amount": "Funding varies",
