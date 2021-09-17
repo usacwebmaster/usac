@@ -5,7 +5,7 @@ header {
 	padding: $page-margin-width;
 
 	@mixin blended-bg($img) {
-		background-image: linear-gradient(rgba(0,0,0,2/3), rgba(0,0,0,2/3)), $img;
+		background-image: linear-gradient(rgba(0,0,0,0.666), rgba(0,0,0,0.666)), $img;
 	}
 
 	@include blended-bg(url(/img/header.jpg));

@@ -192,7 +192,9 @@
 
 .video-frame {
 	position: relative;
-	padding-top: (9 / 16) * 100%;
+
+	// 9:16 * 100%
+	padding-top: 56.25%;
 
 	iframe {
 		position: absolute;

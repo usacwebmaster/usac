@@ -6,7 +6,7 @@ title: Student Fees Overview
 
 Understanding where your student fees go can be confusing. These graphics, created by USAC Office of the President Affordability Team 20-21, can help explain how the USAC budget is composed of compulsory student fees (also known as referenda fees). These are student fees that were voted on and passed by the student body, and are overseen by the Undergraduate Students Association Council (USAC). Some fees, especially those passed in more recent academic years, are adjusted to CPI each year and may change the total amount collected from the undergraduate student body. Additionally many of the fees also include Return to Aid where 25% of the fee collected goes to the Financial Aid Office. The breakdown featured below illustrates one academic quarter of student fee collection available for USAC budget after Return to Aid is processed.
 
-## Overall Fee Breakdown by Category (Allocated Budget from Winter 2021)
+## Overall Fee Breakdown by Category <small>(Allocated Budget from Winter 2021)</small>
 
 <img class="fullwidth" src="/docs/student-fees-by-category.png" alt="Community outreach and service: 36.9%.
 Entertainment and recreation: 18.7%.
@@ -65,7 +65,7 @@ Basic needs: 1.0%.">
 		<td>$93.34
 </table>
 
-## Overall Fee Breakdown by Fund Type (Allocated Budget from Winter 2021)
+## Overall Fee Breakdown by Fund Type <small>(Allocated Budget from Winter 2021)</small>
 
 <img class="fullwidth" src="/docs/student-fees-by-fund-type.png" alt="USAC Delegated Funds: 57.6%.
 Commissioner Managed Discretionay Funds: 16.6%.
