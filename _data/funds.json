@@ -196,8 +196,8 @@
 			"about": "Help funds event organizing and supply costs for health-related events on-campus.",
 			"improve_your_chances": "Student orgs may apply multiple times, as long as each application is for a different event.",
 			"links": {
-				"Guidelines": "https://forms.gle/YQ24w36NEUSwwo9C9",
-				"Application": "https://forms.gle/YQ24w36NEUSwwo9C9"
+				"Guidelines": "http://tinyurl.com/SWCfund",
+				"Application": "http://tinyurl.com/SWCfund"
 			},
 			"tags": {
 				"amount": "$750 per quarter",
@@ -215,10 +215,10 @@
 			"contact": ["sfs@uclacsc.org"],
 			"about": "Provide UCLA undergraduate students affiliated with a service project on-campus and UCLA student organizations the opportunity to pursue their service initiatives.",
 			"improve_your_chances": "Recipients of service include: UCLA students, Non-UCLA students, Non-human recipients (ex. Animals, Environment).",
-			"alert": "Fund will open soon.",
 			"links": {
 				"Guidelines": "/docs/SFS_Guidelines.pdf",
-				"Application": "https://docs.google.com/document/d/1_-epDWMmKbRfGkGf1H7xphEjvghWHUYXIXKU3ZTlloY/edit"
+				"Application (Paper)": "https://docs.google.com/document/d/1ZvB5cGM1rFsZSlNrITPB7ZOknSzf_6xpzXfNqg_05wY/edit",
+				"Application": "https://forms.gle/VE3RZGLb2HNYFrFQ7"
 			},
 			"tags": {
 				"amount": "$3,250 per quarter",
@@ -300,9 +300,9 @@
 			},
 			"about": "Helps UCLA's service orgs travel to their recipients with less financial strain on transportation.",
 			"improve_your_chances": "Transportation.",
-			"alert": "Not available yet.",
 			"links": {
-				"Guidelines": "/docs/cstranspo_guidelines.pdf"
+				"Guidelines": "/docs/cstranspo_guidelines.pdf",
+				"Application": "https://forms.gle/12yZxwhoi82q9QP89"
 			},
 			"tags": {
 				"amount": "Funding varies",
