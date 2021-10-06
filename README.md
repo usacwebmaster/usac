@@ -70,6 +70,30 @@ To add a document to the website, place it under `indexed/` with the appropriate
 
 [^3]: Currently, there is no system of accounting between documents and the pages that link to them. I.e. both broken links as well as orphaned documents are tolerated. It would be great if you wrote a linter that fails the build if these are found.
 
+## Styling
+
+We are using [Sass](https://sass-lang.com/) as a CSS preprocessor. This adds complexity because Eleventy does not know about Sass, so there are extra steps to convert SCSS into CSS and copy it into the same output directory used by Eleventy. The NPM scripts handle this already.
+
+The stylesheets are split across many files in an attempt at modularity (before Sass's new module system appeared).
+
+- `main.scss` imports all the others in the correct order [^4]
+	- `_util.scss` defines utility functions in the Sass language, and no actual styling
+	- `_colors.scss` should define colors used elsewhere, with no actual styling
+	- `_reset.scss` has diverged in focus over time, but it's supposed to partially reset some of the browser's default CSS so the other stylesheets need not worry about that
+	- `_breaks.scss` defines breakpoints for responsive design, with no actual styling
+	- `_table.scss` is styles for HTML tables
+	- `_components.scss` is a catch-all for specific <q>components</q> used on various pages, and should ideally be broken down further
+	- `_layout.scss` imports stylesheets from `layout/` which correspond to the main sections of the theme
+		- `layout/_fold` refers to the area above the main content
+		- `layout/_header` refers to the strip at the top containing the logo and toplevel navigation
+		- `layout/_subnav.scss` refers to everything below the header and above the main content
+		- `layout/_main.scss` styles the main area, whose content varies page-to-page
+		- `layout/_footer.scss` styles the footer
+	- `_vendor.scss` imports stylesheets from `vendor/`, but that shouldn't be a separate directory anymore
+	- `_hacks.scss` contains workarounds for specific bugs in specific browsers
+
+[^4]: The biggest single improvement here would be refactoring all stylesheets so that they can be imported in any order and multiple times.
+
 ## Deployment
 
 The great advantage of a static site is that it can easily be built on any machine and served from any server. There are at least three methods currently in use:
