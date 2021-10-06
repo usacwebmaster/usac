@@ -32,14 +32,14 @@ The website is compiled by Eleventy from the following files, which describe the
 - `_data/`
 	- JSON files serving as <q>databases</q> for certain pages
 	- `docs.js` interprets the documents under `indexed/` into a database
-		- Guesses the current school year from the current month
-		- Hardcodes date of the latest budget (needs to be updated weekly)
+		- Guesses the current school year from the current month [^1]
+		- Hardcodes date of the latest budget (needs to be updated weekly) [^1]
 	- `layout.json` specifies the default <q>layout</q> (an Eleventy concept) for all pages
 - `_includes/`
 	- Contains partial templates and macros reusable by other pages
 	- `layouts/default.html` is the toplevel template for every page
 - `plugins/`
-	- `nav.js` is the custom navigation system, implemented via filters [^1]
+	- `nav.js` is the custom navigation system, implemented via filters [^2]
 - `.eleventy.js`
 	- Copy `docs/`, `indexed/`, and `img/` to output (these are the static files)
 	- Define custom filters used by the aforementioned macros
@@ -47,22 +47,37 @@ The website is compiled by Eleventy from the following files, which describe the
 - `.eleventyignore` hides some pages from the site, like this manual
 - `.nvmrc` specifies the Node.js version used for building
 
-[^1]: This is fairly complex but there's no documentation yet. You are encouraged to read the source code thoroughly to understand how the front matter in the content files determines a page's position in the navigation. (Or, better yet, delete this plugin and use Eleventy's built-in navigation system, which appeared after this was built).
+[^1]: This isn't a great solution; come up with a better one if you have time.
+[^2]: This is fairly complex but there's no documentation yet. You are encouraged to read the source code thoroughly to understand how the front matter in the content files determines a page's position in the navigation. (Or, better yet, delete this plugin and use Eleventy's built-in navigation system, which appeared after this was built).
 
-## Document Management
+## Document management
 
 To add a document to the website, place it under `indexed/` with the appropriate filename. It will be accessible to all pages that need it. If it doesn't fit one of the existing types, place it under `docs/` instead, and manually link to it.
 
 - `indexed/`
 	- Filenames have format `<type>.<date>.<name>.pdf`
 	- `type` is one of <q>minutes</q>, <q>agenda</q>, <q>resolution</q>, <q>budget</q>, <q>misc</q> or any type that you may implement
-	- `date` is in ISO format
+	- `date` is in [ISO format](https://en.wikipedia.org/wiki/ISO_8601)
 		- If only the year is present, it represents the school year ending in that year, rather than a calendar year
 	- `name` is human readable
 		- Optional; should only be provided if the `type` needs it
 - `docs/`
 	- All assets needed by other pages, including images and PDF's
-	- This is best for files linked to by one particular page
+	- This is best for files linked to by one particular page [^3]
 - `img/`
 	- Images used by the theme, not by any particular page
 	- Having to add files to `img/` is rare
+
+[^3]: Currently, there is no system of accounting between documents and the pages that link to them. I.e. both broken links as well as orphaned documents are tolerated. It would be great if you wrote a linter that fails the build if these are found.
+
+## Deployment
+
+The great advantage of a static site is that it can easily be built on any machine and served from any server. There are at least three methods currently in use:
+
+- `npm start` on your local machine. This is how you will work on changes. It continuously builds the website as files change and serves it from a local address (typically `http://localhost:8080`). Always test this before pushing commits.
+- [usac.netlify.app](https://usac.netlify.app/). Netlify is a free CI/CD service for static websites. It watches for commits to this repo and automatically builds and hosts the latest version. This serves as a mirror of the real USAC website in case there is something wrong with that one. It also lets you push to a non-`master` branch and see the effects online.
+- ASUCLA server. If you are the new webmaster, your predecessor should provide this info.
+
+## Future improvements
+
+One important thing missing from this system is regression testing. Ideally, when you make a change or upgrade packages, you should be assured that nothing unexpected changed as a result. The best way to do this is to compare the generated page to the old pages, either in terms of HTML or (for a complete solution) in terms of visual appearance using a headless browser. A headless browser would also come in very useful for automated accessibility testing using something like Axe. This would be a fairly ambitious project, but the payoff would be higher stability and overall less time spent by the webmaster.
