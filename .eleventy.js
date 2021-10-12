@@ -5,6 +5,7 @@ const markdownItAnchor = require('markdown-it-anchor')
 
 module.exports = ec => {
 	ec.addFilter('top', (arr, n) => arr.slice(0, n))
+	ec.addFilter('encodeURI', encodeURI)
 
 	ec.addFilter('isoDate', date => date.toISOString().split('T')[0])
 	ec.addFilter('humanDate', date => date.toLocaleDateString(undefined, { timeZone: 'UTC' }))

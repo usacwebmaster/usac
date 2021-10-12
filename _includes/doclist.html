@@ -2,7 +2,7 @@
 <ol>
 	{%- for doc in cat[year] | top(limit) -%}
 	<li>
-		<a href="{{ doc.url }}">
+		<a href="{{ doc.url | encodeURI }}">
 			{%- if doc.name %}{{ doc.name }}
 			{%- else -%}<time datetime="{{ doc.date | isoDate }}">{{ doc.date | humanDate }}</time>
 			{%- endif -%}
