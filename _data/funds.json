@@ -149,10 +149,9 @@
 			"contact": ["usaficom@asucla.ucla.edu"],
 			"about": "Fund given to USAC office/commission or a student group with an office in Kerckhoff to cover cost of technology and furniture items.",
 			"improve_your_chances": "Consider the type of tech/furniture you are requesting. Computers, cabinents, desks, will be funded. Laptops, microwaves, etc. won’t.",
-			"alert": "Fund is not yet open.",
 			"links": {
-				"Guidelines": "",
-				"Application": "https://forms.gle/ULKcpN9rHnikCGEg7"
+				"Guidelines": "/docs/capital-contingency-guidelines.pdf",
+				"Application": "https://forms.gle/9YEVeSbo89e5wSA38"
 			},
 			"tags": {
 				"amount": "Funding varies",
