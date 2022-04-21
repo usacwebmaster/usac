@@ -1,5 +1,6 @@
 {
 	"filters": {
+		
 		"deadline": [
 			"Contingent on Event",
 			"Fixed Per Quarter"
@@ -127,9 +128,9 @@
 			"about": "A supplemental funding source for student-initiated, student-run community service projects and UCLA student sponsoring organizations who perform outreach functions.",
 			"improve_your_chances": "The program or service to be implemented must be directly correlated towards increasing the academic competitiveness of socio-economically/educationally disadvantaged students and underrepresented communities towards eligibility or attendance to the University of California or other institutions of higher learning.",
 			"links": {
-				"Deadlines": "/docs/sioc_deadlines.pdf",
-				"Guidelines": "/docs/sioc_guidelines.pdf",
-				"Application": "/docs/sioc_application.docx"
+				"Deadlines": "/docs/SIOC_Mini_Fund_Deadlines_2021-2022.pdf",
+				"Guidelines": "/docs/SIOC_Mini_Fund_Guidelines_2021-2022.pdf",
+				"Application": "/docs/SIOC_Mini_Fund_Application_2021-2022.docx"
 			},
 			"tags": {
 				"amount": "Funding varies",
