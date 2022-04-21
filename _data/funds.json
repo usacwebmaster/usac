@@ -311,24 +311,20 @@
 		{
 			"id": 16,
 			"fund_org": "",
-			"fund_name": "CS Transpo Fund 2",
-			"deadline": "Quarterly. The application will open on Monday of Week 1 and close on Friday of Week 3.",
-			"eligibility": "UCLA students. Groups must be registered with SOLE.",
-			"contact": ["transpofund@uclacsc.org"],
-			"social": {
-				"instagram": "uclacsc"
-			},
-			"about": "Helps UCLA's service orgs travel to their recipients with less financial strain on transportation.",
-			"improve_your_chances": "Transportation.",
+			"fund_name": "CommUnity Fund",
+			"deadline": "Quarterly. The application will be accepted on a rolling basis until Friday of Week 9.",
+			"eligibility": "UCLA students. Groups must be registered with SOLE. Projects/leadership positions must have been held during 2021-2022 academic year.",
+			"contact": ["cac.arcfund@usac.ucla.edu"],
+			"about": "To compensate student leaders for their labor and efforts in creating culturally-oriented programming with social and/or political relevance that serves the UCLA community.",
+			"improve_your_chances": "Programs that align with the mission of the Cultural Affairs Commission are emphasized.",
 			"links": {
 				"Guidelines": "/docs/cstranspo_guidelines.pdf",
-				"Application": "https://forms.gle/12yZxwhoi82q9QP89"
+				"Application": "https://forms.gle/oFjD6p1hSms7bxb68"
 			},
 			"tags": {
 				"amount": "Funding varies",
-				"limit": "$1,500 maximum",
-				"deadline": [2],
-				"cause": [6]
+				"deadline": [1],
+				"cause": [4]
 			}
 		}
 	]
