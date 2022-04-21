@@ -308,5 +308,28 @@
 				"cause": [6]
 			}
 		}
+		{
+			"id": 16,
+			"fund_org": "",
+			"fund_name": "CS Transpo Fund 2",
+			"deadline": "Quarterly. The application will open on Monday of Week 1 and close on Friday of Week 3.",
+			"eligibility": "UCLA students. Groups must be registered with SOLE.",
+			"contact": ["transpofund@uclacsc.org"],
+			"social": {
+				"instagram": "uclacsc"
+			},
+			"about": "Helps UCLA's service orgs travel to their recipients with less financial strain on transportation.",
+			"improve_your_chances": "Transportation.",
+			"links": {
+				"Guidelines": "/docs/cstranspo_guidelines.pdf",
+				"Application": "https://forms.gle/12yZxwhoi82q9QP89"
+			},
+			"tags": {
+				"amount": "Funding varies",
+				"limit": "$1,500 maximum",
+				"deadline": [2],
+				"cause": [6]
+			}
+		}
 	]
 }
