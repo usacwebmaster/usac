@@ -6,7 +6,7 @@ title: Office Space
 
 ## Student Organization Resources
 
-A good place to start looking for items such as funding is at the [Programming Funds Search tool](/funding/programming). You might also find out [how to fill out a requisition form](/docs/req-howto.pdf).
+A. good place to start looking for items such as funding is at the [Programming Funds Search tool](/funding/programming). You might also find out [how to fill out a requisition form](/docs/req-howto.pdf).
 
 The IVP website has an entire [list of resource guides](https://ivp.ucla.edu/Guides/) that are extremely helpful for student organizations, ranging from <q>How to Manage Your Apps</q> to <q>Starting a Club at UCLA</q>.
 
