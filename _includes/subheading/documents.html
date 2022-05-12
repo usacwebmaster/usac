@@ -1,12 +1,12 @@
 {% from 'doclist.html' import doclist %}
 
 <div class="columns">
-	<section>
+	<#<section>
 		<h2><a href="/funding/sga/budget">Budget</a></h2>
 		<ol>
 			<li><a href="/docs/budget.pdf">{{ docs._budgetDate | humanDate }}</a>
 		</ol>
-	</section>
+	</section>#>
 	<section>
 		<h2><a href="/documents/agendas" title="Archives">Agenda</a></h2>
 		{{ doclist(docs.agenda, docs._schoolYear, 2) }}
