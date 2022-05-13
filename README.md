@@ -12,7 +12,7 @@ This manual assumes you are using Linux or Mac. The best solution for Windows is
 
 ## Development
 
-To get started, install the correct version of Node.js (see `.nvmrc`) and latest version of `npm`. This can be done in one step with [NVM](https://github.com/nvm-sh/nvm):
+ To get started, install the correct version of Node.js (see `.nvmrc`) and latest version of `npm`. This can be done in one step with [NVM](https://github.com/nvm-sh/nvm):
 
 	nvm install --latest-npm
 
