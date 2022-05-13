@@ -4,7 +4,7 @@ Source code for the official USAC website, built with [Eleventy](https://www.11t
 
 ## Background
 
-The contents of this repo fully specify the USAC website. Eleventy is a program used to compile this repo into a set of HTML files that can be served in order to host the website. There are no databases or backend services involved.
+The contents of this repo fully specify the USAC website.  Eleventy is a program used to compile this repo into a set of HTML files that can be served in order to host the website. There are no databases or backend services involved.
 
 All the build tools run on [Node.js](https://nodejs.org/). Familiarity with Git, Node.js, and `npm` is assumed. Ideally, you have also used another static site generator such as Jekyll in the past, and/or have read the documentation for Eleventy to understand how it works.
 
