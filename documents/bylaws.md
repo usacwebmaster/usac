@@ -9,7 +9,7 @@ weight: -1
 /docs/bylaws.5-11-22.pdf#page={{ page }}
 {%- endmacro %}
 
-This page contains all nine articles of our USA Bylaws, which are a more detailed explanation of the rules and regulations governing all USAC entities. Unlike our constitution, the bylaws can be amended at any time by a 2/3 vote of the Council.
+This page contains all nine articles of USA Bylaws, which are a more detailed explanation of the rules and regulations governing all USAC entities. Unlike our constitution, the bylaws can be amended at any time by a 2/3 vote of the Council.
 
 1. [Article I - Eligibility to Participate in Activities]({{ bylaws(1) }})
 	1. [Section A. Eligibility to Participate in Activities]({{ bylaws(1) }})
