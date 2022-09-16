@@ -1,8 +1,7 @@
 [
-	{"name":"Josh O'Connor","position":"Administrative Representative","ext":"x825-4025","addr":"205 Bradley","email":"joconnor@orl.ucla.edu"},
-	{"name":"Orlando Luna","position":"Administrative Representative","ext":"x825-4876","addr":"1104 Murphy","email":"oluna@saonet.ucla.edu"},
-	{"name":"George Chacon","position":"Alumni Representative","ext":"","addr":"Off-campus","email":"g.chacon18@gmail.com"},
-	{"name":"Jenny Wang","position":"Finance Committee Chair","ext":"","addr":"300D KH","email":"usaficom@asucla.ucla.edu"},
+	{"name":"Josh Prentice","position":"Finance Committee Chair","ext":"","addr":"300D KH","email":"ficom@usac.ucla.edu"},
+	{"name":"Orlando Luna","position":"Administrative Representative","ext":"x-55664","addr":"KH105","email":"oluna@saonet.ucla.edu"},
+	{"name":"Steven Moran","position":"Alumni Representative","ext":"","addr":"Off-campus","email":"steven.moran@g.ucla.edu"},
 	{"name":"Pouria Abbassi, P.E.","position":"ASUCLA Executive Director","ext":"x58011","addr":"340 KH","email":"pabbassi@asucla.ucla.edu"},
 	{"name":"Jessica Alexander","position":"Student Government Services Manager","ext":"x60703","addr":"A262G AU","email":"jalexander@asucla.ucla.edu"}
 ]
