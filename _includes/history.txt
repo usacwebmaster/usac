@@ -1,6 +1,8 @@
 USAC Webmaster History
 
-2019-: UCLA-themed redesign
+2022-Current: Aniket Das
+
+2019-2022: UCLA-themed redesign
 Design by Rohit Vighne [github.com/rvighne], USAC Webmaster 2019-
 
 2014-2019: The UCLA template
