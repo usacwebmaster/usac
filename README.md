@@ -25,7 +25,7 @@ Please read `package.json` to see what other scripts are available.
 
 ## Organization
 
- The website is compiled by Eleventy from the following files, which describe the structure; as well as all the other files, which provide the content. The template syntax is [Nunjucks](https://mozilla.github.io/nunjucks/) with the file extension `html`.
+The website is compiled by Eleventy from the following files, which describe the structure; as well as all the other files, which provide the content. The template syntax is [Nunjucks](https://mozilla.github.io/nunjucks/) with the file extension `html`.
 
 *Reading the entire documentation for Eleventy is highly recommended in order to understand this manual.*
 
