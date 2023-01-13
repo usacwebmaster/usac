@@ -6,7 +6,7 @@ weight: -1
 # USAC Bylaws
 
 {% macro bylaws(page) -%}
-/docs/bylaws.5-11-22.pdf#page={{ page }}
+/docs/bylaws.1-13-22.pdf#page={{ page }}
 {%- endmacro %}
 
 This page contains all nine articles of our USA Bylaws, which are a more detailed explanation of the rules and regulations governing all USAC entities. Unlike our constitution, the bylaws can be amended at any time by a 2/3 vote of the Council.
