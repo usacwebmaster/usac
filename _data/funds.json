@@ -47,7 +47,7 @@
 			"about": "Provides grants for student travel and accommodation during academic events. Only academic-specific travel will be allowed, no lobbying.",
 			"improve_your_chances": "All events that facilitate gathering for discussion, networking, training, academic or professional training qualify (ex. Interviews).",
 			"links": {
-				"Guidelines": "http://bit.ly/tgmf-guidelines",
+				"Guidelines": "/docs/TGMF_guidelines.pdf",
 				"Application": "https://docs.google.com/forms/d/e/1FAIpQLSfyIvcG6Fg0nYf2-0Ysq0FpxMlex63rL0iPUlLD8J3zVO32aQ/viewform"
 			},
 			"tags": {
