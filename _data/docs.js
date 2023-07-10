@@ -1,7 +1,7 @@
 const fs = require('fs').promises
 
 // TODO: Need to set the boundary at a date, not month.
-const NEW_YEAR = 5 // May
+const NEW_YEAR = 3 // May
 
 const input = 'indexed'
 const output = '/docs'
