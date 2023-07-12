@@ -1,13 +1,25 @@
 const fs = require('fs').promises
 
 // TODO: Need to set the boundary at a date, not month.
-const NEW_YEAR = 3 // May
+const NEW_MONTH = 4 // May
+const NEW_DATE = 23
 
 const input = 'indexed'
 const output = '/docs'
 
 function getSchoolYear(date) {
-	const year = date.getUTCFullYear() - (date.getUTCMonth() < NEW_YEAR)
+	year = date.getUTCFullYear()-1 // - (date.getUTCMonth() <= (NEW_YEAR))
+	if (date.getUTCMonth() >= NEW_MONTH){
+		if (date.getUTCMonth() == 4){
+			if 	(date.getUTCDate() >= NEW_DATE){
+				year = year + 1
+			}
+		}
+		else {
+		year = year + 1
+		}	
+	}
+
 	return `${year}-${year + 1}`
 }
 
