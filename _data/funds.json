@@ -304,7 +304,7 @@
 			},
 			"tags": {
 				"amount": "Funding varies",
-				"limit": "$1,500 maximum",
+				"limit": "$4,250 maximum",
 				"deadline": [2],
 				"cause": [6]
 			}
