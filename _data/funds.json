@@ -327,6 +327,22 @@
 				"deadline": [1],
 				"cause": [4]
 			}
+			{
+			"id": 17,
+			"fund_org": "External Vince President Office",
+			"fund_name": "Grassroots Organizers for Working Students (GROWS) Grant",
+			"deadline": "Quarterly, check Guidelines for deadlines",
+			"eligibility": "UCLA undergraduate students or student orgs aligning with values and guidelines.",
+			"contact": ["evp.grants@usac.ucla.edu"],
+			"about": "To provide Bruins with the financial support necessary to organize and advocate for labor issues within political, social, and economic institutions of importance to them.",
+			"links": {
+				"Guidelines": "https://docs.google.com/document/d/1hVvHYT-Z1MehRIac8sq2n0JEGA1h3GP57Sz0Ap8qYOE/edit",
+				"Application": "https://docs.google.com/document/d/1QtlWeS7I-TUj2KIFMuqyb5vh8k9-GfAqkgWuNGaBhl4/edit"
+			},
+			"tags": {
+				"amount": "$5000 yearly maximum",
+				"deadline": [2]
+			}
 		}
 	]
 }
