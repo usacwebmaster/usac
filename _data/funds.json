@@ -327,7 +327,8 @@
 				"deadline": [1],
 				"cause": [4]
 			}
-			{
+		}
+		{
 			"id": 17,
 			"fund_org": "External Vince President Office",
 			"fund_name": "Grassroots Organizers for Working Students (GROWS) Grant",
@@ -343,6 +344,5 @@
 				"amount": "$5000 yearly maximum",
 				"deadline": [2]
 			}
-		}
 	]
 }
