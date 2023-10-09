@@ -344,7 +344,8 @@
 			},
 			"tags": {
 				"amount": "$5000 yearly maximum",
-				"deadline": [2]
+				"deadline": [2],
+				"cause": [2]
 			}
 		}
 	]
