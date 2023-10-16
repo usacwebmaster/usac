@@ -68,8 +68,8 @@
 			"improve_your_chances": "Make sure you are promoting cultural awareness of marginalized communities, diversity, and art alongside related events.",
 			"links": {
 				"FAQs": "/docs/arc.faq.pdf",
-				"Guidelines": "/docs/arc.guidelines.pdf",
-				"Application": "/docs/arc_application.pdf"
+				"Guidelines": "https://docs.google.com/document/d/1-Ggp_5l6PgrSLsFUjdVTWYJRWAsIgPaFhXHJVYfuIuA/edit?usp=sharing",
+				"Application": "https://docs.google.com/document/d/1rgPEKUTAAvoauhVW4t2-s7JI3OqFv0O57DL_MDFxZgA/edit?usp=sharing"
 			},
 			"tags": {
 				"amount": "$2500 per quarter",
@@ -229,17 +229,17 @@
 			"id": 10,
 			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
 			"fund_name": "Main Fund",
-			"deadline": "Friday of Week 2",
-			"eligibility": "Groups must be registered with SOLE. Individuals may also apply.",
+			"deadline": "Friday of Weeks 2, 4, 6, and 8",
+			"eligibility": "UCLA students, staff, and faculty; provided there is undergraduate student involvement and/or benefit.",
 			"contact": ["TGIF@asucla.ucla.edu"],
 			"about": "Projects/events that promote sustainability within the community",
 			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
 			"links": {
-				"Guidelines": "https://tgif.ucla.edu/apply/process/",
+				"Guidelines": "https://docs.google.com/document/d/12ljIO5E2N_gr86mvmcEyPQr9n2mkA_tgU3j8DktL7Fc/view",
 				"Application": "https://www.cognitoforms.com/ASUCLASGS/TGIFMainFundApplication20232024"
 			},
 			"tags": {
-				"amount": "$10,000 per quarter",
+				"limit": "$10,000 per quarter",
 				"deadline": [2],
 				"cause": [5]
 			}
@@ -248,19 +248,17 @@
 		{
 			"id": 11,
 			"fund_org": "The Green Initiative Fund (TGIF) Grant Application",
-			"fund_name": "Mini Fund",
-			"deadline": "Fridays of Week 2, 4, 6, 8",
+			"fund_name": "Capital X Fund",
+			"deadline": "Rolling",
 			"eligibility": "UCLA students, staff, and faculty; provided there is undergraduate student involvement and/or benefit.",
 			"contact": ["TGIF@asucla.ucla.edu"],
 			"about": "Projects/events that promote sustainability within the community",
-			"improve_your_chances": "Consider using sustainable materials at your events, such as compostable utensils, resuable tote bags, etc.",
-			"links": {
-				"Guidelines": "https://tgif.ucla.edu/apply/process/",
-				"Application": "https://tgif.ucla.edu/apply/mini/"
+ 			"links": {
+				"Guidelines": "https://docs.google.com/document/d/12ljIO5E2N_gr86mvmcEyPQr9n2mkA_tgU3j8DktL7Fc/view",
+				"Application": "https://www.cognitoforms.com/ASUCLASGS/TGIFCapitalInfrastructureFundApplication20232024"
 			},
 			"tags": {
-				"amount": "$500 per quarter",
-				"limit": "$1,000 maximum",
+				"amount": "above $10.000",
 				"deadline": [2],
 				"cause": [5]
 			}
@@ -310,27 +308,8 @@
 			}
 		},
 		{
-			"id": 16,
-			"fund_org": "",
-			"fund_name": "CommUnity Fund",
-			"deadline": "Quarterly. The application will be accepted on a rolling basis until Friday of Week 9.",
-			"eligibility": "UCLA students. Groups must be registered with SOLE. Projects/leadership positions must have been held during 2021-2022 academic year.",
-			"contact": ["cac.arcfund@usac.ucla.edu"],
-			"about": "To compensate student leaders for their labor and efforts in creating culturally-oriented programming with social and/or political relevance that serves the UCLA community.",
-			"improve_your_chances": "Programs that align with the mission of the Cultural Affairs Commission are emphasized.",
-			"links": {
-				"Guidelines": "/docs/CommUnity_Guidelines_2021-22.pdf",
-				"Application": "https://forms.gle/oFjD6p1hSms7bxb68"
-			},
-			"tags": {
-				"amount": "Funding varies",
-				"deadline": [1],
-				"cause": [4]
-			}
-		},
-		{
 			"id": 17,
-			"fund_org": "External Vince President Office",
+			"fund_org": "External Vice President Office",
 			"fund_name": "Grassroots Organizers for Working Students (GROWS) Grant",
 			"deadline": "Quarterly, check Guidelines for deadlines",
 			"eligibility": "UCLA undergraduate students or student orgs aligning with values and guidelines.",
