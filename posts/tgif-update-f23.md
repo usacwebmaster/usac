@@ -1,0 +1,9 @@
+---
+title: TGIF Fund Application Updates
+date: 2023-10-13
+---
+<p>
+Effective Fall 2023, The Green Initiative Fund (TGIF) is changing to better suit the needs of the members of the UCLA community. Our structure moving forward will involve three funds: the Main Fund, the Capital X Fund, and the Tokens of Appreciation. Please note that our Mini Fund, which previously offered funding on a rolling basis throughout the quarter, has been absorbed into the Main Fund. The Main Fund and Tokens of Appreciation will have submission deadlines at midnight on Friday of Weeks 2, 4, 6, and 8 of Fall, Winter, and Spring quarters. The Capital X Fund will be open for submission at any time during the UCLA academic year.
+Individuals can apply on behalf of their organization for projects with budgets of up to $10,000 in the <a href="https://www.cognitoforms.com/ASUCLASGS/TGIFMainFundApplication20232024">Main Fund</a>. Individuals can apply on behalf of their organization for projects with budgets of above $10,000 in the <a href="https://www.cognitoforms.com/ASUCLASGS/TGIFCapitalInfrastructureFundApplication20232024">Capital X Fund</a>. Individuals can apply on behalf of themselves or others to request <a href="https://www.cognitoforms.com/ASUCLASGS/TGIFTokensOfAppreciationApplication20232024">Tokens of Appreciation</a> of up to $150. More information about each of these funds, their limitations, and their deadlines, is hyperlinked in their name and is also available on the USAC <a href="https://usac.ucla.edu/funding/programming/">fund programming</a>.
+Please do not hesitate to forward any questions, comments, or concerns to <a href="mailto:asucla_tgif@ad.ucla.edu">asucla_tgif@ad.ucla.edu</a>.
+</p>
