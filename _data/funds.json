@@ -68,11 +68,11 @@
 			"improve_your_chances": "Make sure you are promoting cultural awareness of marginalized communities, diversity, and art alongside related events.",
 			"links": {
 				"FAQs": "/docs/arc.faq.pdf",
-				"Guidelines": "https://docs.google.com/document/d/1-Ggp_5l6PgrSLsFUjdVTWYJRWAsIgPaFhXHJVYfuIuA/edit?usp=sharing",
-				"Application": "https://docs.google.com/document/d/1rgPEKUTAAvoauhVW4t2-s7JI3OqFv0O57DL_MDFxZgA/edit?usp=sharing"
+				"Guidelines": "/docs/arcguidelines.pdf",
+				"Application": "/docs/arcapplication.pdf"
 			},
 			"tags": {
-				"amount": "$2500 per quarter",
+				"amount": "$2000 per quarter",
 				"deadline": [2],
 				"cause": [4]
 			}
