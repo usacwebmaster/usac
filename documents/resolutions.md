@@ -3,7 +3,7 @@ title: Resolutions
 weight: 1
 ---
 
-# Resolutions
+# Resolutions (in most recent order)
 
 {% from 'doclist.html' import docarchive %}
 {{ docarchive(docs.resolution) }}
