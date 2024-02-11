@@ -5,6 +5,10 @@ weight: 2
 
 # Miscellaneous Documents
 
+## Resolutions
+
+- [The USAC Resolution Guide](/docs/USAC%20Resolution%20Guide.pdf)
+
 ## Charters
 
 Guiding documents for various USAC initiatives.
