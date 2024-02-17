@@ -12,6 +12,10 @@ The IVP website has an entire [list of resource guides](https://ivp.ucla.edu/Gui
 
 Another office of USAC, the Facilities Commission, has compiled a [<q>Web Accessibility</q> Resource guide](https://docs.google.com/document/d/1GTdRJH5-u4mdIY9JoO0I5P_eHnP4wDY-H_VpwsDhwAk/edit). This is an excellent guide to ensuring that your student organization's posts, graphics, and communication methods are accessible.
 
+## Application
+- [OSAC Guidelines 2024-2026](/docs/osac_guidelines.pdf)
+- [Office Space Allocation Application 2024](/docs/osac_application.pdf)
+
 ## Mental Health Resources
 
 UCLA Counseling and Psychological Services (CAPS):
@@ -26,12 +30,8 @@ UCLA Counseling and Psychological Services (CAPS):
 - [Setting up a UCLA zoom pro account](https://humtech.ucla.edu/computing-support/help-documentation/zoom-video-conferencing/)
 - Greco, Alexa (2021). [<q>The Quad: Tips and Tricks for Creating a more productive desk setup</q>](https://dailybruin.com/2021/02/01/the-quad-tips-and-tricks-for-creating-a-more-productive-desk-setup). Daily Bruin.
 
-## Space
 
-Whether it is virtual space or physical space, OSAC wants your student group to be able to be comfortable and empowered in a space. Here are some slide decks about how to ensure your space is comfortable, accessible, and welcoming.
-- How to make your office space more accessible and welcoming
-- How to use Slack
-- How to use Trello
+
 
 ## More Resources
 
