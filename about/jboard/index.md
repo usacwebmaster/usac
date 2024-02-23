@@ -9,8 +9,8 @@ The Judicial Board is the judicial branch of the UCLA Undergraduate Students Ass
 
 The Judicial Board is a reactionary institution and can only exercise its powers following a formal request via a petition. In order to file a petition, please complete a Petition for Consideration per the guidelines outlined in the document and the Official Rules of the Judicial Board. Both documents can be found [below](#documents).
 
-- Email: <uclajudicialboard@gmail.com>
-- Advisor: Orlando Luna (105 Kerckhoff)
+- Email: <jboard@usac.ucla.edu>
+- Advisor: Pam Cysner (105 Kerckhoff)
 
 # Documents
 
